@@ -61,37 +61,37 @@
     "subtitle": "Jump directly to the core Wizard Alchemy guides and progression references",
     "cards": [
       {
-        "icon": "ScrollText",
+        "icon": "BookOpen",
         "title": "Wizard Alchemy Codes",
         "description": "Active rewards, redeem flow, and claim issues"
       },
       {
-        "icon": "BookOpen",
+        "icon": "Sparkles",
         "title": "Wizard Alchemy Beginner Guide",
         "description": "First-session route and core progression loop"
       },
       {
-        "icon": "Sparkles",
+        "icon": "Hammer",
         "title": "Wizard Alchemy Race Tier List",
         "description": "Reroll targets and race progression priorities"
       },
       {
-        "icon": "FlaskConical",
+        "icon": "Package",
         "title": "Wizard Alchemy Potions Guide",
         "description": "Brewing flow, potion unlocks, and refinement"
       },
       {
-        "icon": "Gem",
+        "icon": "Eye",
         "title": "Wizard Alchemy Materials Farming Guide",
         "description": "Material locations and efficient farm targets"
       },
       {
-        "icon": "WandSparkles",
+        "icon": "ArrowRight",
         "title": "Wizard Alchemy Wands Guide",
         "description": "Wand upgrades and attack scaling choices"
       },
       {
-        "icon": "Swords",
+        "icon": "TrendingUp",
         "title": "Wizard Alchemy Monsters and Boss Drops Guide",
         "description": "Enemy routes, drops, and boss priorities"
       },
