@@ -32,7 +32,11 @@ interface HomePageClientProps {
 
 export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
   const t = useMessages() as any;
-  const mobileBannerAd = getPreferredMobileBannerSelection();
+  const mobileBannerAd =
+    getPreferredMobileBannerSelection() ?? {
+      type: "banner-300x250",
+      adKey: process.env.NEXT_PUBLIC_AD_BANNER_300X250,
+    };
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://wizardalchemy.wiki";
 
   const structuredData = {
