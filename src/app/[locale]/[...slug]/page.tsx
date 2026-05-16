@@ -1,10 +1,11 @@
 import { notFound, redirect } from 'next/navigation'
 import { getTranslations } from 'next-intl/server'
+import path from 'path'
 import {
   getAllContentPaths,
   getAllContent,
-  getContentDetail,
   getContentFrontmatter,
+  findFileBySlug,
   isValidContentType,
   CONTENT_TYPES,
   type ContentType,
@@ -112,35 +113,74 @@ async function renderDetailPage(
   locale: Language
 ) {
   const currentSlug = slugPath.join('/')
-  const detail = await getContentDetail(contentType, locale, currentSlug)
 
-  if (!detail) {
-    notFound()
+  try {
+    const contentDir = path.join(process.cwd(), 'content', locale, contentType)
+    const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug
+
+    const { default: MDXContent, metadata } = await import(
+      `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
+    )
+
+    const allContent = await getAllContent(contentType, locale)
+    const relatedArticles = allContent
+      .filter(item => item.slug !== currentSlug)
+      .slice(0, 3)
+
+    return (
+      <>
+        <ArticleStructuredData
+          frontmatter={metadata as ContentFrontmatter}
+          contentType={contentType}
+          locale={locale}
+          slug={currentSlug}
+        />
+        <DetailPage
+          frontmatter={metadata as ContentFrontmatter}
+          content={<MDXContent />}
+          contentType={contentType}
+          language={locale}
+          currentSlug={currentSlug}
+          relatedArticles={relatedArticles}
+        />
+      </>
+    )
+  } catch {
+    const fallbackDir = path.join(process.cwd(), 'content', 'en', contentType)
+    const fallbackSlug = findFileBySlug(fallbackDir, currentSlug)
+
+    if (!fallbackSlug) {
+      notFound()
+    }
+
+    const { default: MDXContent, metadata } = await import(
+      `../../../../content/en/${contentType}/${fallbackSlug}.mdx`
+    )
+
+    const allContent = await getAllContent(contentType, locale)
+    const relatedArticles = allContent
+      .filter(item => item.slug !== currentSlug)
+      .slice(0, 3)
+
+    return (
+      <>
+        <ArticleStructuredData
+          frontmatter={metadata as ContentFrontmatter}
+          contentType={contentType}
+          locale={locale}
+          slug={currentSlug}
+        />
+        <DetailPage
+          frontmatter={metadata as ContentFrontmatter}
+          content={<MDXContent />}
+          contentType={contentType}
+          language={locale}
+          currentSlug={currentSlug}
+          relatedArticles={relatedArticles}
+        />
+      </>
+    )
   }
-
-  const allContent = await getAllContent(contentType, locale)
-  const relatedArticles = allContent
-    .filter(item => item.slug !== currentSlug)
-    .slice(0, 3)
-
-  return (
-    <>
-      <ArticleStructuredData
-        frontmatter={detail.frontmatter as ContentFrontmatter}
-        contentType={contentType}
-        locale={locale}
-        slug={currentSlug}
-      />
-      <DetailPage
-        frontmatter={detail.frontmatter as ContentFrontmatter}
-        content={detail.content}
-        contentType={contentType}
-        language={locale}
-        currentSlug={currentSlug}
-        relatedArticles={relatedArticles}
-      />
-    </>
-  )
 }
 
 /**
