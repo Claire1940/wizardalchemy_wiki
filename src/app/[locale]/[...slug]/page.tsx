@@ -62,9 +62,8 @@ async function renderListPage(contentType: ContentType, locale: Language) {
     redirect(fullPath)
   }
 
-  const t = await getTranslations(`pages.${contentType}`)
-
   try {
+    const t = await getTranslations(`pages.${contentType}`)
     return (
       <>
         <ListStructuredData
@@ -193,10 +192,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     }
 
-    // 列表页元数据
-    const t = await getTranslations(`pages.${contentType}`)
-
     try {
+      // 列表页元数据
+      const t = await getTranslations(`pages.${contentType}`)
       const title = t('metaTitle')
       const description = t('metaDescription')
       const path = `/${contentType}`
