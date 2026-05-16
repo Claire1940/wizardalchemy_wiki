@@ -307,7 +307,12 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       </Suspense>
 
       <Suspense fallback={<LoadingPlaceholder height="h-80" />}>
-        <CTASection title={t.cta.title} description={t.cta.description} joinCommunityText={t.cta.joinCommunity} joinGameText={t.cta.joinGame} />
+        <CTASection
+          title={t.cta.title}
+          description={t.cta.description}
+          joinCommunity={t.cta.joinCommunity}
+          joinGame={t.cta.joinGame}
+        />
       </Suspense>
 
       <AdBanner
