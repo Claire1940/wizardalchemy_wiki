@@ -193,89 +193,89 @@
     },
     "wizardAlchemyMaterialsFarmingGuide": {
       "title": "Wizard Alchemy Materials Farming Guide",
-      "intro": "Target enemies and chests by drop table instead of random loops to accelerate unlocks.",
+      "intro": "Track core materials by magic power, drop source, and farming priority so every route supports your next potion unlock.",
       "cards": [
         {
-          "name": "Early Nodes",
-          "description": "Collect Blueberry and Seagull Egg from easy routes for first potion recipes."
+          "name": "Early Gathering Route",
+          "description": "Start with Blueberry Bushes, Bird Nests, and Mushroom Clusters for fast first-brew ingredients."
         },
         {
-          "name": "Goblin Route",
-          "description": "Farm Knife and Archer Goblins for Goblin Finger and related drops."
+          "name": "Goblin and Dwarf Drops",
+          "description": "Farm Knife Goblins, Archer Goblins, Pickaxe Dwarves, and Warhammer Dwarves based on listed drop rates."
         },
         {
-          "name": "Dwarf Route",
-          "description": "Pickaxe and Warhammer Dwarves provide Dwarf Emblems and Golden Tooth."
+          "name": "Rare Material Targets",
+          "description": "Push mutant enemies and Dwarf King runs for Flame Crest, Copper Earring, and Furnace Core."
         },
         {
-          "name": "Boss Drops",
-          "description": "Dwarf King routes add Flame Crest and Furnace Core to high-value farming."
+          "name": "Elemental Shard Farming",
+          "description": "Use chest loops and mutant routes when targeting Ice, Light, Dark, Wind, Fire, and Earth shard drops."
         }
       ]
     },
     "wizardAlchemyWandsGuide": {
       "title": "Wizard Alchemy Wands Guide",
-      "intro": "Balance attack scaling and gold cost so each wand purchase unlocks faster farming speed.",
+      "intro": "Compare wand cost, attack, and bonus stats before spending gold so each upgrade improves farming speed and combat consistency.",
       "cards": [
         {
           "name": "Wingbird Wand",
-          "description": "A low-cost early damage upgrade that smooths your first farm loop."
+          "description": "200 Gold, 20 Attack, and +5% Attack Bonus make this the first practical upgrade from starter damage."
         },
         {
-          "name": "Azure Wand",
-          "description": "A mid-step upgrade with stronger attack and bonus scaling."
+          "name": "Azure and Demon Trident",
+          "description": "500 to 8,000 Gold options that raise attack and bonus scaling for mid-game farming."
         },
         {
-          "name": "Shop Timing",
-          "description": "Buy wand upgrades after securing basic HP gear to avoid early wipeouts."
+          "name": "Ice Star Wand",
+          "description": "20,000 Gold with cooldown reduction, bought at the waterfall near the starting village."
         },
         {
-          "name": "Upgrade Priority",
-          "description": "Upgrade damage when potion and race progression are already stable."
+          "name": "Ember Staff Wand",
+          "description": "30,000 Gold late option with higher attack and crit support for stronger combat bursts."
         }
       ]
     },
     "wizardAlchemyMonstersAndBossDropsGuide": {
       "title": "Wizard Alchemy Monsters and Boss Drops Guide",
-      "intro": "Use monster-specific farming loops to stack gold, progression items, and potion materials quickly.",
+      "intro": "Use location-based enemy routes to farm gold, potion materials, and rare shard drops with less wasted travel time.",
       "cards": [
         {
-          "name": "Goblin Targets",
-          "description": "Reliable early farm for gold and common crafting drops."
+          "name": "Early Forest Targets",
+          "description": "Pickaxe Dwarf and Knife Goblin routes are efficient for early emblems, fingers, and gold."
         },
         {
-          "name": "Dwarf Targets",
-          "description": "Higher value route for emblems, teeth, and progression materials."
+          "name": "Beach and Cave Routes",
+          "description": "Warhammer Dwarf and Archer Goblin loops improve Golden Tooth, Goblin Bone, and Copper Earring farming."
         },
         {
-          "name": "Boss Rotation",
-          "description": "Cycle Dwarf King runs for core drops and better farming efficiency."
+          "name": "Mutant Priority Farm",
+          "description": "Mutant Warhammer Dwarf and Mutant Goblin Archer are top targets for shards and rare material drops."
         },
         {
-          "name": "Route Planning",
-          "description": "Prioritize enemies based on your immediate potion or gear objective."
+          "name": "Dwarf King Boss Runs",
+          "description": "Use Dwarf King rotations when targeting Flame Crest, Copper Earring, and Furnace Core."
         }
       ]
     },
     "wizardAlchemyEquipmentGuide": {
       "title": "Wizard Alchemy Equipment Guide",
-      "intro": "Robe and hat upgrades keep your runs stable while you invest most gold into damage growth.",
+      "intro": "Plan robe and wizard hat purchases by HP value so your survivability keeps pace with wand and potion progression.",
       "cards": [
         {
-          "name": "Starter Robe",
-          "description": "Use low-cost robes for early HP stability during material routes."
+          "name": "Early Robe Value",
+          "description": "Starmoon Robe and Golden Reverie Robe are efficient first HP upgrades from Roger's shop."
         },
         {
           "name": "Mid Robe Upgrade",
-          "description": "Move into stronger robe HP bonuses before expensive weapon jumps."
+          "description": "Starlight Robe is a higher-cost option once your gold farming route is stable."
         },
         {
-          "name": "Hat Progression",
-          "description": "Hat upgrades add survivability for safer boss and elite loops."
+          "name": "Wizard Hat Choices",
+          "description": "Starmoon, Golden Reverie, and Starlight hats add extra HP for safer monster and boss loops."
         },
         {
-          "name": "Purchase Order",
-          "description": "Alternate wand and armor upgrades to keep both damage and durability balanced."
+          "name": "Recommended Buy Order",
+          "description": "Secure your first wand, then add robe and hat HP upgrades before expensive late-game weapon jumps."
         }
       ]
     }
