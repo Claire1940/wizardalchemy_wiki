@@ -39,8 +39,8 @@ const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
 
 const FILLER_WORDS = ['wizard', 'alchemy', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
-function normalize(text: string): string {
-  return text
+function normalize(text: string | null | undefined): string {
+  return (text ?? '')
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, ' ')
     .replace(/\s+/g, ' ')
