@@ -11,6 +11,7 @@ export function cn(...inputs: ClassValue[]) {
  * 如果标题中没有冒号，返回完整标题
  */
 export function extractPrimaryKeyword(title: string): string {
+  if (!title) return ''
   // 优先按 ' - ' 截断（如 "Game Name - Details"）
   const dashIndex = title.indexOf(' - ')
   if (dashIndex !== -1) {
