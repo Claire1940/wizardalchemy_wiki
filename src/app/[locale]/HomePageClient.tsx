@@ -15,6 +15,7 @@ import { SidebarAd } from "@/components/ads/SidebarAd";
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
+import { Link } from "@/i18n/navigation";
 
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
 const FAQSection = lazy(() => import("@/components/home/FAQSection"));
@@ -30,7 +31,7 @@ interface HomePageClientProps {
   locale: string;
 }
 
-export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
+export default function HomePageClient({ latestArticles, moduleLinkMap, locale }: HomePageClientProps) {
   const t = useMessages() as any;
   const mobileBannerAd =
     getPreferredMobileBannerSelection() ?? {
@@ -165,6 +166,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{t.modules.wizardAlchemyCodes.title}</h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">{t.modules.wizardAlchemyCodes.intro}</p>
+            {moduleLinkMap.wizardAlchemyCodes && (
+              <Link href={moduleLinkMap.wizardAlchemyCodes.url} className="inline-flex mt-4 text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] hover:underline">
+                Read full guide
+              </Link>
+            )}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.wizardAlchemyCodes.cards.map((card: any, idx: number) => (
@@ -182,6 +188,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{t.modules.wizardAlchemyBeginnerGuide.title}</h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">{t.modules.wizardAlchemyBeginnerGuide.intro}</p>
+            {moduleLinkMap.wizardAlchemyBeginnerGuide && (
+              <Link href={moduleLinkMap.wizardAlchemyBeginnerGuide.url} className="inline-flex mt-4 text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] hover:underline">
+                Read full guide
+              </Link>
+            )}
           </div>
           <div className="space-y-3 md:space-y-4">
             {t.modules.wizardAlchemyBeginnerGuide.steps.map((step: any, i: number) => (
@@ -204,6 +215,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.wizardAlchemyRaceTierList.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.wizardAlchemyRaceTierList.intro}</p>
+            {moduleLinkMap.wizardAlchemyRaceTierList && (
+              <Link href={moduleLinkMap.wizardAlchemyRaceTierList.url} className="inline-flex mt-4 text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] hover:underline">
+                Read full guide
+              </Link>
+            )}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.wizardAlchemyRaceTierList.tiers.map((tier: any, i: number) => (
@@ -221,6 +237,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.wizardAlchemyPotionsGuide.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.wizardAlchemyPotionsGuide.intro}</p>
+            {moduleLinkMap.wizardAlchemyPotionsGuide && (
+              <Link href={moduleLinkMap.wizardAlchemyPotionsGuide.url} className="inline-flex mt-4 text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] hover:underline">
+                Read full guide
+              </Link>
+            )}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.wizardAlchemyPotionsGuide.cards.map((card: any, i: number) => (
@@ -238,6 +259,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.wizardAlchemyMaterialsFarmingGuide.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.wizardAlchemyMaterialsFarmingGuide.intro}</p>
+            {moduleLinkMap.wizardAlchemyMaterialsFarmingGuide && (
+              <Link href={moduleLinkMap.wizardAlchemyMaterialsFarmingGuide.url} className="inline-flex mt-4 text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] hover:underline">
+                Read full guide
+              </Link>
+            )}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.wizardAlchemyMaterialsFarmingGuide.cards.map((card: any, i: number) => (
@@ -255,6 +281,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.wizardAlchemyWandsGuide.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.wizardAlchemyWandsGuide.intro}</p>
+            {moduleLinkMap.wizardAlchemyWandsGuide && (
+              <Link href={moduleLinkMap.wizardAlchemyWandsGuide.url} className="inline-flex mt-4 text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] hover:underline">
+                Read full guide
+              </Link>
+            )}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.wizardAlchemyWandsGuide.cards.map((card: any, i: number) => (
@@ -272,6 +303,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.wizardAlchemyMonstersAndBossDropsGuide.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.wizardAlchemyMonstersAndBossDropsGuide.intro}</p>
+            {moduleLinkMap.wizardAlchemyMonstersAndBossDropsGuide && (
+              <Link href={moduleLinkMap.wizardAlchemyMonstersAndBossDropsGuide.url} className="inline-flex mt-4 text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] hover:underline">
+                Read full guide
+              </Link>
+            )}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.wizardAlchemyMonstersAndBossDropsGuide.cards.map((card: any, i: number) => (
@@ -289,6 +325,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.wizardAlchemyEquipmentGuide.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.wizardAlchemyEquipmentGuide.intro}</p>
+            {moduleLinkMap.wizardAlchemyEquipmentGuide && (
+              <Link href={moduleLinkMap.wizardAlchemyEquipmentGuide.url} className="inline-flex mt-4 text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] hover:underline">
+                Read full guide
+              </Link>
+            )}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.wizardAlchemyEquipmentGuide.cards.map((card: any, i: number) => (

@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useState } from "react";
 import type { ContentItem } from "@/lib/content";
 
@@ -17,7 +17,6 @@ interface LatestGuidesAccordionProps {
 
 function AccordionColumn({
   articles,
-  locale,
 }: { articles: ContentItemWithType[]; locale: string }) {
   return (
     <div
@@ -26,7 +25,7 @@ function AccordionColumn({
       aria-label="Latest articles"
     >
       {articles.map((article, index) => {
-        const url = `/${locale}/${article.contentType}/${article.slug}`;
+        const url = `/${article.contentType}/${article.slug}`;
         const detailsId = `article-${article.contentType}-${article.slug}`;
 
         return (

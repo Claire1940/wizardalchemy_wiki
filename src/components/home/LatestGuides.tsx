@@ -1,6 +1,6 @@
 'use client'
 
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import type { ContentItem } from '@/lib/content'
 
 interface ContentItemWithType extends ContentItem {
@@ -33,7 +33,7 @@ export function LatestGuides({ articles, locale, className = '' }: LatestGuidesP
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 scroll-reveal">
           {articles.map((article) => {
-            const url = `/${locale}/${article.contentType}/${article.slug}`
+            const url = `/${article.contentType}/${article.slug}`
 
             return (
               <Link
