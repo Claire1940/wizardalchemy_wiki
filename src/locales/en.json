@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Magic Action RPG",
+    "title": "Wizard Alchemy Wiki",
+    "description": "Become a wizard, collect rare ingredients, brew potions, unlock spells, upgrade your power, and explore magical areas in Wizard Alchemy on Roblox.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "198.6K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "8",
+        "label": "Server Size"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "2",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "5/12/2026",
+        "label": "Last Updated"
       }
     }
   },
@@ -785,27 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Master Wizard Alchemy?",
+    "description": "Join the Wizard Alchemy community for codes, potion routes, race tips, and progression updates.",
+    "joinCommunity": "Join Wizard Alchemy Discord",
+    "joinGame": "Play Wizard Alchemy on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
-    "resources": "Resources",
+    "title": "Wizard Alchemy Wiki",
+    "description": "Your complete resource hub for Wizard Alchemy codes, potions, races, spells, materials, and progression guides.",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "YouTube",
+    "robloxCommunity": "Roblox Community",
+    "robloxGame": "Official Roblox Game",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyrightNotice": "Copyright Notice",
+    "copyright": "© 2026 Wizard Alchemy Wiki. Not affiliated with Muggle Academy or Roblox.",
+    "disclaimer": "Wizard Alchemy and all related assets are trademarks of their respective owners."
   },
   "pages": {
     "guides": {
