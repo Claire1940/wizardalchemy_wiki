@@ -538,3 +538,5 @@ To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t wizardalc
    Task ID: game-refactor-part8-translation-wizardalchemy_20260516_043753_3985061
 Waiting for task: game-refactor-part8-translation-wizardalchemy_20260516_043753_3985061 (timeout: 7200s)
    Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
