@@ -3,14 +3,14 @@ import { getTranslations } from 'next-intl/server'
 import {
   getAllContentPaths,
   getAllContent,
+  getContentDetail,
+  getContentFrontmatter,
   isValidContentType,
-  findFileBySlug,
   CONTENT_TYPES,
   type ContentType,
   type Language,
   type ContentFrontmatter,
 } from '@/lib/content'
-import path from 'path'
 import { NavigationPage } from '@/components/content/NavigationPage'
 import { DetailPage } from '@/components/content/DetailPage'
 import { ArticleStructuredData } from '@/components/content/ArticleStructuredData'
@@ -113,81 +113,35 @@ async function renderDetailPage(
   locale: Language
 ) {
   const currentSlug = slugPath.join('/')
+  const detail = await getContentDetail(contentType, locale, currentSlug)
 
-  // 动态导入 MDX，同时获取 metadata 和内容组件
-  try {
-    // 反查真实文件名（处理含特殊字符的文件名，如冒号）
-    const contentDir = path.join(process.cwd(), 'content', locale, contentType)
-    const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug
-
-    const { default: MDXContent, metadata } = await import(
-      `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
-    )
-
-    // 获取相关文章
-    const allContent = await getAllContent(contentType, locale)
-    const relatedArticles = allContent
-      .filter(item => item.slug !== currentSlug)
-      .slice(0, 3)
-
-    return (
-      <>
-        <ArticleStructuredData
-          frontmatter={metadata as ContentFrontmatter}
-          contentType={contentType}
-          locale={locale}
-          slug={currentSlug}
-        />
-        <DetailPage
-          frontmatter={metadata as ContentFrontmatter}
-          content={<MDXContent />}
-          contentType={contentType}
-          language={locale}
-          currentSlug={currentSlug}
-          relatedArticles={relatedArticles}
-        />
-      </>
-    )
-  } catch {
-    // 如果当前语言的 MDX 不存在，尝试加载英文版本
-    if (locale !== 'en') {
-      try {
-        const enDir = path.join(process.cwd(), 'content', 'en', contentType)
-        const enRealSlug = findFileBySlug(enDir, currentSlug) || currentSlug
-
-        const { default: MDXContent, metadata } = await import(
-          `../../../../content/en/${contentType}/${enRealSlug}.mdx`
-        )
-
-        const allContent = await getAllContent(contentType, locale)
-        const relatedArticles = allContent
-          .filter(item => item.slug !== currentSlug)
-          .slice(0, 3)
-
-        return (
-          <>
-            <ArticleStructuredData
-              frontmatter={metadata as ContentFrontmatter}
-              contentType={contentType}
-              locale={locale}
-              slug={currentSlug}
-            />
-            <DetailPage
-              frontmatter={metadata as ContentFrontmatter}
-              content={<MDXContent />}
-              contentType={contentType}
-              language={locale}
-              currentSlug={currentSlug}
-              relatedArticles={relatedArticles}
-            />
-          </>
-        )
-      } catch {
-        notFound()
-      }
-    }
+  if (!detail) {
     notFound()
   }
+
+  const allContent = await getAllContent(contentType, locale)
+  const relatedArticles = allContent
+    .filter(item => item.slug !== currentSlug)
+    .slice(0, 3)
+
+  return (
+    <>
+      <ArticleStructuredData
+        frontmatter={detail.frontmatter as ContentFrontmatter}
+        contentType={contentType}
+        locale={locale}
+        slug={currentSlug}
+      />
+      <DetailPage
+        frontmatter={detail.frontmatter as ContentFrontmatter}
+        content={detail.content}
+        contentType={contentType}
+        language={locale}
+        currentSlug={currentSlug}
+        relatedArticles={relatedArticles}
+      />
+    </>
+  )
 }
 
 /**
@@ -291,82 +245,37 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     }
   } else {
-    // 详情页元数据（从 MDX import 获取）
     const slugPath = slug.slice(1)
     const currentSlug = slugPath.join('/')
+    const metadata = getContentFrontmatter(contentType, locale as Language, currentSlug)
 
-    try {
-      const contentDir = path.join(process.cwd(), 'content', locale, contentType)
-      const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug
+    if (!metadata) {
+      return { title: 'Not Found' }
+    }
 
-      const { metadata } = await import(
-        `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
-      )
+    const fullPath = `/${slug.join('/')}`
 
-      const fullPath = `/${slug.join('/')}`
-
-      return {
-        title: `${metadata.title} - Wizard Alchemy Wiki`,
+    return {
+      title: `${metadata.title} - Wizard Alchemy Wiki`,
+      description: metadata.description,
+      alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
+      openGraph: {
+        title: metadata.title,
         description: metadata.description,
-        alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
-        openGraph: {
-          title: metadata.title,
-          description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
-          url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
-        },
-        robots: {
+        images: metadata.image ? [metadata.image] : [],
+        url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+      },
+      robots: {
+        index: true,
+        follow: true,
+        googleBot: {
           index: true,
           follow: true,
-          googleBot: {
-            index: true,
-            follow: true,
-            'max-video-preview': -1,
-            'max-image-preview': 'large',
-            'max-snippet': -1,
-          },
+          'max-video-preview': -1,
+          'max-image-preview': 'large',
+          'max-snippet': -1,
         },
-      }
-    } catch {
-      // Fallback 到英文
-      if (locale !== 'en') {
-        try {
-          const enDir = path.join(process.cwd(), 'content', 'en', contentType)
-          const enRealSlug = findFileBySlug(enDir, currentSlug) || currentSlug
-
-          const { metadata } = await import(
-            `../../../../content/en/${contentType}/${enRealSlug}.mdx`
-          )
-
-          const fullPath = `/${slug.join('/')}`
-
-          return {
-            title: `${metadata.title} - Wizard Alchemy Wiki`,
-            description: metadata.description,
-            alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
-            openGraph: {
-              title: metadata.title,
-              description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
-              url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
-            },
-            robots: {
-              index: true,
-              follow: true,
-              googleBot: {
-                index: true,
-                follow: true,
-                'max-video-preview': -1,
-                'max-image-preview': 'large',
-                'max-snippet': -1,
-              },
-            },
-          }
-        } catch {
-          return { title: 'Not Found' }
-        }
-      }
-      return { title: 'Not Found' }
+      },
     }
   }
 }
