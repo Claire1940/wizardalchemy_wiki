@@ -1,11 +1,486 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wizard Alchemy Wiki - Kode, Ramuan & Ras",
+      "description": "Wizard Alchemy Wiki dengan kode Roblox terbaru, resep ramuan, ras, tongkat sihir, mantra, material, bos, lokasi peti, dan tips pemula sekarang.",
+      "keywords": "Wizard Alchemy, Roblox, kode, ramuan, ras, tongkat sihir, mantra, material",
+      "ogTitle": "Wizard Alchemy Wiki - Kode, Ramuan & Ras",
+      "ogDescription": "Wizard Alchemy Wiki dengan kode Roblox terbaru, resep ramuan, tongkat sihir, mantra, material, bos, lokasi peti, dan tips pemula sekarang.",
+      "twitterTitle": "Wizard Alchemy Wiki - Kode, Ramuan & Ras",
+      "twitterDescription": "Wizard Alchemy Wiki dengan kode Roblox terbaru, resep ramuan, material, dan tips progres."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "races": "Races",
-    "potions": "Potions",
-    "items": "Items",
+    "codes": "Kode",
+    "guide": "Panduan",
+    "races": "Ras",
+    "potions": "Ramuan",
+    "items": "Item",
     "farming": "Farming",
     "roblox": "Roblox"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Steam",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel akan segera hadir"
+  },
+  "hero": {
+    "badge": "Roblox Magic Action RPG",
+    "title": "Wizard Alchemy Wiki",
+    "description": "Jadilah penyihir, kumpulkan bahan langka, buat ramuan, buka mantra, tingkatkan kekuatan Anda, dan jelajahi area magis di Wizard Alchemy di Roblox.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "198.6K+",
+        "label": "Total Kunjungan"
+      },
+      "stat2": {
+        "value": "8",
+        "label": "Ukuran Server"
+      },
+      "stat3": {
+        "value": "2",
+        "label": "Kode Aktif"
+      },
+      "stat4": {
+        "value": "5/12/2026",
+        "label": "Terakhir Diperbarui"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Wizard Alchemy",
+    "description": "Tonton rute Wizard Alchemy untuk penukaran kode, pembuatan ramuan, progresi ras, dan lingkaran farming material."
+  },
+  "tools": {
+    "title": "Wizard Alchemy",
+    "titleHighlight": "Modul Beranda",
+    "subtitle": "Langsung menuju panduan inti dan referensi progresi Wizard Alchemy",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Kode Wizard Alchemy",
+        "description": "Hadiah aktif, alur penukaran, dan masalah klaim"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Panduan Pemula Wizard Alchemy",
+        "description": "Rute sesi pertama dan lingkaran progresi inti"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Daftar Tingkat Ras Wizard Alchemy",
+        "description": "Target reroll dan prioritas progresi ras"
+      },
+      {
+        "icon": "Package",
+        "title": "Panduan Ramuan Wizard Alchemy",
+        "description": "Alur pembuatan, pembukaan ramuan, dan penyempurnaan"
+      },
+      {
+        "icon": "Eye",
+        "title": "Panduan Farming Material Wizard Alchemy",
+        "description": "Lokasi material dan target farming yang efisien"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Panduan Tongkat Sihir Wizard Alchemy",
+        "description": "Peningkatan tongkat sihir dan pilihan skala serangan"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Panduan Monster dan Drop Bos Wizard Alchemy",
+        "description": "Rute musuh, drop, dan prioritas bos"
+      },
+      {
+        "icon": "Shield",
+        "title": "Panduan Peralatan Wizard Alchemy",
+        "description": "Peningkatan jubah dan topi untuk ketahanan"
+      }
+    ]
+  },
+  "modules": {
+    "wizardAlchemyCodes": {
+      "title": "Wizard Alchemy Codes",
+      "intro": "Redeem launch and event rewards early so your race progression and farming setup starts faster.",
+      "cards": [
+        {
+          "name": "Active Codes",
+          "description": "Use WIZARD and RELEASE for Race Rerolls, then save rerolls until you decide your target race."
+        },
+        {
+          "name": "Redeem Steps",
+          "description": "Open Settings, enter a valid code in the Type Here box, and press Claim in Utilities."
+        },
+        {
+          "name": "Failed Claim Fixes",
+          "description": "Check exact spelling, rejoin if Claim does not respond, and confirm the code is still active."
+        },
+        {
+          "name": "Usage Priority",
+          "description": "Claim codes before spending Robux so you can test race outcomes without paid rerolls."
+        }
+      ]
+    },
+    "wizardAlchemyBeginnerGuide": {
+      "title": "Wizard Alchemy Beginner Guide",
+      "intro": "Follow this opening route to stabilize early combat, potion unlocks, and gold efficiency.",
+      "steps": [
+        {
+          "title": "Claim launch rewards first",
+          "description": "Redeem WIZARD and RELEASE immediately to secure rerolls for race progression."
+        },
+        {
+          "title": "Practice movement and spell controls",
+          "description": "Get comfortable with dash, attack, and spell keys before you challenge stronger targets."
+        },
+        {
+          "title": "Farm starter materials on Departure Isle",
+          "description": "Focus Blueberry, Seagull Egg, and Goblin Finger to unlock early potion paths."
+        },
+        {
+          "title": "Brew low-magic spells early",
+          "description": "Start with Wind Blade, Rock Blast, and Ice Spike for reliable first unlocks."
+        }
+      ]
+    },
+    "wizardAlchemyRaceTierList": {
+      "title": "Wizard Alchemy Race Tier List",
+      "intro": "Use rerolls with clear targets so you avoid wasting free launches on low-impact races.",
+      "tiers": [
+        {
+          "name": "S Tier Targets",
+          "description": "Thestrals for premium DPS scaling and faster combat progression."
+        },
+        {
+          "name": "A Tier Targets",
+          "description": "Stellar Ambassador and Death Eater for stable all-purpose growth."
+        },
+        {
+          "name": "B Tier Targets",
+          "description": "Fiendish Demon and Ice Crystal for element-focused builds."
+        },
+        {
+          "name": "Early Upgrade",
+          "description": "Werewolf is a practical boost over Human while you save rerolls."
+        }
+      ]
+    },
+    "wizardAlchemyPotionsGuide": {
+      "title": "Panduan Ramuan Wizard Alchemy",
+      "intro": "Ramuan mendorong akses mantra, jadi rute material Anda harus selalu mendukung tingkat pembukaan kunci berikutnya.",
+      "cards": [
+        {
+          "name": "Ramuan Pemula",
+          "description": "Wind Blade, Rock Blast, dan Ice Spike adalah pembukaan kunci pertama yang efisien."
+        },
+        {
+          "name": "Ramuan Mid-Game",
+          "description": "Fire Arrow, Earth Shield, dan Ice Turtle mendukung opsi pertempuran yang lebih luas."
+        },
+        {
+          "name": "Ramuan Akhir",
+          "description": "Dragon Breath, Lotus Bloom, dan Radiant Sword membutuhkan ambang batas Magic yang tinggi."
+        },
+        {
+          "name": "Jalur Pemurnian",
+          "description": "Gunakan duplikat untuk memurnikan tingkat ramuan dan meningkatkan kekuatan serta jangkauan mantra."
+        }
+      ]
+    },
+    "wizardAlchemyMaterialsFarmingGuide": {
+      "title": "Panduan Farming Material Wizard Alchemy",
+      "intro": "Lacak material inti berdasarkan kekuatan sihir, sumber drop, dan prioritas farming agar setiap rute mendukung pembukaan kunci ramuan Anda berikutnya.",
+      "cards": [
+        {
+          "name": "Rute Pengumpulan Awal",
+          "description": "Mulailah dengan Blueberry Bushes, Bird Nests, dan Mushroom Clusters untuk bahan pembuatan ramuan pertama yang cepat."
+        },
+        {
+          "name": "Drop Goblin dan Dwarf",
+          "description": "Farm Knife Goblins, Archer Goblins, Pickaxe Dwarves, dan Warhammer Dwarves berdasarkan tingkat drop yang tercantum."
+        },
+        {
+          "name": "Target Material Langka",
+          "description": "Lawan musuh mutan dan lakukan run Dwarf King untuk mendapatkan Flame Crest, Copper Earring, dan Furnace Core."
+        },
+        {
+          "name": "Farming Elemental Shard",
+          "description": "Gunakan putaran peti dan rute mutan saat menargetkan drop shard Ice, Light, Dark, Wind, Fire, dan Earth."
+        }
+      ]
+    },
+    "wizardAlchemyWandsGuide": {
+      "title": "Panduan Tongkat Wizard Alchemy",
+      "intro": "Bandingkan biaya tongkat, serangan, dan statistik bonus sebelum menghabiskan gold agar setiap peningkatan meningkatkan kecepatan farming dan konsistensi pertempuran.",
+      "cards": [
+        {
+          "name": "Wingbird Wand",
+          "description": "200 Gold, 20 Attack, dan +5% Attack Bonus menjadikan ini peningkatan praktis pertama dari kerusakan awal."
+        },
+        {
+          "name": "Azure dan Demon Trident",
+          "description": "Opsi 500 hingga 8.000 Gold yang meningkatkan serangan dan penskalaan bonus untuk farming mid-game."
+        },
+        {
+          "name": "Ice Star Wand",
+          "description": "20.000 Gold dengan pengurangan cooldown, dibeli di air terjun dekat desa awal."
+        },
+        {
+          "name": "Ember Staff Wand",
+          "description": "Opsi akhir seharga 30.000 Gold dengan serangan lebih tinggi dan dukungan crit untuk burst pertempuran yang lebih kuat."
+        }
+      ]
+    },
+    "wizardAlchemyMonstersAndBossDropsGuide": {
+      "title": "Panduan Monster dan Drop Bos Wizard Alchemy",
+      "intro": "Gunakan rute musuh berbasis lokasi untuk mengumpulkan emas, bahan ramuan, dan drop pecahan langka dengan waktu perjalanan yang lebih sedikit terbuang.",
+      "cards": [
+        {
+          "name": "Target Hutan Awal",
+          "description": "Rute Pickaxe Dwarf dan Knife Goblin efisien untuk emblem awal, jari, dan emas."
+        },
+        {
+          "name": "Rute Pantai dan Gua",
+          "description": "Putaran Warhammer Dwarf dan Archer Goblin meningkatkan pengumpulan Golden Tooth, Goblin Bone, dan Copper Earring."
+        },
+        {
+          "name": "Prioritas Pertanian Mutant",
+          "description": "Mutant Warhammer Dwarf dan Mutant Goblin Archer adalah target utama untuk pecahan dan drop material langka."
+        },
+        {
+          "name": "Lari Bos Dwarf King",
+          "description": "Gunakan rotasi Dwarf King saat menargetkan Flame Crest, Copper Earring, dan Furnace Core."
+        }
+      ]
+    },
+    "wizardAlchemyEquipmentGuide": {
+      "title": "Panduan Peralatan Wizard Alchemy",
+      "intro": "Rencanakan pembelian jubah dan topi penyihir berdasarkan nilai HP agar kemampuan bertahan hidup Anda sejalan dengan perkembangan tongkat dan ramuan.",
+      "cards": [
+        {
+          "name": "Nilai Jubah Awal",
+          "description": "Starmoon Robe dan Golden Reverie Robe adalah peningkatan HP pertama yang efisien dari toko Roger."
+        },
+        {
+          "name": "Peningkatan Jubah Menengah",
+          "description": "Starlight Robe adalah pilihan dengan biaya lebih tinggi setelah rute pengumpulan emas Anda stabil."
+        },
+        {
+          "name": "Pilihan Topi Penyihir",
+          "description": "Topi Starmoon, Golden Reverie, dan Starlight menambahkan HP ekstra untuk putaran monster dan bos yang lebih aman."
+        },
+        {
+          "name": "Urutan Pembelian yang Direkomendasikan",
+          "description": "Amankan tongkat pertama Anda, lalu tambahkan peningkatan HP jubah dan topi sebelum lompatan senjata mahal di akhir permainan."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Wizard Alchemy",
+    "titleHighlight": "FAQ",
+    "subtitle": "Pertanyaan umum untuk perkembangan, hadiah, dan akses platform Wizard Alchemy",
+    "questions": [
+      {
+        "question": "Bagaimana cara kerja kode Wizard Alchemy?",
+        "answer": "Kode Wizard Alchemy ditukarkan di Pengaturan dan biasanya memberikan Race Rerolls atau hadiah acara."
+      },
+      {
+        "question": "Apa yang harus saya lakukan pertama kali di Wizard Alchemy?",
+        "answer": "Klaim kode, kumpulkan bahan awal, buka ramuan sihir rendah, dan amankan tongkat dasar ditambah peningkatan HP."
+      },
+      {
+        "question": "Ras mana yang harus saya targetkan di Wizard Alchemy?",
+        "answer": "Werewolf adalah target awal yang praktis, sementara Thestrals adalah target kerusakan tingkat atas saat reroll memungkinkan."
+      },
+      {
+        "question": "Bagaimana cara mengembangkan ramuan di Wizard Alchemy?",
+        "answer": "Kumpulkan bahan berdasarkan sumber drop, buat ramuan pembuka secara berurutan, dan sempurnakan duplikat untuk hasil yang lebih kuat."
+      },
+      {
+        "question": "Di mana saya bisa bermain Wizard Alchemy?",
+        "answer": "Wizard Alchemy tersedia di Roblox melalui halaman game resminya."
+      },
+      {
+        "question": "Bagaimana saya bisa mendapatkan pembaruan Wizard Alchemy dengan cepat?",
+        "answer": "Lacak pembaruan game Roblox dan saluran komunitas resmi untuk perubahan kode dan perkembangan."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Menguasai Wizard Alchemy?",
+    "description": "Bergabunglah dengan komunitas Wizard Alchemy untuk kode, rute ramuan, tips balapan, dan pembaruan progres.",
+    "joinCommunity": "Gabung Discord Wizard Alchemy",
+    "joinGame": "Mainkan Wizard Alchemy di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Wizard Alchemy",
+    "description": "Pusat sumber daya lengkap Anda untuk kode Wizard Alchemy, ramuan, balapan, mantra, material, dan panduan progres.",
+    "community": "Komunitas",
+    "legal": "Hukum",
+    "discord": "Discord",
+    "twitter": "YouTube",
+    "robloxCommunity": "Komunitas Roblox",
+    "robloxGame": "Game Resmi Roblox",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Pemberitahuan Hak Cipta",
+    "copyright": "© 2026 Wiki Wizard Alchemy. Tidak berafiliasi dengan Muggle Academy atau Roblox.",
+    "disclaimer": "Wizard Alchemy dan semua aset terkait adalah merek dagang dari pemiliknya masing-masing."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Wizard Alchemy",
+      "description": "Kode Wizard Alchemy terbaru yang berfungsi untuk pengulangan ras dan hadiah bonus, dengan langkah klaim cepat dan perbaikan klaim yang gagal.",
+      "metaTitle": "Kode Wizard Alchemy - Tukarkan Hadiah Aktif",
+      "metaDescription": "Temukan kode Wizard Alchemy aktif, langkah penukaran, dan tips pemecahan masalah untuk pengulangan ras dan hadiah bonus.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu kode Wizard Alchemy?",
+      "whatIsDescription": "Kode Wizard Alchemy adalah string penukaran waktu terbatas yang dirilis selama peluncuran, patch, atau acara. Biasanya mereka memberikan pengulangan ras atau sumber daya progres bonus.",
+      "why": "Mengapa menggunakan pembaruan kode ini?",
+      "whySteps": {
+        "step1Title": "Klaim hadiah sebelum kedaluwarsa",
+        "step1Description": "Jendela kode dapat ditutup dengan cepat setelah pembaruan, jadi menggunakan daftar aktif membantu Anda mengamankan hadiah tepat waktu.",
+        "step2Title": "Tingkatkan progres awal",
+        "step2Description": "Pengulangan gratis dan peningkatan mengurangi tekanan grinding dan memungkinkan Anda menguji hasil ras yang lebih kuat lebih cepat.",
+        "step3Title": "Perbaiki masalah penukaran lebih cepat",
+        "step3Description": "Kegagalan klaim umum biasanya masalah pemformatan atau waktu, dan daftar periksa menghindari percobaan ulang yang sia-sia."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kode"
+    },
+    "guide": {
+      "title": "Panduan Wizard Alchemy",
+      "description": "Rute Wizard Alchemy langkah demi langkah untuk pengaturan pemula, alur leveling, dan progresi tempur praktis.",
+      "metaTitle": "Panduan Wizard Alchemy - Rute Pemula hingga Menengah",
+      "metaDescription": "Ikuti panduan Wizard Alchemy lengkap yang mencakup pengaturan awal, prioritas leveling, ritme tempur, dan perencanaan progresi.",
+      "categoryLabel": "PANDUAN GAME",
+      "whatIs": "Apa itu kategori panduan Wizard Alchemy?",
+      "whatIsDescription": "Kategori ini mengelompokkan konten panduan inti: progresi pembuka, rute leveling, dan saran pengaturan praktis untuk pertumbuhan awal hingga menengah yang stabil.",
+      "why": "Mengapa membaca artikel panduan?",
+      "whySteps": {
+        "step1Title": "Hindari rute awal yang tidak efisien",
+        "step1Description": "Pembuka yang terstruktur mencegah pemborosan emas, material, dan reroll selama sesi pertama Anda.",
+        "step2Title": "Level dengan prioritas yang jelas",
+        "step2Description": "Daftar periksa panduan membantu Anda memilih tugas yang berguna terlebih dahulu daripada membagi upaya untuk tujuan berdampak rendah.",
+        "step3Title": "Bangun loop farming yang dapat diulang",
+        "step3Description": "Rute yang stabil membuat sesi bermain harian Anda lebih singkat dan lebih produktif."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Artikel Panduan"
+    },
+    "races": {
+      "title": "Ras Wizard Alchemy",
+      "description": "Analisis ras Wizard Alchemy, prioritas tier, dan perencanaan reroll untuk menargetkan hasil progresi yang kuat.",
+      "metaTitle": "Ras Wizard Alchemy - Daftar Tier dan Strategi Reroll",
+      "metaDescription": "Bandingkan ras Wizard Alchemy dengan alasan tier, prioritas reroll, dan perencanaan peningkatan untuk progresi jangka panjang.",
+      "categoryLabel": "PROGRESI RAS",
+      "whatIs": "Apa itu ras Wizard Alchemy?",
+      "whatIsDescription": "Ras mendefinisikan perbedaan stat dan tempur utama yang membentuk kecepatan progresi, profil kerusakan, dan perencanaan build jangka panjang Anda.",
+      "why": "Mengapa melacak panduan ras?",
+      "whySteps": {
+        "step1Title": "Gunakan reroll dengan target",
+        "step1Description": "Kontekstualisasi tier membantu Anda berhenti pada hasil praktis daripada menghabiskan reroll tanpa rencana.",
+        "step2Title": "Sesuaikan ras dengan gaya bermain Anda",
+        "step2Description": "Ras yang berbeda memberikan ritme tempur dan tujuan penskalaan yang berbeda.",
+        "step3Title": "Rencanakan peningkatan berdasarkan kekuatan ras",
+        "step3Description": "Mengetahui profil ras Anda meningkatkan keputusan tongkat sihir, ramuan, dan farming."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Artikel Ras"
+    },
+    "potions": {
+      "title": "Ramuan Wizard Alchemy",
+      "description": "Jalur pembuatan ramuan, perutean bahan, dan prioritas penyempurnaan untuk kemajuan mantra dan kekuatan yang konsisten.",
+      "metaTitle": "Ramuan Wizard Alchemy - Panduan Pembuatan dan Bahan",
+      "metaDescription": "Pelajari rute ramuan Wizard Alchemy, sumber bahan, dan prioritas penyempurnaan untuk kemajuan yang andal.",
+      "categoryLabel": "PEMBUATAN RAMUAN",
+      "whatIs": "Apa itu ramuan Wizard Alchemy?",
+      "whatIsDescription": "Ramuan membuka mantra dan utilitas tempur. Kategori ini mencakup persyaratan pembuatan, sumber bahan, dan urutan penyempurnaan yang efisien.",
+      "why": "Mengapa mengikuti panduan ramuan?",
+      "whySteps": {
+        "step1Title": "Buka mantra praktis lebih awal",
+        "step1Description": "Urutan pembuatan yang benar memberi Anda alat tempur yang andal tanpa terlalu banyak mengumpulkan bahan langka.",
+        "step2Title": "Kumpulkan bahan dengan tujuan",
+        "step2Description": "Perencanaan rute mengurangi waktu perjalanan dan menjaga setiap lari terkait dengan target pembukaan kunci Anda berikutnya.",
+        "step3Title": "Sempurnakan secara efisien",
+        "step3Description": "Menggunakan duplikat pada tahap yang tepat meningkatkan hasil tanpa membuang bahan bernilai tinggi."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Artikel Ramuan"
+    },
+    "items": {
+      "title": "Item Wizard Alchemy",
+      "description": "Referensi item Wizard Alchemy untuk peralatan, rute peti, dan perencanaan peningkatan berbasis nilai.",
+      "metaTitle": "Item Wizard Alchemy - Panduan Peralatan dan Loot",
+      "metaDescription": "Jelajahi item Wizard Alchemy termasuk pilihan peralatan, lokasi peti, dan prioritas peningkatan praktis.",
+      "categoryLabel": "ITEM & PERALATAN",
+      "whatIs": "Apa itu item Wizard Alchemy?",
+      "whatIsDescription": "Kategori ini mencakup bagian peralatan utama, item utilitas, dan loot terkait peti yang memengaruhi kemampuan bertahan hidup, kecepatan farming, dan stabilitas kemajuan.",
+      "why": "Mengapa menggunakan referensi item?",
+      "whySteps": {
+        "step1Title": "Belanjakan emas untuk peningkatan bernilai tinggi",
+        "step1Description": "Perbandingan item membantu Anda menghindari pembelian mahal dengan dampak kemajuan yang lemah.",
+        "step2Title": "Targetkan drop peti yang berguna",
+        "step2Description": "Konteks lokasi meningkatkan efisiensi rute saat Anda membutuhkan bagian peralatan tertentu.",
+        "step3Title": "Seimbangkan serangan dan kemampuan bertahan hidup",
+        "step3Description": "Perencanaan item menjaga pertumbuhan kerusakan dan HP Anda selaras untuk lari bos yang lebih lancar."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Item"
+    },
+    "farming": {
+      "title": "Wizard Alchemy Farming",
+      "description": "Loop farming Wizard Alchemy yang efisien untuk emas, EXP, drop material, dan optimasi rute.",
+      "metaTitle": "Wizard Alchemy Farming - Rute Emas, EXP, dan Material",
+      "metaDescription": "Optimalkan farming Wizard Alchemy dengan rute yang ditargetkan untuk emas, EXP, dan material prioritas tinggi.",
+      "categoryLabel": "RUTE FARMING",
+      "whatIs": "Apa itu farming Wizard Alchemy?",
+      "whatIsDescription": "Konten farming berfokus pada loop musuh dan zona yang dapat diulang yang memaksimalkan hadiah per lari, termasuk emas, EXP, dan drop material.",
+      "why": "Mengapa mengikuti panduan farming?",
+      "whySteps": {
+        "step1Title": "Tingkatkan hadiah per menit",
+        "step1Description": "Loop yang telah diuji rute mengurangi waktu henti antar pertarungan dan meningkatkan kecepatan progres secara keseluruhan.",
+        "step2Title": "Farm material yang tepat",
+        "step2Description": "Panduan khusus drop memungkinkan Anda menargetkan apa yang Anda butuhkan untuk ramuan dan perlengkapan daripada grinding acak.",
+        "step3Title": "Skala dengan lancar ke zona yang lebih sulit",
+        "step3Description": "Progres farming yang terstruktur mempersiapkan build Anda sebelum rute bos atau mutan yang sulit."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Artikel Farming"
+    },
+    "roblox": {
+      "title": "Wizard Alchemy Roblox",
+      "description": "Sumber daya Wizard Alchemy Roblox yang berfokus pada platform yang mencakup akses game, konteks mode, dan tautan silang kategori.",
+      "metaTitle": "Wizard Alchemy Roblox - Akses dan Sumber Daya Inti",
+      "metaDescription": "Gunakan kategori Wizard Alchemy Roblox ini untuk info akses inti, konteks platform, dan sumber daya progres yang tertaut.",
+      "categoryLabel": "HUB ROBLOX",
+      "whatIs": "Apa itu konten Wizard Alchemy Roblox?",
+      "whatIsDescription": "Kategori ini mengatur konteks khusus Roblox seputar Wizard Alchemy, termasuk sumber daya titik masuk dan tautan silang ke topik progres inti.",
+      "why": "Mengapa menggunakan halaman kategori Roblox?",
+      "whySteps": {
+        "step1Title": "Mulai dari satu hub pusat",
+        "step1Description": "Halaman yang berfokus pada Roblox mengurangi gesekan navigasi dan menghubungkan Anda ke kategori progres yang tepat dengan cepat.",
+        "step2Title": "Lacak konteks khusus platform",
+        "step2Description": "Ketika pembaruan mengubah alur gameplay, kategori ini menjaga sumber daya terkait tetap berkelompok.",
+        "step3Title": "Bergerak antar topik yang tertaut lebih cepat",
+        "step3Description": "Tautan lintas kategori membantu Anda melompat dari konteks platform ke kode, farming, dan perencanaan perlengkapan."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Artikel Roblox"
+    }
   }
 }
