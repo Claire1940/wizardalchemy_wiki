@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "codes": "Codes",
+    "guide": "Guide",
+    "races": "Races",
+    "potions": "Potions",
+    "items": "Items",
+    "farming": "Farming",
+    "roblox": "Roblox"
   },
   "common": {
     "home": "Главная",

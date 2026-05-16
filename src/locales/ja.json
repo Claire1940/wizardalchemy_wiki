@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "codes": "Codes",
+    "guide": "Guide",
+    "races": "Races",
+    "potions": "Potions",
+    "items": "Items",
+    "farming": "Farming",
+    "roblox": "Roblox"
   },
   "common": {
     "home": "ホーム",

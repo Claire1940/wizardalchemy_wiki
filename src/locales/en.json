@@ -10,7 +10,15 @@
       "twitterDescription": "Wizard Alchemy Wiki with updated Roblox codes, potion recipes, races, materials, and progression tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "races": "Races",
+    "potions": "Potions",
+    "items": "Items",
+    "farming": "Farming",
+    "roblox": "Roblox"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -334,125 +342,145 @@
     "disclaimer": "Wizard Alchemy and all related assets are trademarks of their respective owners."
   },
   "pages": {
-    "guides": {
-      "title": "Wizard Alchemy Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Wizard Alchemy Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Wizard Alchemy guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "Wizard Alchemy Codes",
+      "description": "Latest working Wizard Alchemy codes for race rerolls and bonus rewards, with quick claim steps and failed-claim fixes.",
+      "metaTitle": "Wizard Alchemy Codes - Active Redeem Rewards",
+      "metaDescription": "Find active Wizard Alchemy codes, redeem steps, and troubleshooting tips for race rerolls and bonus rewards.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Wizard Alchemy codes?",
+      "whatIsDescription": "Wizard Alchemy codes are limited-time redeem strings released during launches, patches, or events. They usually grant race rerolls or bonus progression resources.",
+      "why": "Why use these code updates?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Claim rewards before they expire",
+        "step1Description": "Code windows can close quickly after updates, so using active lists helps you secure rewards in time.",
+        "step2Title": "Improve early progression",
+        "step2Description": "Free rerolls and boosts reduce grinding pressure and let you test stronger race outcomes sooner.",
+        "step3Title": "Fix redemption issues faster",
+        "step3Description": "Common claim failures are usually formatting or timing issues, and a checklist avoids wasted retries."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Codes"
     },
-    "crafting": {
-      "title": "Wizard Alchemy Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Wizard Alchemy Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Wizard Alchemy Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "guide": {
+      "title": "Wizard Alchemy Guide",
+      "description": "Step-by-step Wizard Alchemy route for beginner setup, leveling flow, and practical combat progression.",
+      "metaTitle": "Wizard Alchemy Guide - Beginner to Midgame Route",
+      "metaDescription": "Follow a complete Wizard Alchemy guide covering starter setup, leveling priorities, combat rhythm, and progression planning.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the Wizard Alchemy guide category?",
+      "whatIsDescription": "This category groups core walkthrough content: opening progression, leveling routes, and practical setup advice for stable early-to-midgame growth.",
+      "why": "Why read guide articles?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Avoid inefficient early routes",
+        "step1Description": "A structured opener prevents wasted gold, materials, and rerolls during your first sessions.",
+        "step2Title": "Level with clear priorities",
+        "step2Description": "Guide checklists help you choose useful tasks first instead of splitting effort across low-impact goals.",
+        "step3Title": "Build repeatable farming loops",
+        "step3Description": "Stable routes make your daily play sessions shorter and more productive."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Guide Articles"
+    },
+    "races": {
+      "title": "Wizard Alchemy Races",
+      "description": "Wizard Alchemy race breakdowns, tier priorities, and reroll planning to target strong progression outcomes.",
+      "metaTitle": "Wizard Alchemy Races - Tier List and Reroll Strategy",
+      "metaDescription": "Compare Wizard Alchemy races with tier reasoning, reroll priorities, and upgrade planning for long-term progression.",
+      "categoryLabel": "RACE PROGRESSION",
+      "whatIs": "What are Wizard Alchemy races?",
+      "whatIsDescription": "Races define key stat and combat differences that shape your progression speed, damage profile, and long-term build planning.",
+      "why": "Why track race guides?",
+      "whySteps": {
+        "step1Title": "Use rerolls with a target",
+        "step1Description": "Tier context helps you stop on practical outcomes instead of spending rerolls without a plan.",
+        "step2Title": "Match race to your playstyle",
+        "step2Description": "Different races reward different combat rhythms and scaling goals.",
+        "step3Title": "Plan upgrades around race strength",
+        "step3Description": "Knowing your race profile improves wand, potion, and farming decisions."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Races Articles"
+    },
+    "potions": {
+      "title": "Wizard Alchemy Potions",
+      "description": "Potion brewing paths, ingredient routing, and refinement priorities for consistent spell and power progression.",
+      "metaTitle": "Wizard Alchemy Potions - Brewing and Ingredients Guide",
+      "metaDescription": "Learn Wizard Alchemy potion routes, ingredient sources, and refinement priorities for reliable progression.",
+      "categoryLabel": "POTION BREWING",
+      "whatIs": "What are Wizard Alchemy potions?",
+      "whatIsDescription": "Potions unlock spells and combat utility. This category covers brew requirements, ingredient sourcing, and efficient refinement order.",
+      "why": "Why follow potion guides?",
+      "whySteps": {
+        "step1Title": "Unlock practical spells early",
+        "step1Description": "Correct brew order gives you reliable combat tools without overfarming rare ingredients.",
+        "step2Title": "Farm ingredients with purpose",
+        "step2Description": "Route planning reduces travel time and keeps each run tied to your next unlock target.",
+        "step3Title": "Refine efficiently",
+        "step3Description": "Using duplicates at the right stage improves output without wasting high-value materials."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Potions Articles"
     },
     "items": {
       "title": "Wizard Alchemy Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Wizard Alchemy Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Wizard Alchemy including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "description": "Wizard Alchemy item references for equipment, chest routes, and value-based upgrade planning.",
+      "metaTitle": "Wizard Alchemy Items - Equipment and Loot Guide",
+      "metaDescription": "Browse Wizard Alchemy items including equipment choices, chest locations, and practical upgrade priorities.",
+      "categoryLabel": "ITEMS & GEAR",
+      "whatIs": "What are Wizard Alchemy items?",
+      "whatIsDescription": "This category covers key gear pieces, utility items, and chest-related loot that influence survivability, farming speed, and progression stability.",
+      "why": "Why use item references?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Spend gold on high-value upgrades",
+        "step1Description": "Item comparisons help you avoid expensive purchases with weak progression impact.",
+        "step2Title": "Target useful chest drops",
+        "step2Description": "Location context improves route efficiency when you need specific equipment pieces.",
+        "step3Title": "Balance offense and survivability",
+        "step3Description": "Item planning keeps your damage and HP growth aligned for smoother boss runs."
       },
       "featured": "Featured & Essential",
       "all": "All Items"
     },
-    "biomes": {
-      "title": "Wizard Alchemy Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Wizard Alchemy Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Wizard Alchemy biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "farming": {
+      "title": "Wizard Alchemy Farming",
+      "description": "Efficient Wizard Alchemy farming loops for gold, EXP, material drops, and route optimization.",
+      "metaTitle": "Wizard Alchemy Farming - Gold, EXP, and Material Routes",
+      "metaDescription": "Optimize Wizard Alchemy farming with targeted routes for gold, EXP, and high-priority materials.",
+      "categoryLabel": "FARMING ROUTES",
+      "whatIs": "What is Wizard Alchemy farming?",
+      "whatIsDescription": "Farming content focuses on repeatable enemy and zone loops that maximize rewards per run, including gold, EXP, and material drops.",
+      "why": "Why follow farming guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Increase rewards per minute",
+        "step1Description": "Route-tested loops reduce downtime between fights and improve overall progression speed.",
+        "step2Title": "Farm exact materials",
+        "step2Description": "Drop-specific guidance lets you target what you need for potions and gear instead of random grinding.",
+        "step3Title": "Scale smoothly into harder zones",
+        "step3Description": "Structured farming progression prepares your build before difficult boss or mutant routes."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Farming Articles"
     },
-    "building": {
-      "title": "Wizard Alchemy Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Wizard Alchemy Building - Qualia & Base Construction",
-      "metaDescription": "Master Wizard Alchemy building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "roblox": {
+      "title": "Wizard Alchemy Roblox",
+      "description": "Platform-focused Wizard Alchemy Roblox resources covering game access, mode context, and category cross-links.",
+      "metaTitle": "Wizard Alchemy Roblox - Access and Core Resources",
+      "metaDescription": "Use this Wizard Alchemy Roblox category for core access info, platform context, and linked progression resources.",
+      "categoryLabel": "ROBLOX HUB",
+      "whatIs": "What is Wizard Alchemy Roblox content?",
+      "whatIsDescription": "This category organizes Roblox-specific context around Wizard Alchemy, including entry-point resources and cross-links to core progression topics.",
+      "why": "Why use Roblox category pages?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Start from one central hub",
+        "step1Description": "Roblox-focused pages reduce navigation friction and connect you to the right progression category quickly.",
+        "step2Title": "Track platform-specific context",
+        "step2Description": "When updates shift gameplay flow, this category keeps related resources grouped.",
+        "step3Title": "Move between linked topics faster",
+        "step3Description": "Cross-category links help you jump from platform context to codes, farming, and gear planning."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Wizard Alchemy Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Wizard Alchemy Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Wizard Alchemy including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Roblox Articles"
     }
   }
 }
