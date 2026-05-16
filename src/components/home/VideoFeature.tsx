@@ -38,7 +38,7 @@ export function VideoFeature({
             className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors cursor-pointer rounded-lg"
             onClick={handlePlay}
           >
-            <div className="w-16 h-16 md:w-20 md:h-20 bg-red-600 hover:bg-red-700 rounded-full flex items-center justify-center transition-colors">
+            <div className="w-16 h-16 md:w-20 md:h-20 bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme-light))] rounded-full flex items-center justify-center transition-colors">
               <Play
                 className="w-8 h-8 md:w-10 md:h-10 text-white ml-1"
                 fill="white"
