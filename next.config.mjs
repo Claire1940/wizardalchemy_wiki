@@ -65,7 +65,7 @@ const nextConfig = {
 const withMDX = createMDX({
   // 添加 markdown 插件
   options: {
-    remarkPlugins: [remarkFrontmatter, remarkMdxFrontmatter, remarkGfm],
+    remarkPlugins: [remarkFrontmatter, [remarkMdxFrontmatter, { name: 'metadata' }], remarkGfm],
     rehypePlugins: [],
   },
 })
