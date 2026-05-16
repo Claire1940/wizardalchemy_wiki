@@ -17,6 +17,7 @@ interface LatestGuidesAccordionProps {
 
 function AccordionColumn({
   articles,
+  locale,
 }: { articles: ContentItemWithType[]; locale: string }) {
   return (
     <div
