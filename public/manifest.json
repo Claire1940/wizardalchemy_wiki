@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Wizard Alchemy Wiki - Codes, Potions & Races",
+  "short_name": "Wizard Alchemy",
+  "description": "Wizard Alchemy Wiki with updated Roblox codes, potion recipes, races, spells, materials, bosses, chest locations, and beginner tips.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "theme_color": "#6d3bdc",
+  "background_color": "#12091f",
+  "lang": "en",
+  "categories": ["games", "entertainment", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
