@@ -1,10 +1,9 @@
 "use client";
 
-import { useState, Suspense, lazy } from "react";
+import { Suspense, lazy } from "react";
 import {
   ArrowRight,
   BookOpen,
-  ChevronDown,
   Sparkles,
 } from "lucide-react";
 import { useMessages } from "next-intl";
@@ -33,7 +32,6 @@ interface HomePageClientProps {
 
 export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
   const t = useMessages() as any;
-  const [faqExpanded, setFaqExpanded] = useState<number | null>(null);
   const mobileBannerAd = getPreferredMobileBannerSelection();
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://wizardalchemy.wiki";
 
@@ -305,9 +303,6 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           titleHighlight={t.faq.titleHighlight}
           subtitle={t.faq.subtitle}
           questions={t.faq.questions}
-          expandedIndex={faqExpanded}
-          onToggle={setFaqExpanded}
-          icon={<ChevronDown className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />}
         />
       </Suspense>
 
