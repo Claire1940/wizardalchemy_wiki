@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mantra Alkimia Penyihir: Daftar Tingkat & Panduan Kerajinan 2026",
+  description: "Kuasai semua mantra alkimia penyihir dengan daftar tingkat komprehensif kami, resep kerajinan, dan panduan kemajuan untuk meta RPG Roblox 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Wizard+Alchemy+Spells+Guide",
+  date: "2026-05-18",
+  author: "Tim Wiki Alkimia Penyihir"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Mantra Alkimia Penyihir**: Kemampuan yang diperoleh dengan mengonsumsi ramuan yang diseduh, dikategorikan berdasarkan kelangkaan dan afinitas elemen.
+- **Mekanisme Kerajinan**: Keberhasilan bergantung pada total **Skor Sihir** dari bahan dan performa Anda dalam minigame penyeduhan.
+- **Mantra Teratas**: **Ramuan Night Wraith** saat ini memegang posisi S-Tier untuk output kerusakan tertinggi di meta 2026.
+- **Kemajuan**: Gunakan **Kenaikan Sihir** untuk mengatur ulang batas level Anda dan meningkatkan perolehan XP saat Anda mencapai ambang level.
+- **Faktor Kemurnian**: Waktu yang tepat selama fase Aduk meningkatkan Kemurnian mantra, secara langsung meningkatkan kerusakan dan jangkauannya.
+</Callout>
+
+<Section icon={Map} title="Pengantar Mantra Alkimia Penyihir">
+
+Alkimia Penyihir adalah RPG yang berfokus pada sihir di mana kecakapan tempur Anda secara langsung terkait dengan keterampilan Anda di kuali. Tidak seperti RPG tradisional di mana keterampilan dipelajari melalui pohon bakat, di sini, **mantra alkimia penyihir** Anda adalah item fisik—ramuan—yang harus diseduh, disempurnakan, dan dikonsumsi untuk digunakan. Lingkaran permainan berfokus pada tiga pilar: berburu bahan, menyeduh campuran yang kuat, dan terlibat dalam pertempuran taktis melawan bos dan monster.
+
+**Sorotan Video:**
+- **Kemajuan Awal**: Cara menavigasi tutorial awal game dan mencapai tempat farming monster pertama.
+- **Dasar-dasar Penyeduhan**: Demonstrasi visual mekanisme Giling, Tuang, dan Aduk.
+- **Penukaran Kode**: Kode 2026 aktif untuk pengulangan ras gratis dan emas awal.
+- **Slot Kemampuan**: Penjelasan tentang cara melengkapi dan menukar mantra di inventaris Anda.
+
+<YouTubeEmbed videoId="GYWXYT40GMc" title="Full Beginner Guide To Wizard Alchemy Roblox" />
+
+<Callout type="tip" title="Strategi Pemula">
+Saat Anda pertama kali memulai, fokuslah untuk membunuh Goblin dan Ghoul tingkat rendah untuk mengumpulkan bahan dasar seperti Blueberry. Meskipun Anda tidak mengenai monster, menggunakan kemampuan awal Anda menghasilkan XP, memungkinkan Anda untuk naik level saat bepergian di antara lokasi misi.
+</Callout>
+
+### Kontrol Gameplay Inti
+| Aksi | Tombol | Deskripsi |
+| --- | --- | --- |
+| **Gerakan** | W, A, S, D | Navigasi karakter standar |
+| **Lari Cepat** | Q | Penting untuk menghindari serangan AOE bos |
+| **Serangan Dasar** | Klik Kiri | Menggunakan Tongkat yang dilengkapi untuk kerusakan proyektil |
+| **Kemampuan** | 1 - 0 | Mengaktifkan mantra ramuan yang Anda konsumsi |
+| **Tombol Lari** | Ctrl Kiri | Meningkatkan kecepatan gerakan untuk eksplorasi |
+
+</Section>
+
+<Section icon={Sparkles} title="Sistem Alkimia & Penyeduhan">
+
+Inti dari pengalaman ini terletak pada Meja Alkimia. Untuk mendapatkan **mantra alkimia penyihir** tingkat tinggi, Anda harus memahami hubungan antara **Skor Sihir** dan **RNG**. Setiap bahan memiliki nilai sihir tersembunyi atau terlihat; jumlah nilai-nilai ini menentukan ramuan mana yang kemungkinan besar akan Anda hasilkan.
+
+<Steps>
+  <Step num="1" title="Pemilihan Bahan">
+    Tempatkan hingga lima bahan ke dalam kuali. Setiap bahan berkontribusi pada total Skor Sihir. Misalnya, Blueberry memberikan 3 Sihir, sementara Telur Camar memberikan 5.
+  </Step>
+  <Step num="2" title="Minigame Penyeduhan">
+    Selesaikan tiga fase: **Giling** (tidak ada penalti untuk kesalahan), **Tuang** (tahan hingga meteran mencapai titik manis), dan **Aduk** (klik cincin yang tumpang tindih).
+  </Step>
+  <Step num="3" title="Kemurnian & Kelangkaan">
+    Akurasi Anda dalam minigame menentukan persentase **Kemurnian**. Hasil Kemurnian 90%+ dapat mengubah ramuan A-tier menjadi versi S-tier dengan statistik yang jauh lebih tinggi.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Nilai Berlebihan">
+Jika Anda melebihi Skor Sihir yang dibutuhkan untuk ramuan tertentu, persentase peluang Anda untuk membuat ramuan tersebut justru menurun karena Anda mulai memenuhi syarat untuk tingkat mantra berikutnya. Selalu bidik ambang batas yang tepat untuk peluang terbaik.
+</Callout>
+
+### Nilai Sihir Bahan
+| Bahan | Skor Sihir | Sumber Utama |
+| --- | --- | --- |
+| **Blueberry** | 3 | Semak Blueberry / Peti Umum |
+| **Telur Camar** | 5 | Sarang Burung / Area Pesisir |
+| **Jamur Kering** | 4 | Lantai Hutan / Kemunculan Acak |
+| **Pecahan Elemen** | 0 | Drop Bos (Meningkatkan afinitas elemen) |
+| **Inti Tungku** | Tinggi | Drop Bos Langka / Misi Tingkat Tinggi |
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Tingkat Mantra Alkimia Penyihir: Peringkat 2026">
+
+Tidak semua **mantra alkimia penyihir** diciptakan sama. Beberapa unggul dalam membersihkan monster (farming), sementara yang lain dirancang untuk pertarungan bos target tunggal. Dalam meta 2026 saat ini, jangkauan dan pengurangan cooldown adalah statistik yang paling dihargai.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Night Wraith">
+    - **Kerusakan Tertinggi** dalam game
+    - Jangkauan AOE masif
+    - Membutuhkan 129 Skor Sihir
+  </Card>
+  <Card title="S-Tier: Frost Thorns">
+    - Proyektil **Jangkauan Tak Terbatas**
+    - Cooldown rendah untuk spamming
+    - Terbaik untuk farming bos
+  </Card>
+  <Card title="A-Tier: Radiant Sword">
+    - Kerusakan ledakan tinggi
+    - Sangat baik untuk PvP
+    - Membutuhkan 105 Skor Sihir
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Meta Farming">
+Gabungkan **Frost Thorns** dengan **Ramuan Tornado**. Tornado memiliki cooldown yang sangat singkat, memungkinkan Anda untuk menjaga musuh tetap terhuyung-huyung sementara Frost Thorns memberikan kerusakan yang konsisten dari jarak aman.
+</Callout>
+
+### Tabel Perbandingan Mantra 2026
+| Nama Mantra | Kebutuhan Sihir | Tingkat | Kasus Penggunaan Terbaik |
+| --- | --- | --- | --- |
+| **Night Wraith** | 129 | S | Bossing Akhir Game / AOE Masif |
+| **Frost Thorns** | 80 | S | Farming Efisien / Jangkauan Tak Terbatas |
+| **Radiant Sword** | 105 | A | Serangan Ledakan Target Tunggal / PvP |
+| **Tornado** | 70 | A | Pengendalian Massa / Cooldown Singkat |
+| **Lotus Bloom** | 100 | B | Kerusakan Tinggi / Animasi Panjang |
+| **Meteorit** | 74 | B | Farming Pertengahan Game |
+| **Earth Spike** | 77 | C | Pertahanan Pemula / Casting Lambat |
+| **Fire Arrow** | 45 | C | Leveling Awal Game |
+
+</Section>
+
+<Section icon={Shield} title="Kemajuan, Statistik, dan Ras">
+
+Pertumbuhan karakter dalam Alkimia Penyihir tidak hanya tentang mantra yang Anda pegang. **Ras** dan **Distribusi Statistik** Anda memberikan dasar untuk kekuatan sihir Anda. Setiap level memberikan tiga poin keterampilan, yang harus diinvestasikan berdasarkan gaya bermain pilihan Anda.
+
+### Daftar Periksa Pencapaian Penting
+<Checklist
+  id="progression-checklist"
+  title="Tujuan Kemajuan Alkimia Penyihir:"
+  items={[
+    "Selesaikan misi awal Lombard untuk emas awal",
+    "Capai Level 30 untuk membuka Kenaikan Sihir pertama",
+    "Ulangi Ras untuk mendapatkan kelangkaan 5% atau lebih baik (misalnya, Ice Crystal)",
+    "Tingkatkan ke Tongkat Wingbird untuk kecepatan casting yang lebih cepat",
+    "Sempurnakan mantra inti ke peringkat SSS menggunakan 60 ramuan duplikat"
+  ]}
+/>
+
+<Callout type="info" title="Pengulangan Ras">
+Gunakan kode aktif seperti `RELEASE` atau `WIZARD` untuk mendapatkan pengulangan ras gratis. Bidik ras seperti **Ice Crystal** (peningkatan kerusakan elemen 20%) atau **Shadow Stalker** untuk permainan tingkat tinggi.
+</Callout>
+
+### Kenaikan Sihir & Kelahiran Kembali
+Saat Anda mencapai batas level (awalnya Level 30), Anda harus melakukan **Kenaikan Sihir**. Proses ini membutuhkan sejumlah besar Emas tetapi memberikan buff permanen:
+- **Peningkatan Batas Level**: Memungkinkan investasi statistik lebih lanjut.
+- **Pengganda Perolehan XP**: Mempercepat perjalanan kembali ke batas.
+- **Akses Peralatan Baru**: Membuka Jubah dan Topi Penyihir tingkat lebih tinggi di toko.
+
+</Section>
+
+<Section icon={Target} title="Resep Kerajinan Tingkat Lanjut">
+
+Untuk mendapatkan **mantra alkimia penyihir** yang paling kuat, Anda perlu menggunakan **Pecahan Elemen**. Item ini tidak menambah Skor Sihir tetapi memaksa RNG untuk mendukung elemen tertentu, seperti Api, Es, atau Gelap.
+
+| Ramuan yang Diinginkan | Komponen Resep Optimal | Target Sihir |
+| --- | --- | --- |
+| **Night Wraith** | 2 Inti Tungku + 3 Pecahan Gelap | 129+ |
+| **Frost Thorns** | 2 Inti Tungku + 1 Pecahan Es + 2 Anting | 80+ |
+| **Radiant Sword** | 3 Pecahan Cahaya + Pengisi Sihir Tinggi | 105+ |
+| **Tornado** | 2 Pecahan Angin + Jamur/Telur | 70+ |
+
+<Callout type="tip" title="Rahasia Penyempurnaan">
+Menyempurnakan ramuan ke **peringkat SSS** membutuhkan sejumlah besar sumber daya. Anda membutuhkan 60 ramuan dasar untuk menjamin jalur peningkatan: 3 Normal untuk S, 4 S-tier untuk SS, dan 5 SS-tier untuk SSS. Ini adalah kerja keras yang panjang, tetapi pengganda kerusakan sangat penting untuk bos akhir game 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ Alkimia Penyihir">
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara mendapatkan lebih banyak slot mantra alkimia penyihir?",
+    answer: "Anda membuka slot kemampuan tambahan dengan melakukan Kenaikan Sihir dan mencapai pencapaian level tertentu. Pada awalnya, Anda terbatas pada beberapa slot, jadi pilihlah mantra Anda dengan bijak."
+  },
+  {
+    question: "Apa cara terbaik untuk farming Emas dengan cepat?",
+    answer: "Misi yang dapat diulang, seperti 'Penjahat Hutan,' adalah sumber pendapatan yang paling dapat diandalkan. Selain itu, perhatikan peti yang muncul secara acak yang muncul setiap beberapa jam di seluruh peta."
+  },
+  {
+    question: "Apakah Kemurnian memengaruhi semua mantra alkimia penyihir?",
+    answer: "Ya. Kemurnian tinggi (dicapai melalui minigame penyeduhan) meningkatkan kerusakan dasar, penskalaan, dan terkadang durasi efek status dari setiap mantra dalam game."
+  },
+  {
+    question: "Bisakah saya mengatur ulang poin statistik saya?",
+    answer: "Ya, Alkimia Penyihir memungkinkan Anda untuk mengatur ulang poin statistik Anda kapan saja, yang berguna jika Anda ingin beralih dari build serangan glass-cannon ke build tank HP tinggi untuk bos tertentu."
+  }
+]} />
+
+<Callout type="success" title="Putusan Akhir">
+Alkimia Penyihir di tahun 2026 adalah tentang optimisasi. Dengan menguasai minigame penyeduhan dan menargetkan bahan sihir tinggi tertentu, Anda dapat melewati perjuangan awal game dan menjadi penyihir ulung dalam waktu singkat.
+</Callout>
+
+</Section>

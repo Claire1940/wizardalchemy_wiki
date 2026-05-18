@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Wizard Alchemy Recipe: Ultimate Potions & Crafting Guide",
+  description: "Master Wizard Alchemy with our comprehensive guide to potion recipes, materials, and spell refinement for powerful builds in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Wizard+Alchemy+Recipes",
+  date: "2026-05-18",
+  author: " Wizard Alchemy Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Potion crafting** is central to unlocking powerful spells in **Wizard Alchemy**.
+- Each material has a **Magic Score**, contributing to the potion's final Magic Value.
+- **Elemental Shards** significantly boost the chances of crafting specific elemental spells.
+- **Refinement** is crucial for maximizing spell damage and range, reaching SSS grade.
+- The **Night Wraith Potion** is currently the highest rarity spell, requiring 129 Magic.
+</Callout>
+
+<Section icon={Sparkles} title="Understanding Wizard Alchemy Potion Crafting">
+Potion brewing is the absolute core of Wizard Alchemy, allowing players to unlock powerful spells essential for defeating monsters and bosses. The crafting system, while not overly complex, involves specific mechanics that influence the outcome of your potions. Success hinges on understanding Magic Scores, material combinations, and the role of Elemental Shards.
+
+**Video Highlights:**
+- Potion brewing unlocks spells for combat.
+- Head to the brewing station to select materials.
+- Alchemy minigame accuracy determines potion purity.
+- Higher magic requirements for advanced spells like Dragon Breath (99 Magic).
+- Refinement up to SSS grade massively boosts magic power and spell range.
+
+<YouTubeEmbed videoId="H74KHsXatsk" title="Potion Brewing Guide - Wizard Alchemy" />
+
+The primary goal is to achieve a sufficient total Magic Score from your chosen materials to craft a desired potion. This process involves a bit of RNG, but strategic material selection can significantly improve your chances.
+
+<Callout type="tip" title="Optimizing Your Brews">
+To maximize your chances for higher rarity potions, always aim to increase the sum total of your material Magic Scores. However, be mindful not to overshoot too much, as this might qualify you for the *next* tier of potions, potentially lowering the chance for your target spell.
+</Callout>
+
+### Basic Crafting Mechanics
+
+| Mechanic          | Description                                                                     | Key Impact                                |
+| :---------------- | :------------------------------------------------------------------------------ | :---------------------------------------- |
+| **Magic Score**   | Every material has a specific Magic Score (e.g., **Blueberry 3**).              | Determines the total Magic Value of the brew. |
+| **Magic Value**   | Each potion requires a minimum Magic Value to be crafted (e.g., **Ice Spike 10**). | Meeting this unlocks the potion for crafting. |
+| **Material Slots**| You have 5 slots in the Alchemy menu to combine materials.                      | Strategic placement and combination are key. |
+| **Quick-Time Event**| A mini-game during brewing where accuracy affects potion **Purity**.            | **Purity** boosts spell stats like damage. |
+
+</Section>
+
+<Section icon={Swords} title="Essential Potion Recipes and Magic Requirements">
+Crafting specific potions requires meeting their minimum Magic Value. This is achieved by combining materials whose individual Magic Scores add up to or exceed the potion's requirement. For high-end spells, incorporating Elemental Shards is crucial.
+
+<Callout type="warning" title="Elemental Shard Usage">
+Elemental Shards (Ice, Fire, Earth, Dark, etc.) do not have Magic Scores themselves but are vital for increasing the chances of crafting specific elemental spells. Always include the matching Elemental Shard for your desired spell! For example, use **Dark Shards** for the **Night Wraith Potion**.
+</Callout>
+
+### Early to Mid-Game Spells
+
+| Potion              | Minimum Magic Req. | Common Materials (Examples)           | Notes                                     |
+| :------------------ | :----------------- | :------------------------------------ | :---------------------------------------- |
+| **Wind Blade Potion** | 6 Magic            | Blueberry (3) x2                      | Excellent early-game spell for clearing.  |
+| **Rock Blast Potion** | 8 Magic            | Blueberry (3) x1, Seagull Egg (5) x1  | Good for early AoE damage.                |
+| **Ice Spike Potion**  | 10 Magic           | Blueberry (3) x2, Withered Mushroom (4) x1 | Solid choice for single-target damage.    |
+| **Fire Arrow Potion** | 45 Magic           | Various mid-tier materials, Fire Shard | Great for early farming, replace later.   |
+
+### Late-Game and S-Tier Spells
+
+For the most powerful spells, you'll need significantly higher Magic Values and specific Elemental Shards. These spells offer immense damage and utility, but require more advanced materials and a higher grind.
+
+| Potion & Minimum Magic Req. | Optimal Chances                                   | Key Ranking Notes                                                                                                                                                                                                                                                                                                                                                                      |
+| :-------------------------- | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Night Wraith Potion** 129 Magic | 2 Furnace Core, 3 Dark Shards                     | The **best damage** in the game with massive range. Requires significant grinding to refine to SSS. Often best to grind using Frost Thorns to acquire materials.                                                                                                                                                                                                                            |
+| **Radiant Sword Potion** 105 Magic| High-tier materials, Light Shard                  | One of the top 3 highest damage spells. An amazing late-game spell, though some prefer Dragon Breath for cooldown or Frost Thorns for ease of acquisition.                                                                                                                                                                                                                              |
+| **Dragon Breath Potion** 99 Magic | High-tier materials, Fire Shard                   | An insane heavy hitter. Offers excellent damage and a good cooldown, making it highly competitive with Radiant Sword.                                                                                                                                                                                                                                                                |
+| **Frost Thorns Potion** 80 Magic  | 1-2 Ice Shard, 3-4 Furnace Cores/Copper Earrings | Personally considered one of the best spells for farming due to its amazing damage, low cooldowns, and infinite range. Easy to get and refine. Pairs exceptionally well with the Ice Crystal race.                                                                                                                                                                                            |
+| **Tornado Potion** 70 Magic     | Mid-to-high tier materials, Wind Shard            | While lower damage than S-tier spells, Tornado's extremely short cooldown makes it excellent for farming and creating powerful spamming builds, especially when combined with Frost Thorns.                                                                                                                                                                                              |
+
+</Section>
+
+<Section icon={Target} title="Mastering Potion Refinement for SSS Grade">
+Refinement is a critical endgame process that allows you to amplify the power of your spells. By combining multiple instances of the same potion, you can upgrade its grade, significantly boosting your magic power, spell damage, and cast range. This process is essential for dominating the game.
+
+<Callout type="success" title="Refinement Benefits">
+Reaching **SSS grade** through refinement massively boosts your magic power, directly increasing your spell damage and cast range. This is often the difference between struggling against tough bosses and easily crushing them.
+</Callout>
+
+### The Refinement Process
+
+<Steps>
+  <Step num="1" title="Access the Refinement UI">
+    Head to the right side of the alchemy table at the spawn point to open the Refinement UI. This is where all your refinement magic happens.
+  </Step>
+  <Step num="2" title="Select Potions for Refinement">
+    Choose the potion you wish to refine. You will need multiple copies of the *exact same potion* to proceed.
+  </Step>
+  <Step num="3" title="Combine and Upgrade">
+    Combine 3 normal-grade potions to get one S-grade potion.
+    Combine 4 S-grade potions to get one SS-grade potion.
+    Combine 5 SS-grade potions to get one SSS-grade potion.
+  </Step>
+  <Step num="4" title="Enjoy Enhanced Power">
+    Once refined to SSS grade, your spell will have significantly increased damage and range, making it far more potent in combat.
+  </Step>
+</Steps>
+
+<Callout type="info">
+To achieve a guaranteed SSS Refinement for a single spell, you will need a total of **60 normal-grade potions** of that specific type. This highlights the importance of efficient farming for your chosen primary spells.
+</Callout>
+
+### Materials for Crafting and Their Sources
+
+Knowing where to find your materials is just as important as knowing the recipes. Here's a quick overview of common materials and how to acquire them.
+
+| Material          | Magic Score | How to Get                               | Notes                                                              |
+| :---------------- | :---------- | :--------------------------------------- | :----------------------------------------------------------------- |
+| **Blueberry**     | 3           | Blueberry Bush, Chests                   | Common, good for low-tier recipes.                                 |
+| **Seagull Egg**   | 5           | Bird Nest, Chests                        | Slightly better than blueberries, still common.                    |
+| **Withered Mushroom** | 4           | Forest areas, Monster drops              | Useful for mid-tier recipes.                                       |
+| **Copper Earrings** | -           | Chests, Enemy drops                      | No magic score, but can be used in some optimal recipes (e.g., Frost Thorns). |
+| **Furnace Core**  | -           | Boss drops, Rare chests                  | High-value material for optimal recipes, especially S-tier spells. |
+| **Elemental Shards**| 0           | Specific elemental zones, Boss drops     | **Crucial** for boosting chances of elemental spells (e.g., Ice Shard for Ice Spike). |
+
+</Section>
+
+<Section icon={Shield} title="Optimizing Your Wizard Build with Potions">
+Choosing the right potions and understanding how they synergize with your race and playstyle can drastically improve your effectiveness. While Night Wraith offers the highest raw damage, other spells like Frost Thorns provide excellent utility and ease of refinement.
+
+<CardGrid cols={2}>
+  <Card title="Night Wraith Strategy">
+    - **Highest Damage**: Unmatched raw spell power and range.
+    - **Grind Intensive**: Requires significant effort to acquire and refine.
+    - **Recommended Grind**: Use **Frost Thorns** to farm necessary materials due to its efficiency.
+  </Card>
+  <Card title="Frost Thorns Strategy">
+    - **Farming Efficiency**: Excellent for clearing mobs due to low cooldown and infinite range.
+    - **Easy to Refine**: More accessible to get to SSS grade.
+    - **Race Synergy**: Best paired with the **Ice Crystal race** for maximum output.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Race & Spell Combos">
+Always consider how your chosen race complements your primary spells. Some races offer buffs that align perfectly with certain elemental or damage types, enhancing your overall build significantly. Check out a **Wizard Alchemy Race Tier List** for optimal pairings.
+</Callout>
+
+### Potion Tier List Overview
+
+This brief overview ranks common potions based on their utility, damage, and ease of refinement, helping you prioritize your crafting efforts.
+
+| Tier | Potion & Magic Req. | Ranking Notes                                                                                                                                      |
+| :--- | :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **S**  | **Night Wraith** (129) | Best damage & range, high grind.                                                                                                                   |
+| **S**  | **Frost Thorns** (80)  | Best for farming, low CD, infinite range, easy to refine.                                                                                          |
+| **A**  | **Radiant Sword** (105)| Top 3 damage, amazing late-game.                                                                                                                   |
+| **A**  | **Tornado** (70)       | Lower damage but very short CD, great for spamming/farming.                                                                                        |
+| **B**  | **Lotus Bloom** (100)  | High damage, but long animation/CD makes it awkward; harder to farm than A-tier.                                                                   |
+| **B**  | **Meteorite** (74)     | Decent mid-game farming, but high CD makes it less optimal endgame.                                                                                |
+| **C**  | **Earth Spike** (77)   | Okay for beginners, but high CD and low damage compensation compared to others.                                                                    |
+| **C**  | **Fire Arrow** (45)    | Good early farming, but quickly replaced by better options.                                                                                        |
+| **D**  | **Ice Turtle Potion** (52)| Provides armor, but trading HP is generally not worth it.                                                                                        |
+| **D**  | **Earth Shield** (48)  | Decent early farming, but suffers from low range.                                                                                                  |
+
+</Section>
+
+<Section icon={Trophy} title="Checklist for Becoming an Alchemy Master">
+
+To truly master **Wizard Alchemy recipes** and dominate the battlefield, follow this checklist to ensure you're maximizing your potential.
+
+<Checklist
+  id="alchemy-mastery"
+  title="Your Path to Alchemy Mastery:"
+  items={[
+    "Understand Magic Scores and Potion Magic Values",
+    "Identify optimal material combinations for desired spells",
+    "Always use appropriate Elemental Shards for targeted potions",
+    "Prioritize refining your main spells to SSS grade",
+    "Experiment with different race and potion synergies",
+    "Utilize game codes for free boosts and rerolls"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions about Wizard Alchemy Recipes">
+
+<FAQ items={[
+  {
+    question: "What is the most powerful Wizard Alchemy recipe?",
+    answer: "The **Night Wraith Potion** (129 Magic) is currently considered the most powerful recipe due to its massive damage and range, though it requires significant grinding and refinement to reach its full potential."
+  },
+  {
+    question: "How do Elemental Shards affect potion crafting?",
+    answer: "Elemental Shards do not contribute to the Magic Score but significantly increase the **percentage chance** of crafting elemental spells corresponding to their type. For example, using Ice Shards drastically improves the likelihood of crafting Ice-based potions."
+  },
+  {
+    question: "How many potions do I need to reach SSS refinement?",
+    answer: "To achieve a guaranteed SSS refinement for a single potion, you will need a total of **60 normal-grade potions** of that specific type. This involves combining 3 normals for S, 4 S for SS, and 5 SS for SSS."
+  },
+  {
+    question: "Can I craft any Wizard Alchemy recipe with any materials?",
+    answer: "While you can combine various materials, each potion has a minimum Magic Value requirement. You must use materials whose combined Magic Scores meet or exceed this value to have a chance at crafting the specific **Wizard Alchemy recipe**."
+  }
+]} />
+
+</Section>

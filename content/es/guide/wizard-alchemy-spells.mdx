@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hechizos de Alquimia de Mago: Lista de Niveles y Guía de Creación 2026",
+  description: "Domina todos los hechizos de alquimia de mago con nuestra completa lista de niveles, recetas de creación y guía de progresión para el meta de RPG de Roblox de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Wizard+Alchemy+Spells+Guide",
+  date: "2026-05-18",
+  author: "Equipo Wiki de Alquimia de Mago"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Hechizos de alquimia de mago**: Habilidades obtenidas al consumir pociones elaboradas, categorizadas por rareza y afinidad elemental.
+- **Mecánica de Creación**: El éxito depende de la **Puntuación Mágica** total de los materiales y tu rendimiento en el minijuego de elaboración.
+- **Mejor Hechizo**: La **Poción de Espectro Nocturno** ocupa actualmente el puesto de Nivel S por su mayor producción de daño en el meta de 2026.
+- **Progresión**: Usa la **Ascensión Mágica** para reiniciar tu límite de nivel y aumentar la ganancia de XP al alcanzar los umbrales de nivel.
+- **Factor de Pureza**: El momento perfecto durante la fase de Agitación aumenta la Pureza de un hechizo, lo que potencia directamente su daño y alcance.
+</Callout>
+
+<Section icon={Map} title="Introducción a los Hechizos de Alquimia de Mago">
+
+Wizard Alchemy es un RPG centrado en la magia donde tu destreza en combate está directamente ligada a tu habilidad en el caldero. A diferencia de los RPG tradicionales donde las habilidades se aprenden a través de un árbol de talentos, aquí, tus **hechizos de alquimia de mago** son objetos físicos —pociones— que deben ser elaborados, refinados y consumidos para equiparlos. El ciclo de juego se centra en tres pilares: cazar materiales, elaborar potentes mezclas y participar en combate táctico contra jefes y mobs.
+
+**Puntos Destacados del Video:**
+- **Progresión Inicial**: Cómo navegar por el tutorial del principio del juego y alcanzar los primeros puntos de farmeo de mobs.
+- **Conceptos Básicos de Elaboración**: Una demostración visual de las mecánicas de Moler, Verter y Agitar.
+- **Canje de Códigos**: Códigos activos de 2026 para re-rolls de raza gratis y oro inicial.
+- **Ranuras de Habilidad**: Explicación de cómo equipar e intercambiar hechizos en tu inventario.
+
+<YouTubeEmbed videoId="GYWXYT40GMc" title="Guía Completa para Principiantes de Wizard Alchemy Roblox" />
+
+<Callout type="tip" title="Estrategia para Principiantes">
+Cuando empieces, concéntrate en matar Goblins y Ghouls de bajo nivel para recolectar materiales básicos como Arándanos. Incluso si no golpeas a un mob, usar tus habilidades iniciales genera XP, lo que te permite subir de nivel mientras viajas entre ubicaciones de misiones.
+</Callout>
+
+### Controles Básicos del Juego
+| Acción | Tecla | Descripción |
+| --- | --- | --- |
+| **Movimiento** | W, A, S, D | Navegación estándar del personaje |
+| **Dash** | Q | Esencial para esquivar ataques AOE de jefes |
+| **Ataque Básico** | Clic Izquierdo | Usa tu Varita equipada para daño de proyectiles |
+| **Habilidades** | 1 - 0 | Activa tus hechizos de poción consumidos |
+| **Alternar Correr** | Ctrl Izquierdo | Aumenta la velocidad de movimiento para la exploración |
+
+</Section>
+
+<Section icon={Sparkles} title="El Sistema de Alquimia y Elaboración">
+
+El corazón de la experiencia reside en la Mesa de Alquimia. Para obtener **hechizos de alquimia de mago** de alto nivel, debes comprender la relación entre la **Puntuación Mágica** y el **RNG**. Cada material tiene un valor mágico oculto o visible; la suma de estos valores determina qué poción es probable que produzcas.
+
+<Steps>
+  <Step num="1" title="Selección de Materiales">
+    Coloca hasta cinco materiales en el caldero. Cada material contribuye a la Puntuación Mágica total. Por ejemplo, un Arándano proporciona 3 de Magia, mientras que un Huevo de Gaviota proporciona 5.
+  </Step>
+  <Step num="2" title="El Minijuego de Elaboración">
+    Completa tres fases: **Moler** (sin penalización por errores), **Verter** (mantén presionado hasta que el medidor alcance el punto óptimo) y **Agitar** (haz clic en los anillos superpuestos).
+  </Step>
+  <Step num="3" title="Pureza y Rareza">
+    Tu precisión en el minijuego determina el porcentaje de **Pureza**. Un resultado de Pureza del 90%+ puede convertir una poción de Nivel A en una versión de Nivel S con estadísticas significativamente más altas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Exceso de Valores">
+Si excedes la Puntuación Mágica requerida para una poción específica, tu probabilidad porcentual de crear esa poción en realidad disminuye a medida que comienzas a calificar para el siguiente nivel de hechizos. Siempre apunta al umbral exacto para tener las mejores probabilidades.
+</Callout>
+
+### Valores Mágicos de los Materiales
+| Material | Puntuación Mágica | Fuente Principal |
+| --- | --- | --- |
+| **Arándano** | 3 | Arbustos de Arándanos / Cofres Comunes |
+| **Huevo de Gaviota** | 5 | Nidos de Pájaros / Áreas Costeras |
+| **Seta Marchita** | 4 | Suelo del Bosque / Apariciones Aleatorias |
+| **Fragmentos Elementales** | 0 | Botín de Jefes (Aumenta la afinidad elemental) |
+| **Núcleo de Horno** | Alto | Botín de Jefes Raros / Misiones de Alto Nivel |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Niveles de Hechizos de Alquimia de Mago: Clasificaciones de 2026">
+
+No todos los **hechizos de alquimia de mago** son iguales. Algunos sobresalen en la limpieza de mobs (farmeo), mientras que otros están diseñados para encuentros con jefes de un solo objetivo. En el meta actual de 2026, el alcance y la reducción de enfriamiento son las estadísticas más valoradas.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Espectro Nocturno">
+    - **Mayor Daño** en el juego
+    - Enorme rango AOE
+    - Requiere 129 Puntuación Mágica
+  </Card>
+  <Card title="Nivel S: Espinas de Escarcha">
+    - Proyectiles de **Alcance Infinito**
+    - Bajo enfriamiento para spam
+    - Mejor para farmear jefes
+  </Card>
+  <Card title="Nivel A: Espada Radiante">
+    - Alto daño explosivo
+    - Excelente para PvP
+    - Requiere 105 Puntuación Mágica
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="El Meta de Farmeo">
+Combina **Espinas de Escarcha** con la **Poción de Tornado**. Tornado tiene un enfriamiento muy corto, lo que te permite mantener a los enemigos aturdidos mientras Espinas de Escarcha inflige daño constante desde una distancia segura.
+</Callout>
+
+### Tabla Comparativa de Hechizos 2026
+| Nombre del Hechizo | Req. Mágica | Nivel | Mejor Uso |
+| --- | --- | --- | --- |
+| **Espectro Nocturno** | 129 | S | Jefes de Fin de Juego / AOE Masivo |
+| **Espinas de Escarcha** | 80 | S | Farmeo Eficiente / Alcance Infinito |
+| **Espada Radiante** | 105 | A | Ráfaga de Un Solo Objetivo / PvP |
+| **Tornado** | 70 | A | Control de Multitudes / Enfriamiento Corto |
+| **Flor de Loto** | 100 | B | Alto Daño / Animación Larga |
+| **Meteorito** | 74 | B | Farmeo de Juego Medio |
+| **Púa Terrestre** | 77 | C | Defensa para Principiantes / Lanzamiento Lento |
+| **Flecha de Fuego** | 45 | C | Subida de Nivel Temprana |
+
+</Section>
+
+<Section icon={Shield} title="Progresión, Estadísticas y Razas">
+
+El crecimiento del personaje en Wizard Alchemy no se trata solo de los hechizos que posees. Tu **Raza** y **Distribución de Estadísticas** proporcionan la base para tu poder mágico. Cada nivel otorga tres puntos de habilidad, que deben invertirse según tu estilo de juego preferido.
+
+### Lista de Verificación de Hitos Esenciales
+<Checklist
+  id="progression-checklist"
+  title="Objetivos de Progresión de Alquimia de Mago:"
+  items={[
+    "Completa la línea de misiones inicial de Lombard para obtener oro temprano",
+    "Alcanza el Nivel 30 para desbloquear la primera Ascensión Mágica",
+    "Vuelve a tirar de Raza para obtener una rareza del 5% o mejor (ej. Cristal de Hielo)",
+    "Mejora a la Varita de Ave Alada para una velocidad de lanzamiento más rápida",
+    "Refina un hechizo central a rango SSS usando 60 pociones duplicadas"
+  ]}
+/>
+
+<Callout type="info" title="Re-rolls de Raza">
+Usa códigos activos como `RELEASE` o `WIZARD` para obtener re-rolls de raza gratis. Busca razas como **Cristal de Hielo** (20% de aumento de daño elemental) o **Acechador Sombrío** para juego de alto nivel.
+</Callout>
+
+### Ascensión Mágica y Renacimiento
+Cuando alcanzas el límite de nivel (inicialmente Nivel 30), debes realizar una **Ascensión Mágica**. Este proceso requiere una cantidad significativa de Oro pero proporciona mejoras permanentes:
+- **Límite de Nivel Aumentado**: Permite una mayor inversión de estadísticas.
+- **Multiplicador de Ganancia de XP**: Acelera el viaje de regreso al límite.
+- **Acceso a Nuevo Equipo**: Desbloquea Túnicas y Sombreros de Mago de mayor nivel en la tienda.
+
+</Section>
+
+<Section icon={Target} title="Recetas de Creación Avanzadas">
+
+Para asegurar los **hechizos de alquimia de mago** más poderosos, necesitas usar **Fragmentos Elementales**. Estos objetos no suman a la Puntuación Mágica, pero obligan al RNG a favorecer un elemento específico, como Fuego, Hielo u Oscuridad.
+
+| Poción Deseada | Componentes Óptimos de la Receta | Objetivo Mágico |
+| --- | --- | --- |
+| **Espectro Nocturno** | 2 Núcleos de Horno + 3 Fragmentos Oscuros | 129+ |
+| **Espinas de Escarcha** | 2 Núcleos de Horno + 1 Fragmento de Hielo + 2 Pendientes | 80+ |
+| **Espada Radiante** | 3 Fragmentos de Luz + Rellenos de Alta Magia | 105+ |
+| **Tornado** | 2 Fragmentos de Viento + Setas/Huevos | 70+ |
+
+<Callout type="tip" title="Secreto de Refinamiento">
+Refinar una poción a **rango SSS** requiere una enorme cantidad de recursos. Necesitas 60 pociones base para garantizar la ruta de mejora: 3 Normales para S, 4 de Nivel S para SS, y 5 de Nivel SS para SSS. Es una larga molienda, pero el multiplicador de daño es esencial para los jefes de fin de juego de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes de Alquimia de Mago">
+
+<FAQ items={[
+  {
+    question: "¿Cómo consigo más ranuras para hechizos de alquimia de mago?",
+    answer: "Desbloqueas ranuras de habilidad adicionales realizando Ascendencias Mágicas y alcanzando hitos de nivel específicos. Al principio, estás limitado a unas pocas ranuras, así que elige tus hechizos sabiamente."
+  },
+  {
+    question: "¿Cuál es la mejor manera de farmear Oro rápido?",
+    answer: "Las misiones repetibles, como 'Bandidos del Bosque', son la fuente de ingresos más fiable. Además, mantente atento a los cofres que aparecen aleatoriamente cada pocas horas por todo el mapa."
+  },
+  {
+    question: "¿La Pureza afecta a todos los hechizos de alquimia de mago?",
+    answer: "Sí. Una alta Pureza (lograda a través del minijuego de elaboración) aumenta el daño base, la escala y, a veces, la duración del efecto de estado de cada hechizo en el juego."
+  },
+  {
+    question: "¿Puedo reiniciar mis puntos de estadísticas?",
+    answer: "Sí, Wizard Alchemy te permite reiniciar tus puntos de estadísticas en cualquier momento, lo cual es útil si quieres cambiar de una construcción de ataque de 'cañón de cristal' a una construcción de tanque de alta HP para jefes específicos."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+Wizard Alchemy en 2026 se trata de optimización. Al dominar el minijuego de elaboración y apuntar a materiales específicos de alta magia, puedes superar la lucha del principio del juego y convertirte en un maestro hechicero en poco tiempo.
+</Callout>
+
+</Section>

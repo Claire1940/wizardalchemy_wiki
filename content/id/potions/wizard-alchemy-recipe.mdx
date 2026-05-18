@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Resep Alkimia Penyihir: Panduan Ramuan & Kerajinan Terbaik",
+  description: "Kuasai Alkimia Penyihir dengan panduan komprehensif kami untuk resep ramuan, bahan, dan penyempurnaan mantra untuk build yang kuat di tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Wizard+Alchemy+Recipes",
+  date: "2026-05-18",
+  author: "Tim Wiki Alkimia Penyihir"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Pembuatan ramuan** adalah inti untuk membuka mantra kuat di **Alkimia Penyihir**.
+- Setiap bahan memiliki **Skor Sihir**, berkontribusi pada Nilai Sihir akhir ramuan.
+- **Pecahan Elemental** secara signifikan meningkatkan peluang membuat mantra elemental tertentu.
+- **Penyempurnaan** sangat penting untuk memaksimalkan kerusakan mantra dan jangkauan, mencapai grade SSS.
+- **Ramuan Night Wraith** saat ini adalah mantra dengan kelangkaan tertinggi, membutuhkan 129 Sihir.
+</Callout>
+
+<Section icon={Sparkles} title="Memahami Pembuatan Ramuan Alkimia Penyihir">
+Pembuatan ramuan adalah inti mutlak dari Alkimia Penyihir, memungkinkan pemain untuk membuka mantra kuat yang penting untuk mengalahkan monster dan bos. Sistem kerajinan ini, meskipun tidak terlalu kompleks, melibatkan mekanisme spesifik yang memengaruhi hasil ramuan Anda. Keberhasilan bergantung pada pemahaman Skor Sihir, kombinasi bahan, dan peran Pecahan Elemental.
+
+**Sorotan Video:**
+- Pembuatan ramuan membuka mantra untuk pertempuran.
+- Pergi ke stasiun pembuatan untuk memilih bahan.
+- Akurasi minigame alkimia menentukan kemurnian ramuan.
+- Persyaratan sihir yang lebih tinggi untuk mantra tingkat lanjut seperti Dragon Breath (99 Sihir).
+- Penyempurnaan hingga grade SSS secara masif meningkatkan kekuatan sihir dan jangkauan mantra.
+
+<YouTubeEmbed videoId="H74KHsXatsk" title="Panduan Pembuatan Ramuan - Alkimia Penyihir" />
+
+Tujuan utama adalah mencapai total Skor Sihir yang cukup dari bahan pilihan Anda untuk membuat ramuan yang diinginkan. Proses ini melibatkan sedikit RNG, tetapi pemilihan bahan yang strategis dapat secara signifikan meningkatkan peluang Anda.
+
+<Callout type="tip" title="Mengoptimalkan Ramuan Anda">
+Untuk memaksimalkan peluang Anda mendapatkan ramuan kelangkaan yang lebih tinggi, selalu bertujuan untuk meningkatkan jumlah total Skor Sihir bahan Anda. Namun, berhati-hatilah agar tidak terlalu berlebihan, karena ini mungkin membuat Anda memenuhi syarat untuk tingkatan ramuan *berikutnya*, berpotensi menurunkan peluang untuk mantra target Anda.
+</Callout>
+
+### Mekanisme Pembuatan Dasar
+
+| Mekanisme         | Deskripsi                                                                       | Dampak Utama                                  |
+| :---------------- | :------------------------------------------------------------------------------ | :-------------------------------------------- |
+| **Skor Sihir**    | Setiap bahan memiliki Skor Sihir spesifik (misalnya, **Blueberry 3**).           | Menentukan Nilai Sihir total ramuan.          |
+| **Nilai Sihir**   | Setiap ramuan membutuhkan Nilai Sihir minimum untuk dibuat (misalnya, **Ice Spike 10**). | Memenuhi ini membuka ramuan untuk pembuatan. |
+| **Slot Bahan**    | Anda memiliki 5 slot di menu Alkimia untuk menggabungkan bahan.                 | Penempatan dan kombinasi strategis adalah kunci. |
+| **Acara Cepat Waktu**| Sebuah mini-game selama pembuatan di mana akurasi memengaruhi **Kemurnian** ramuan. | **Kemurnian** meningkatkan statistik mantra seperti kerusakan. |
+
+</Section>
+
+<Section icon={Swords} title="Resep Ramuan Esensial dan Persyaratan Sihir">
+Membuat ramuan tertentu membutuhkan pemenuhan Nilai Sihir minimumnya. Ini dicapai dengan menggabungkan bahan-bahan yang Skor Sihir individunya berjumlah atau melebihi persyaratan ramuan. Untuk mantra kelas atas, penggabungan Pecahan Elemental sangat penting.
+
+<Callout type="warning" title="Penggunaan Pecahan Elemental">
+Pecahan Elemental (Es, Api, Tanah, Gelap, dll.) tidak memiliki Skor Sihir sendiri tetapi sangat penting untuk meningkatkan peluang pembuatan mantra elemental tertentu. Selalu sertakan Pecahan Elemental yang cocok untuk mantra yang Anda inginkan! Misalnya, gunakan **Pecahan Gelap** untuk **Ramuan Night Wraith**.
+</Callout>
+
+### Mantra Awal hingga Pertengahan Permainan
+
+| Ramuan              | Persyaratan Sihir Minimum | Bahan Umum (Contoh)                       | Catatan                                       |
+| :------------------ | :------------------------ | :---------------------------------------- | :-------------------------------------------- |
+| **Ramuan Wind Blade** | 6 Sihir                   | Blueberry (3) x2                          | Mantra awal permainan yang sangat baik untuk membersihkan. |
+| **Ramuan Rock Blast** | 8 Sihir                   | Blueberry (3) x1, Telur Camar (5) x1      | Bagus untuk kerusakan AoE awal.               |
+| **Ramuan Ice Spike**  | 10 Sihir                  | Blueberry (3) x2, Jamur Layu (4) x1       | Pilihan yang solid untuk kerusakan target tunggal. |
+| **Ramuan Fire Arrow** | 45 Sihir                  | Berbagai bahan tingkat menengah, Pecahan Api | Bagus untuk pertanian awal, ganti nanti.    |
+
+### Mantra Akhir Permainan dan Tingkat S
+
+Untuk mantra yang paling kuat, Anda akan membutuhkan Nilai Sihir yang jauh lebih tinggi dan Pecahan Elemental tertentu. Mantra ini menawarkan kerusakan dan utilitas yang luar biasa, tetapi membutuhkan bahan yang lebih canggih dan penggilingan yang lebih tinggi.
+
+| Ramuan & Persyaratan Sihir Minimum | Peluang Optimal                                   | Catatan Peringkat Utama                                                                                                                                                                                                                                                                                                                                                                      |
+| :-------------------------- | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ramuan Night Wraith** 129 Sihir | 2 Inti Tungku, 3 Pecahan Gelap                     | **Kerusakan terbaik** dalam permainan dengan jangkauan masif. Membutuhkan penggilingan yang signifikan untuk menyempurnakan ke SSS. Seringkali terbaik untuk menggiling menggunakan Frost Thorns untuk mendapatkan bahan.                                                                                                                                                                                             |
+| **Ramuan Radiant Sword** 105 Sihir| Bahan tingkat tinggi, Pecahan Cahaya                  | Salah satu dari 3 mantra kerusakan tertinggi. Mantra akhir permainan yang luar biasa, meskipun beberapa lebih suka Dragon Breath untuk cooldown atau Frost Thorns untuk kemudahan akuisisi.                                                                                                                                                                                               |
+| **Ramuan Dragon Breath** 99 Sihir | Bahan tingkat tinggi, Pecahan Api                   | Pemukul berat yang gila. Menawarkan kerusakan yang sangat baik dan cooldown yang baik, membuatnya sangat kompetitif dengan Radiant Sword.                                                                                                                                                                                                                                 |
+| **Ramuan Frost Thorns** 80 Sihir  | 1-2 Pecahan Es, 3-4 Inti Tungku/Anting Tembaga | Secara pribadi dianggap salah satu mantra terbaik untuk pertanian karena kerusakannya yang luar biasa, cooldown yang rendah, dan jangkauan tak terbatas. Mudah didapatkan dan disempurnakan. Berpasangan sangat baik dengan ras Kristal Es.                                                                                                                                                                                            |
+| **Ramuan Tornado** 70 Sihir     | Bahan tingkat menengah hingga tinggi, Pecahan Angin            | Meskipun kerusakan lebih rendah dari mantra tingkat S, cooldown Tornado yang sangat singkat membuatnya sangat baik untuk pertanian dan menciptakan build spamming yang kuat, terutama jika dikombinasikan dengan Frost Thorns.                                                                                                                                                                                              |
+
+</Section>
+
+<Section icon={Target} title="Menguasai Penyempurnaan Ramuan untuk Grade SSS">
+Penyempurnaan adalah proses akhir permainan yang kritis yang memungkinkan Anda memperkuat kekuatan mantra Anda. Dengan menggabungkan beberapa instance ramuan yang sama, Anda dapat meningkatkan gradenya, secara signifikan meningkatkan kekuatan sihir Anda, kerusakan mantra, dan jangkauan tembak. Proses ini sangat penting untuk mendominasi permainan.
+
+<Callout type="success" title="Manfaat Penyempurnaan">
+Mencapai **grade SSS** melalui penyempurnaan secara masif meningkatkan kekuatan sihir Anda, secara langsung meningkatkan kerusakan mantra dan jangkauan tembak Anda. Ini seringkali menjadi perbedaan antara berjuang melawan bos yang tangguh dan dengan mudah menghancurkan mereka.
+</Callout>
+
+### Proses Penyempurnaan
+
+<Steps>
+  <Step num="1" title="Akses UI Penyempurnaan">
+    Pergi ke sisi kanan meja alkimia di titik spawn untuk membuka UI Penyempurnaan. Di sinilah semua sihir penyempurnaan Anda terjadi.
+  </Step>
+  <Step num="2" title="Pilih Ramuan untuk Penyempurnaan">
+    Pilih ramuan yang ingin Anda sempurnakan. Anda akan membutuhkan beberapa salinan *ramuan yang sama persis* untuk melanjutkan.
+  </Step>
+  <Step num="3" title="Gabungkan dan Tingkatkan">
+    Gabungkan 3 ramuan grade normal untuk mendapatkan satu ramuan grade S.
+    Gabungkan 4 ramuan grade S untuk mendapatkan satu ramuan grade SS.
+    Gabungkan 5 ramuan grade SS untuk mendapatkan satu ramuan grade SSS.
+  </Step>
+  <Step num="4" title="Nikmati Kekuatan yang Ditingkatkan">
+    Setelah disempurnakan ke grade SSS, mantra Anda akan memiliki kerusakan dan jangkauan yang meningkat secara signifikan, membuatnya jauh lebih kuat dalam pertempuran.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Untuk mencapai Penyempurnaan SSS yang dijamin untuk satu mantra, Anda akan membutuhkan total **60 ramuan grade normal** dari jenis spesifik tersebut. Ini menyoroti pentingnya pertanian yang efisien untuk mantra utama pilihan Anda.
+</Callout>
+
+### Bahan untuk Kerajinan dan Sumbernya
+
+Mengetahui di mana menemukan bahan Anda sama pentingnya dengan mengetahui resepnya. Berikut adalah gambaran singkat tentang bahan umum dan cara mendapatkannya.
+
+| Bahan             | Skor Sihir | Cara Mendapatkan                         | Catatan                                                            |
+| :---------------- | :---------- | :--------------------------------------- | :----------------------------------------------------------------- |
+| **Blueberry**     | 3           | Semak Blueberry, Peti                    | Umum, bagus untuk resep tingkat rendah.                            |
+| **Telur Camar**   | 5           | Sarang Burung, Peti                      | Sedikit lebih baik dari blueberry, masih umum.                     |
+| **Jamur Layu**    | 4           | Area hutan, Drop Monster                 | Berguna untuk resep tingkat menengah.                              |
+| **Anting Tembaga** | -           | Peti, Drop Musuh                         | Tidak ada skor sihir, tetapi dapat digunakan dalam beberapa resep optimal (misalnya, Frost Thorns). |
+| **Inti Tungku**   | -           | Drop Bos, Peti Langka                    | Bahan bernilai tinggi untuk resep optimal, terutama mantra tingkat S. |
+| **Pecahan Elemental**| 0           | Zona elemental spesifik, Drop Bos     | **Penting** untuk meningkatkan peluang mantra elemental (misalnya, Pecahan Es untuk Ice Spike). |
+
+</Section>
+
+<Section icon={Shield} title="Mengoptimalkan Build Penyihir Anda dengan Ramuan">
+Memilih ramuan yang tepat dan memahami bagaimana ramuan tersebut bersinergi dengan ras dan gaya bermain Anda dapat secara drastis meningkatkan efektivitas Anda. Meskipun Night Wraith menawarkan kerusakan mentah tertinggi, mantra lain seperti Frost Thorns memberikan utilitas yang sangat baik dan kemudahan penyempurnaan.
+
+<CardGrid cols={2}>
+  <Card title="Strategi Night Wraith">
+    - **Kerusakan Tertinggi**: Kekuatan dan jangkauan mantra mentah yang tak tertandingi.
+    - **Intensif Penggilingan**: Membutuhkan upaya signifikan untuk memperoleh dan menyempurnakan.
+    - **Penggilingan yang Direkomendasikan**: Gunakan **Frost Thorns** untuk mengumpulkan bahan yang diperlukan karena efisiensinya.
+  </Card>
+  <Card title="Strategi Frost Thorns">
+    - **Efisiensi Pertanian**: Sangat baik untuk membersihkan gerombolan karena cooldown rendah dan jangkauan tak terbatas.
+    - **Mudah Disempurnakan**: Lebih mudah untuk mencapai grade SSS.
+    - **Sinergi Ras**: Terbaik dipasangkan dengan **ras Kristal Es** untuk output maksimum.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Kombo Ras & Mantra">
+Selalu pertimbangkan bagaimana ras pilihan Anda melengkapi mantra utama Anda. Beberapa ras menawarkan buff yang selaras sempurna dengan jenis elemental atau kerusakan tertentu, secara signifikan meningkatkan build Anda secara keseluruhan. Lihat **Daftar Tingkat Ras Alkimia Penyihir** untuk pasangan optimal.
+</Callout>
+
+### Ikhtisar Daftar Tingkat Ramuan
+
+Ikhtisar singkat ini memberi peringkat ramuan umum berdasarkan utilitas, kerusakan, dan kemudahan penyempurnaannya, membantu Anda memprioritaskan upaya pembuatan Anda.
+
+| Tingkat | Ramuan & Persyaratan Sihir | Catatan Peringkat                                                                                                                                      |
+| :--- | :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **S**  | **Night Wraith** (129) | Kerusakan & jangkauan terbaik, penggilingan tinggi.                                                                                                                   |
+| **S**  | **Frost Thorns** (80)  | Terbaik untuk pertanian, CD rendah, jangkauan tak terbatas, mudah disempurnakan.                                                                                          |
+| **A**  | **Radiant Sword** (105)| 3 kerusakan teratas, akhir permainan yang luar biasa.                                                                                                                   |
+| **A**  | **Tornado** (70)       | Kerusakan lebih rendah tetapi CD sangat singkat, bagus untuk spamming/pertanian.                                                                                        |
+| **B**  | **Lotus Bloom** (100)  | Kerusakan tinggi, tetapi animasi/CD yang panjang membuatnya canggung; lebih sulit untuk pertanian daripada tingkat A.                                                                   |
+| **B**  | **Meteorite** (74)     | Pertanian pertengahan permainan yang layak, tetapi CD tinggi membuatnya kurang optimal di akhir permainan.                                                                                |
+| **C**  | **Earth Spike** (77)   | Lumayan untuk pemula, tetapi CD tinggi dan kompensasi kerusakan rendah dibandingkan yang lain.                                                                    |
+| **C**  | **Fire Arrow** (45)    | Pertanian awal yang bagus, tetapi cepat digantikan oleh pilihan yang lebih baik.                                                                                        |
+| **D**  | **Ramuan Ice Turtle** (52)| Memberikan armor, tetapi menukar HP umumnya tidak sepadan.                                                                                        |
+| **D**  | **Earth Shield** (48)  | Pertanian awal yang layak, tetapi menderita jangkauan rendah.                                                                                                  |
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Periksa untuk Menjadi Master Alkimia">
+
+Untuk benar-benar menguasai **resep Alkimia Penyihir** dan mendominasi medan perang, ikuti daftar periksa ini untuk memastikan Anda memaksimalkan potensi Anda.
+
+<Checklist
+  id="alchemy-mastery"
+  title="Jalur Anda menuju Penguasaan Alkimia:"
+  items={[
+    "Pahami Skor Sihir dan Nilai Sihir Ramuan",
+    "Identifikasi kombinasi bahan optimal untuk mantra yang diinginkan",
+    "Selalu gunakan Pecahan Elemental yang sesuai untuk ramuan yang ditargetkan",
+    "Prioritaskan penyempurnaan mantra utama Anda ke grade SSS",
+    "Eksperimen dengan sinergi ras dan ramuan yang berbeda",
+    "Manfaatkan kode permainan untuk peningkatan gratis dan reroll"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Pertanyaan yang Sering Diajukan tentang Resep Alkimia Penyihir">
+
+<FAQ items={[
+  {
+    question: "Apa resep Alkimia Penyihir yang paling ampuh?",
+    answer: "**Ramuan Night Wraith** (129 Sihir) saat ini dianggap sebagai resep paling ampuh karena kerusakan dan jangkauannya yang masif, meskipun membutuhkan penggilingan dan penyempurnaan yang signifikan untuk mencapai potensi penuhnya."
+  },
+  {
+    question: "Bagaimana Pecahan Elemental memengaruhi pembuatan ramuan?",
+    answer: "Pecahan Elemental tidak berkontribusi pada Skor Sihir tetapi secara signifikan meningkatkan **peluang persentase** pembuatan mantra elemental yang sesuai dengan jenisnya. Misalnya, menggunakan Pecahan Es secara drastis meningkatkan kemungkinan pembuatan ramuan berbasis Es."
+  },
+  {
+    question: "Berapa banyak ramuan yang saya butuhkan untuk mencapai penyempurnaan SSS?",
+    answer: "Untuk mencapai penyempurnaan SSS yang dijamin untuk satu ramuan, Anda akan membutuhkan total **60 ramuan grade normal** dari jenis spesifik tersebut. Ini melibatkan penggabungan 3 normal untuk S, 4 S untuk SS, dan 5 SS untuk SSS."
+  },
+  {
+    question: "Bisakah saya membuat resep Alkimia Penyihir apa pun dengan bahan apa pun?",
+    answer: "Meskipun Anda dapat menggabungkan berbagai bahan, setiap ramuan memiliki persyaratan Nilai Sihir minimum. Anda harus menggunakan bahan-bahan yang Skor Sihir gabungannya memenuhi atau melebihi nilai ini untuk memiliki peluang membuat **resep Alkimia Penyihir** spesifik."
+  }
+]} />
+
+</Section>

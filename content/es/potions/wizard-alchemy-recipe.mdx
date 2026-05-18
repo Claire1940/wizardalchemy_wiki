@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Receta de Alquimia de Mago: Guía Definitiva de Pociones y Creación",
+  description: "Domina la Alquimia de Mago con nuestra guía completa de recetas de pociones, materiales y refinamiento de hechizos para construcciones poderosas en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Wizard+Alchemy+Recipes",
+  date: "2026-05-18",
+  author: "Equipo de Wiki de Alquimia de Mago"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **creación de pociones** es fundamental para desbloquear hechizos poderosos en **Wizard Alchemy**.
+- Cada material tiene una **Puntuación Mágica**, que contribuye al Valor Mágico final de la poción.
+- Las **Fragmentos Elementales** aumentan significativamente las posibilidades de crear hechizos elementales específicos.
+- El **Refinamiento** es crucial para maximizar el daño y el alcance del hechizo, alcanzando el grado SSS.
+- La **Poción del Espectro Nocturno** es actualmente el hechizo de mayor rareza, que requiere 129 de Magia.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendiendo la Creación de Pociones en Wizard Alchemy">
+La elaboración de pociones es el núcleo absoluto de Wizard Alchemy, permitiendo a los jugadores desbloquear hechizos poderosos esenciales para derrotar monstruos y jefes. El sistema de creación, aunque no excesivamente complejo, implica mecánicas específicas que influyen en el resultado de tus pociones. El éxito depende de comprender las Puntuaciones Mágicas, las combinaciones de materiales y el papel de los Fragmentos Elementales.
+
+**Aspectos destacados del vídeo:**
+- La elaboración de pociones desbloquea hechizos para el combate.
+- Dirígete a la estación de elaboración para seleccionar materiales.
+- La precisión del minijuego de alquimia determina la pureza de la poción.
+- Requisitos mágicos más altos para hechizos avanzados como Aliento de Dragón (99 de Magia).
+- El refinamiento hasta el grado SSS aumenta masivamente el poder mágico y el alcance del hechizo.
+
+<YouTubeEmbed videoId="H74KHsXatsk" title="Guía de Elaboración de Pociones - Wizard Alchemy" />
+
+El objetivo principal es lograr una Puntuación Mágica total suficiente con los materiales elegidos para crear la poción deseada. Este proceso implica algo de RNG, pero la selección estratégica de materiales puede mejorar significativamente tus posibilidades.
+
+<Callout type="tip" title="Optimizando tus Preparaciones">
+Para maximizar tus posibilidades de obtener pociones de mayor rareza, siempre intenta aumentar la suma total de las Puntuaciones Mágicas de tus materiales. Sin embargo, ten cuidado de no excederte demasiado, ya que esto podría calificarte para el *siguiente* nivel de pociones, lo que podría reducir la probabilidad de obtener el hechizo deseado.
+</Callout>
+
+### Mecánicas Básicas de Creación
+
+| Mecánica          | Descripción                                                                     | Impacto Clave                             |
+| :---------------- | :------------------------------------------------------------------------------ | :---------------------------------------- |
+| **Puntuación Mágica**   | Cada material tiene una Puntuación Mágica específica (ej., **Arándano 3**).              | Determina el Valor Mágico total de la preparación. |
+| **Valor Mágico**   | Cada poción requiere un Valor Mágico mínimo para ser creada (ej., **Púa de Hielo 10**). | Cumplir esto desbloquea la poción para la creación. |
+| **Ranuras de Materiales**| Tienes 5 ranuras en el menú de Alquimia para combinar materiales.                      | La colocación y combinación estratégicas son clave. |
+| **Evento de Tiempo Rápido**| Un minijuego durante la elaboración donde la precisión afecta la **Pureza** de la poción. | La **Pureza** aumenta las estadísticas del hechizo como el daño. |
+
+</Section>
+
+<Section icon={Swords} title="Recetas de Pociones Esenciales y Requisitos Mágicos">
+La creación de pociones específicas requiere cumplir con su Valor Mágico mínimo. Esto se logra combinando materiales cuyas Puntuaciones Mágicas individuales suman o exceden el requisito de la poción. Para hechizos de alto nivel, la incorporación de Fragmentos Elementales es crucial.
+
+<Callout type="warning" title="Uso de Fragmentos Elementales">
+Los Fragmentos Elementales (Hielo, Fuego, Tierra, Oscuridad, etc.) no tienen Puntuaciones Mágicas por sí mismos, pero son vitales para aumentar las posibilidades de crear hechizos elementales específicos. ¡Siempre incluye el Fragmento Elemental correspondiente para tu hechizo deseado! Por ejemplo, usa **Fragmentos Oscuros** para la **Poción del Espectro Nocturno**.
+</Callout>
+
+### Hechizos de Principio a Mitad de Juego
+
+| Poción              | Requisito Mínimo de Magia | Materiales Comunes (Ejemplos)           | Notas                                     |
+| :------------------ | :------------------------ | :------------------------------------ | :---------------------------------------- |
+| **Poción de Hoja de Viento** | 6 de Magia                | Arándano (3) x2                      | Excelente hechizo de principio de juego para limpiar. |
+| **Poción de Explosión de Roca** | 8 de Magia                | Arándano (3) x1, Huevo de Gaviota (5) x1  | Bueno para daño AoE temprano.                |
+| **Poción de Púa de Hielo**  | 10 de Magia               | Arándano (3) x2, Hongo Marchito (4) x1 | Opción sólida para daño de un solo objetivo. |
+| **Poción de Flecha de Fuego** | 45 de Magia               | Varios materiales de nivel medio, Fragmento de Fuego | Ideal para el farmeo temprano, reemplazar más tarde. |
+
+### Hechizos de Final de Juego y Nivel S
+
+Para los hechizos más poderosos, necesitarás Valores Mágicos significativamente más altos y Fragmentos Elementales específicos. Estos hechizos ofrecen un daño y utilidad inmensos, pero requieren materiales más avanzados y un mayor esfuerzo.
+
+| Poción y Requisito Mágico Mínimo | Posibilidades Óptimas                                   | Notas Clave de Clasificación                                                                                                                                                                                                                                                                                                                                                                      |
+| :-------------------------- | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Poción del Espectro Nocturno** 129 Magia | 2 Núcleo de Horno, 3 Fragmentos Oscuros                     | El **mejor daño** en el juego con un alcance masivo. Requiere un esfuerzo significativo para refinar a SSS. A menudo, es mejor farmear usando Espinas de Escarcha para adquirir materiales.                                                                                                                                                                                             |
+| **Poción de Espada Radiante** 105 Magia| Materiales de alto nivel, Fragmento de Luz                  | Uno de los 3 hechizos de mayor daño. Un hechizo increíble para el final del juego, aunque algunos prefieren Aliento de Dragón por su enfriamiento o Espinas de Escarcha por su facilidad de adquisición.                                                                                                                                                                                               |
+| **Poción de Aliento de Dragón** 99 Magia | Materiales de alto nivel, Fragmento de Fuego                   | Un golpeador pesado insano. Ofrece un excelente daño y un buen enfriamiento, lo que lo hace altamente competitivo con Espada Radiante.                                                                                                                                                                                                                                 |
+| **Poción de Espinas de Escarcha** 80 Magia  | 1-2 Fragmento de Hielo, 3-4 Núcleos de Horno/Pendientes de Cobre | Personalmente considerado uno de los mejores hechizos para farmear debido a su increíble daño, bajos enfriamientos y alcance infinito. Fácil de conseguir y refinar. Combina excepcionalmente bien con la raza Cristal de Hielo.                                                                                                                                                                                            |
+| **Poción de Tornado** 70 Magia     | Materiales de nivel medio a alto, Fragmento de Viento            | Aunque el daño es menor que el de los hechizos de nivel S, el enfriamiento extremadamente corto de Tornado lo hace excelente para farmear y crear construcciones de spamming poderosas, especialmente cuando se combina con Espinas de Escarcha.                                                                                                                                                                                              |
+
+</Section>
+
+<Section icon={Target} title="Dominando el Refinamiento de Pociones para el Grado SSS">
+El refinamiento es un proceso crítico del juego final que te permite amplificar el poder de tus hechizos. Al combinar múltiples instancias de la misma poción, puedes mejorar su grado, aumentando significativamente tu poder mágico, el daño de los hechizos y el alcance de lanzamiento. Este proceso es esencial para dominar el juego.
+
+<Callout type="success" title="Beneficios del Refinamiento">
+Alcanzar el **grado SSS** a través del refinamiento aumenta masivamente tu poder mágico, lo que incrementa directamente el daño de tus hechizos y el alcance de lanzamiento. Esta es a menudo la diferencia entre luchar contra jefes difíciles y aplastarlos fácilmente.
+</Callout>
+
+### El Proceso de Refinamiento
+
+<Steps>
+  <Step num="1" title="Acceder a la Interfaz de Refinamiento">
+    Dirígete al lado derecho de la mesa de alquimia en el punto de aparición para abrir la Interfaz de Refinamiento. Aquí es donde ocurre toda tu magia de refinamiento.
+  </Step>
+  <Step num="2" title="Seleccionar Pociones para Refinar">
+    Elige la poción que deseas refinar. Necesitarás varias copias de la *misma poción* para proceder.
+  </Step>
+  <Step num="3" title="Combinar y Mejorar">
+    Combina 3 pociones de grado normal para obtener una poción de grado S.
+    Combina 4 pociones de grado S para obtener una poción de grado SS.
+    Combina 5 pociones de grado SS para obtener una poción de grado SSS.
+  </Step>
+  <Step num="4" title="Disfrutar del Poder Mejorado">
+    Una vez refinado al grado SSS, tu hechizo tendrá un daño y alcance significativamente aumentados, haciéndolo mucho más potente en combate.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Para lograr un Refinamiento SSS garantizado para un solo hechizo, necesitarás un total de **60 pociones de grado normal** de ese tipo específico. Esto destaca la importancia de un farmeo eficiente para tus hechizos primarios elegidos.
+</Callout>
+
+### Materiales para la Creación y Sus Fuentes
+
+Saber dónde encontrar tus materiales es tan importante como conocer las recetas. Aquí tienes un breve resumen de los materiales comunes y cómo adquirirlos.
+
+| Material          | Puntuación Mágica | Cómo Obtener                               | Notas                                                              |
+| :---------------- | :---------------- | :--------------------------------------- | :----------------------------------------------------------------- |
+| **Arándano**     | 3                 | Arbusto de Arándanos, Cofres                   | Común, bueno para recetas de bajo nivel.                                 |
+| **Huevo de Gaviota**   | 5                 | Nido de Pájaros, Cofres                        | Ligeramente mejor que los arándanos, sigue siendo común.                    |
+| **Hongo Marchito** | 4                 | Áreas forestales, Drops de monstruos              | Útil para recetas de nivel medio.                                       |
+| **Pendientes de Cobre** | -                 | Cofres, Drops de enemigos                      | Sin puntuación mágica, pero se puede usar en algunas recetas óptimas (ej., Espinas de Escarcha). |
+| **Núcleo de Horno**  | -                 | Drops de jefes, Cofres raros                  | Material de alto valor para recetas óptimas, especialmente hechizos de nivel S. |
+| **Fragmentos Elementales**| 0                 | Zonas elementales específicas, Drops de jefes     | **Crucial** para aumentar las posibilidades de hechizos elementales (ej., Fragmento de Hielo para Púa de Hielo). |
+
+</Section>
+
+<Section icon={Shield} title="Optimizando tu Construcción de Mago con Pociones">
+Elegir las pociones adecuadas y comprender cómo se sinergizan con tu raza y estilo de juego puede mejorar drásticamente tu efectividad. Si bien Espectro Nocturno ofrece el mayor daño bruto, otros hechizos como Espinas de Escarcha proporcionan una excelente utilidad y facilidad de refinamiento.
+
+<CardGrid cols={2}>
+  <Card title="Estrategia del Espectro Nocturno">
+    - **Mayor Daño**: Poder y alcance de hechizo bruto inigualables.
+    - **Intensivo en Farmeo**: Requiere un esfuerzo significativo para adquirir y refinar.
+    - **Farmeo Recomendado**: Usa **Espinas de Escarcha** para farmear los materiales necesarios debido a su eficiencia.
+  </Card>
+  <Card title="Estrategia de Espinas de Escarcha">
+    - **Eficiencia de Farmeo**: Excelente para limpiar grupos de enemigos debido a su bajo enfriamiento y alcance infinito.
+    - **Fácil de Refinar**: Más accesible para llegar al grado SSS.
+    - **Sinergia de Raza**: Mejor combinada con la **raza Cristal de Hielo** para una producción máxima.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Combos de Raza y Hechizo">
+Siempre considera cómo tu raza elegida complementa tus hechizos primarios. Algunas razas ofrecen mejoras que se alinean perfectamente con ciertos tipos elementales o de daño, mejorando significativamente tu construcción general. Consulta una **Lista de Niveles de Razas de Alquimia de Mago** para emparejamientos óptimos.
+</Callout>
+
+### Resumen de la Lista de Niveles de Pociones
+
+Este breve resumen clasifica las pociones comunes según su utilidad, daño y facilidad de refinamiento, ayudándote a priorizar tus esfuerzos de creación.
+
+| Nivel | Poción y Requisito Mágico. | Notas de Clasificación                                                                                                                                      |
+| :--- | :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **S**  | **Espectro Nocturno** (129) | Mejor daño y alcance, alto farmeo.                                                                                                                   |
+| **S**  | **Espinas de Escarcha** (80)  | Mejor para farmear, bajo CD, alcance infinito, fácil de refinar.                                                                                          |
+| **A**  | **Espada Radiante** (105)| Top 3 de daño, increíble para el final del juego.                                                                                                                   |
+| **A**  | **Tornado** (70)       | Menor daño pero CD muy corto, ideal para spam/farmeo.                                                                                        |
+| **B**  | **Flor de Loto** (100)  | Daño alto, pero animación/CD largos lo hacen incómodo; más difícil de farmear que los de nivel A.                                                                   |
+| **B**  | **Meteorito** (74)     | Buen farmeo a mitad de juego, pero el alto CD lo hace menos óptimo al final del juego.                                                                                |
+| **C**  | **Púa de Tierra** (77)   | Bien para principiantes, pero alto CD y baja compensación de daño en comparación con otros.                                                                    |
+| **C**  | **Flecha de Fuego** (45)    | Buen farmeo temprano, pero rápidamente reemplazado por mejores opciones.                                                                                        |
+| **D**  | **Poción de Tortuga de Hielo** (52)| Proporciona armadura, pero intercambiar HP generalmente no vale la pena.                                                                                        |
+| **D**  | **Escudo de Tierra** (48)  | Buen farmeo temprano, pero sufre de bajo alcance.                                                                                                  |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para Convertirse en un Maestro de la Alquimia">
+
+Para dominar verdaderamente las **recetas de Alquimia de Mago** y dominar el campo de batalla, sigue esta lista de verificación para asegurarte de que estás maximizando tu potencial.
+
+<Checklist
+  id="alchemy-mastery"
+  title="Tu Camino hacia la Maestría de la Alquimia:"
+  items={[
+    "Comprender las Puntuaciones Mágicas y los Valores Mágicos de las Pociones",
+    "Identificar combinaciones óptimas de materiales para los hechizos deseados",
+    "Utilizar siempre los Fragmentos Elementales apropiados para las pociones objetivo",
+    "Priorizar el refinamiento de tus hechizos principales al grado SSS",
+    "Experimentar con diferentes sinergias de raza y poción",
+    "Utilizar códigos de juego para obtener mejoras y rerolls gratuitos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes sobre las Recetas de Alquimia de Mago">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la receta de Alquimia de Mago más poderosa?",
+    answer: "La **Poción del Espectro Nocturno** (129 de Magia) es actualmente considerada la receta más poderosa debido a su enorme daño y alcance, aunque requiere un farmeo y refinamiento significativos para alcanzar su máximo potencial."
+  },
+  {
+    question: "¿Cómo afectan los Fragmentos Elementales a la creación de pociones?",
+    answer: "Los Fragmentos Elementales no contribuyen a la Puntuación Mágica, pero aumentan significativamente la **probabilidad porcentual** de crear hechizos elementales correspondientes a su tipo. Por ejemplo, usar Fragmentos de Hielo mejora drásticamente la probabilidad de crear pociones basadas en Hielo."
+  },
+  {
+    question: "¿Cuántas pociones necesito para alcanzar el refinamiento SSS?",
+    answer: "Para lograr un refinamiento SSS garantizado para una sola poción, necesitarás un total de **60 pociones de grado normal** de ese tipo específico. Esto implica combinar 3 normales para S, 4 S para SS y 5 SS para SSS."
+  },
+  {
+    question: "¿Puedo crear cualquier receta de Alquimia de Mago con cualquier material?",
+    answer: "Aunque puedes combinar varios materiales, cada poción tiene un requisito de Valor Mágico mínimo. Debes usar materiales cuyas Puntuaciones Mágicas combinadas cumplan o excedan este valor para tener la oportunidad de crear la **receta de Alquimia de Mago** específica."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Wizard Alchemy Magic Source: Understanding Spell Crafting",
+  description: "Explore the magic source mechanics in Wizard Alchemy, including material acquisition, potion crafting, and optimizing your spells for higher rarity and power.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Wizard+Alchemy+Magic+Source",
+  date: "2026-05-18",
+  author: "Roblox Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Wizard Alchemy Magic Source** involves combining materials with specific Magic Scores to craft potent potions.
+- Each material has a unique **Magic Power** value and acquisition method.
+- **Elemental Shards** significantly boost the crafting chance for specific elemental spells.
+- Optimize your crafting by matching material Magic Scores to the potion's required Magic Value.
+- **Quick-time events** during crafting influence a potion's Purity, affecting its stats.
+</Callout>
+
+<Section icon={Sparkles} title="Unveiling the Magic Source in Wizard Alchemy">
+Welcome, aspiring alchemists! In the enchanting world of **Wizard Alchemy**, understanding the magic source is paramount to mastering the art of potion crafting. This Roblox combat and crafting game immerses you in a dangerous magical realm where every enemy defeated drops materials of varying rarity. These materials are your key to unlocking powerful spells and becoming an unstoppable wizard. The core of this system revolves around collecting these magical materials and combining them wisely to brew potent elixirs.
+
+**Video Highlights:**
+- Learn about the combat and crafting mechanics in Wizard Alchemy.
+- Discover how RNG drops influence your progression.
+- Understand the importance of material collection for crafting spell bottles.
+
+<YouTubeEmbed videoId="o_aHfNNXob8" title="Wizard Alchemy" />
+
+The game emphasizes RNG drops, progression, and player choice, allowing you to focus on combat, crafting, or grinding for rare materials. Future updates promise bosses, rarer spells, and advanced alchemy recipes, ensuring a constantly evolving magical journey.
+
+<Callout type="tip">
+Always prioritize collecting materials with higher **Magic Power** values, as these are crucial for crafting rarer and more powerful potions in Wizard Alchemy.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering Potion Crafting: Your Magic Source Guide">
+The potion brewing system in Wizard Alchemy, while not overly complex, requires strategic material selection to maximize your chances of success. Every material you gather possesses a **Magic Score**, and each potion you wish to craft has a specific **Magic Value** requirement. Your goal is to combine materials whose collective Magic Score meets or exceeds the potion's Magic Value.
+
+<Steps>
+  <Step num="1" title="Gather Materials">
+    Defeat enemies, open chests, and collect resources from the environment (e.g., Blueberry Bushes, Bird Nests, Mushroom Clusters) to acquire various materials. Each material has a unique Magic Power.
+  </Step>
+  <Step num="2" title="Access the Alchemy Menu">
+    Navigate to the Alchemy/Brewing menu where you have five slots to place your chosen materials.
+  </Step>
+  <Step num="3" title="Calculate Total Magic Score">
+    Sum the Magic Scores of all materials placed in the crafting slots. This total needs to meet or exceed the desired potion's Magic Value.
+  </Step>
+  <Step num="4" title="Incorporate Elemental Shards (Optional but Recommended)">
+    For specific elemental spells, add an Elemental Shard (Ice, Fire, Earth, Dark, Light, Wind) corresponding to the spell's element. These shards boost the crafting chance for that element, even though they have a 0 Magic Score themselves.
+  </Step>
+  <Step num="5" title="Execute Quick-Time Events">
+    During the crafting process, engage in quick-time events. Your accuracy in these events directly impacts the potion's Purity, which in turn influences its effectiveness (e.g., damage, duration).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Crafting Nuance">
+Overshooting a potion's required Magic Value can sometimes lower your chance to craft that specific potion, as you might start qualifying for higher-tier potions instead. Aim for the optimal range.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Essential Materials and Their Magic Power">
+Understanding the different materials and their respective Magic Power values is crucial for efficient crafting. From common berries to rare cores, each component plays a role in determining the strength and rarity of your concoctions. Elemental Shards, while not contributing to the Magic Score, are vital for elemental spell crafting.
+
+Here’s a breakdown of common materials, their Magic Power, and where to find them:
+
+| Material Name | Magic Power | Acquisition Source |
+| :------------ | :---------- | :----------------- |
+| **Blueberry** | 3           | Blueberry Bush, Chests |
+| **Seagull Egg** | 5           | Bird Nest, Chests |
+| **Withered Mushroom** | 4           | Mushroom Cluster, Chests |
+| **Goblin Finger** | 15          | Knife Goblin (75%), Archer Goblin (50%), Chests |
+| **Golden Tooth** | 13          | Pickaxe Dwarf (25%), Warhammer Dwarf (38%), Chests |
+| **Dwarf Emblem** | 12          | Pickaxe Dwarf (75%), Warhammer Dwarf (50%), Chests |
+| **Flame Crest** | 19          | Warhammer Dwarf (13%), Mutant Warhammer Dwarf (43%), Dwarf King Boss (43%), Mutant Archer Goblin (43%) |
+| **Goblin Bone** | 21          | Knife Goblin (25%), Archer Goblin (38%), Chests |
+| **Copper Earring** | 30          | Mutant Archer Goblin (43%), Mutant Warhammer Dwarf (43%), Archer Goblin (13%), Dwarf King Boss (43%) |
+| **Furnace Core** | 43          | Mutant Archer Goblin (14%), Mutant Warhammer Dwarf (43%), Dwarf King Boss (14%) |
+
+Elemental Shards enhance specific elemental potion crafting chances:
+
+| Elemental Shard | Magic Power Effect | Acquisition Source |
+| :---------------- | :----------------- | :----------------- |
+| **Ice Shard** | +50% Ice potion chance | Chests |
+| **Light Shard** | +50% Light potion chance | Mutant Archer Goblin (50%), Mutant Warhammer Dwarf (50%), Chests |
+| **Dark Shard** | +50% Dark potion chance | Mutant Archer Goblin (50%), Mutant Warhammer Dwarf (50%), Chests |
+| **Wind Shard** | +50% Wind potion chance | Chests |
+| **Fire Shard** | +50% Fire potion chance | Chests |
+| **Earth Shard** | +50% Earth potion chance | Chests |
+
+<Callout type="success">
+The **Furnace Core** is one of the rarest materials, boasting a high Magic Power of 43. It's a key ingredient for many high-tier potions, so prioritize farming Dwarf King Bosses and Mutant Goblins.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Optimizing Your Potions: Recipes and Tiers">
+Crafting the best potions requires not just understanding the materials, but also knowing the optimal recipes and how they fit into the game's tier list. The ultimate goal is to craft S-Tier potions like the **Night Wraith Potion**, which offers immense damage and range. However, even lower-tier potions can be incredibly useful for specific farming strategies or as secondary spells.
+
+Here's a look at some key potion recipes and their minimum Magic Value requirements:
+
+| Potion Name | Minimum Required Magic Value | Optimal Chances Recipe Example | Ranking Notes |
+| :------------------ | :------------------------- | :----------------------------- | :------------ |
+| **Wind Blade Potion** | 6 Magic | 2 Blueberry | Good early game damage. |
+| **Rock Blast Potion** | 8 Magic | Seagull Egg + Withered Mushroom | Decent for early area control. |
+| **Ice Spike Potion** | 10 Magic | 2 Seagull Egg | Early ice damage, simple to craft. |
+| **Fire Arrow Potion** | 45 Magic | 3 Goblin Finger | Solid early-mid game farming. |
+| **Ice Turtle Potion** | 52 Magic | 2 Dwarf Emblem + Ice Shard | Provides defense, but trading HP may not be worth it later. |
+| **Tornado Potion** | 70 Magic | 2 Goblin Bone + Wind Shard | Lower damage, but very short cooldown, excellent for farming. |
+| **Meteorite Potion** | 74 Magic | 2 Flame Crest + Earth Shard | Good mid-game farming, higher cooldown. |
+| **Frost Thorns Potion** | 80 Magic | 1-2 Ice Shard, 3-4 Furnace Cores/Copper Earrings | Amazing for farming, low cooldowns, infinite range. |
+| **Radiant Sword Potion** | 105 Magic | 3 Copper Earring + Light Shard | High damage, but often overshadowed by Frost Thorns for ease of use. |
+| **Night Wraith Potion** | 129 Magic | 2 Furnace Core + 3 Dark Shards | Best damage, massive range, high grind for SSS refinement. |
+
+<CardGrid cols={2}>
+  <Card title="S-Tier Spells: Night Wraith Potion">
+    - **Highest damage** in the game with massive range.
+    - Requires significant grinding for **SSS Refinement**.
+    - Best utilized with specific race combinations for maximum effect.
+  </Card>
+  <Card title="A-Tier Spells: Frost Thorns Potion">
+    - **Exceptional for farming** due to low cooldowns and infinite range.
+    - Relatively easier to acquire and refine compared to Night Wraith.
+    - Pairs perfectly with the Ice Crystal race for synergy.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+Refinement is key to maximizing potion power. To reach SSS Refinement, you typically need a total of 60 potions (3 normal for S, 4 S for SS, 5 SS for SSS).
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Alchemy Strategies and Tips">
+Beyond basic crafting, advanced alchemists in Wizard Alchemy can employ several strategies to enhance their potion output and overall effectiveness. Consider the synergies between races and spells, and always be on the lookout for rare materials.
+
+<Checklist
+  id="advanced-alchemy-tips"
+  title="Alchemist's Master Checklist:"
+  items={[
+    "Understand the optimal Magic Score range for desired potions.",
+    "Always use Elemental Shards for elemental spells to boost chances.",
+    "Refine frequently to increase potion stats and potency.",
+    "Experiment with different material combinations for unexpected results.",
+    "Prioritize farming rare materials like Furnace Cores for high-tier crafts."
+  ]}
+/>
+
+| Strategy | Benefit | Key Components | Notes |
+| :------- | :------ | :------------- | :---- |
+| **Targeted Farming** | Efficiently gather specific materials for desired potions. | Identify enemy drops for needed materials; focus on bosses for rare items. | Reduces time spent on random grinding; ensures steady supply of high-value components. |
+| **Elemental Synergy** | Maximize crafting success for elemental spells. | Use corresponding Elemental Shards (e.g., Dark Shard for Night Wraith). | Crucial for high-tier elemental potions; without shards, success rate is lower. |
+| **Refinement Loop** | Continuously upgrade potion potency and stats. | Collect duplicates of desired potions; follow the 3S, 4SS, 5SSS progression. | Essential for end-game power; a well-refined potion outperforms multiple unrefined ones. |
+| **Race-Spell Combo** | Enhance spell effectiveness through character synergy. | Consult the Wizard Alchemy Race Tier List for optimal pairings. | Certain races significantly boost specific elemental or spell types. |
+
+<Callout type="info">
+D&D 5e offers a robust third-party crafting system like the "Alchemy Almanac" by heavyarms, which showcases how detailed and player-driven alchemy can be, focusing on fieldcraft, herbalism, and potion crafting without arbitrary level gating. While distinct from Wizard Alchemy, it highlights the potential depth of such systems.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions About Wizard Alchemy Magic Source">
+
+<FAQ items={[
+  {
+    question: "What is the magic source in Wizard Alchemy?",
+    answer: "The magic source in Wizard Alchemy refers to the various materials collected from defeated enemies, chests, and environmental objects, each possessing a unique Magic Power value essential for crafting potions and spells."
+  },
+  {
+    question: "How do I increase my chances of crafting a rare potion?",
+    answer: "To increase your chances, combine materials whose total Magic Score closely matches or slightly exceeds the desired potion's Magic Value. Additionally, include elemental shards that correspond to the potion's element, such as Dark Shards for the Night Wraith Potion."
+  },
+  {
+    question: "What is 'Purity' in potion crafting?",
+    answer: "Purity is a stat influenced by your accuracy during quick-time events in the crafting process. A higher Purity directly translates to improved stats for the crafted potion, such as increased damage or extended duration."
+  },
+  {
+    question: "Where can I find the rarest materials like Furnace Core?",
+    answer: "Rare materials like the Furnace Core, with a Magic Power of 43, are typically acquired from stronger enemies such as the Dwarf King Boss and Mutant Archer Goblin, though their drop rates can be low. Chests can also occasionally yield these valuable components."
+  }
+]} />
+
+</Section>
