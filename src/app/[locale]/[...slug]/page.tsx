@@ -1,14 +1,16 @@
 import { notFound, redirect } from 'next/navigation'
 import { getTranslations } from 'next-intl/server'
+import path from 'path'
 import {
   getAllContentPaths,
   getAllContent,
-  getContentDetail,
   getContentFrontmatter,
+  findFileBySlug,
   isValidContentType,
   CONTENT_TYPES,
   type ContentType,
   type Language,
+  type ContentFrontmatter,
 } from '@/lib/content'
 import { NavigationPage } from '@/components/content/NavigationPage'
 import { DetailPage } from '@/components/content/DetailPage'
@@ -111,35 +113,79 @@ async function renderDetailPage(
   locale: Language
 ) {
   const currentSlug = slugPath.join('/')
-  const detail = await getContentDetail(contentType, locale, currentSlug)
+  const frontmatter = getContentFrontmatter(contentType, locale, currentSlug)
 
-  if (!detail) {
+  if (!frontmatter) {
     notFound()
   }
 
-  const allContent = await getAllContent(contentType, locale)
-  const relatedArticles = allContent
-    .filter(item => item.slug !== currentSlug)
-    .slice(0, 3)
+  try {
+    const contentDir = path.join(process.cwd(), 'content', locale, contentType)
+    const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug
 
-  return (
-    <>
-      <ArticleStructuredData
-        frontmatter={detail.frontmatter}
-        contentType={contentType}
-        locale={locale}
-        slug={currentSlug}
-      />
-      <DetailPage
-        frontmatter={detail.frontmatter}
-        content={detail.content}
-        contentType={contentType}
-        language={locale}
-        currentSlug={currentSlug}
-        relatedArticles={relatedArticles}
-      />
-    </>
-  )
+    const { default: MDXContent } = await import(
+      `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
+    )
+
+    const allContent = await getAllContent(contentType, locale)
+    const relatedArticles = allContent
+      .filter(item => item.slug !== currentSlug)
+      .slice(0, 3)
+
+    return (
+      <>
+        <ArticleStructuredData
+          frontmatter={frontmatter as ContentFrontmatter}
+          contentType={contentType}
+          locale={locale}
+          slug={currentSlug}
+        />
+        <DetailPage
+          frontmatter={frontmatter as ContentFrontmatter}
+          content={<MDXContent />}
+          contentType={contentType}
+          language={locale}
+          currentSlug={currentSlug}
+          relatedArticles={relatedArticles}
+        />
+      </>
+    )
+  } catch {
+    const fallbackDir = path.join(process.cwd(), 'content', 'en', contentType)
+    const fallbackSlug = findFileBySlug(fallbackDir, currentSlug)
+
+    if (!fallbackSlug) {
+      notFound()
+    }
+
+    const { default: MDXContent } = await import(
+      `../../../../content/en/${contentType}/${fallbackSlug}.mdx`
+    )
+
+    const allContent = await getAllContent(contentType, locale)
+    const relatedArticles = allContent
+      .filter(item => item.slug !== currentSlug)
+      .slice(0, 3)
+
+    return (
+      <>
+        <ArticleStructuredData
+          frontmatter={frontmatter as ContentFrontmatter}
+          contentType={contentType}
+          locale={locale}
+          slug={currentSlug}
+        />
+        <DetailPage
+          frontmatter={frontmatter as ContentFrontmatter}
+          content={<MDXContent />}
+          contentType={contentType}
+          language={locale}
+          currentSlug={currentSlug}
+          relatedArticles={relatedArticles}
+        />
+      </>
+    )
+  }
 }
 
 /**
