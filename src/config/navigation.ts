@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react'
-import { BookText, Compass, Sparkles, FlaskConical, Backpack, Pickaxe, Gamepad2 } from 'lucide-react'
+import { BookText, Compass, Sparkles, FlaskConical, Backpack, Pickaxe, Gamepad2, MessageSquare } from 'lucide-react'
 
 export interface NavigationItem {
 	key: string
