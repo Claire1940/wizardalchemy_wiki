@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Uji Alkimia Penyihir: Mekanisme Kemurnian & Panduan Pembuatan Ramuan",
+  description: "Kuasai uji Alkimia Penyihir dengan panduan kami tentang kemurnian ramuan, tingkatan ramuan, pengulangan ras, dan jalur kenaikan untuk tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Wizard+Alchemy+Guide",
+  date: "2026-05-21",
+  author: "Tim Wiki Alkimia Penyihir"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **Uji Alkimia Penyihir**: Kemurnian ditentukan oleh akurasi Anda selama mini-game pembuatan ramuan; kemurnian yang lebih tinggi menghasilkan **ramuan Tingkat-S**.
+- **Siklus Inti**: Bunuh monster untuk mengumpulkan material, buat ramuan di kuali, dan lengkapi mantra untuk meningkatkan **perolehan XP** Anda.
+- **Kenaikan**: Anda harus naik pada level 10, 20, dan 30 untuk meningkatkan **batas level** Anda dan membuka jubah yang lebih kuat.
+- **Pengulangan Ras**: Gunakan kode aktif untuk mendapatkan **ras Legendaris** seperti Kristal Es untuk buff kerusakan elemental yang besar.
+- **Tips Progresi**: Misi dapat diulang dan memberikan cara tercepat untuk mendapatkan **Emas dan Material** di awal permainan.
+</Callout>
+
+<Section icon={Map} title="Memulai: Uji Keterampilan Alkimia Penyihir">
+
+Memasuki dunia **Alkimia Penyihir** membutuhkan lebih dari sekadar tongkat sihir; dibutuhkan pemahaman mendalam tentang bagaimana material diterjemahkan menjadi kekuatan. Saat Anda pertama kali muncul, Anda pada dasarnya adalah "muggle" yang ditugaskan untuk menyelesaikan tutorial dasar yang memperkenalkan mekanisme inti: pertarungan dan pembuatan ramuan. Tidak seperti RPG standar di mana jarahan hanya dijual, di sini, setiap tetes adalah bahan potensial untuk mantra tingkat tinggi Anda berikutnya.
+
+**Uji alkimia penyihir** awal bagi setiap pemain baru adalah menguasai alur monster-ke-ramuan. Anda akan memulai di area hutan, berburu makhluk level rendah untuk mengisi inventaris Anda.
+
+**Sorotan Video:**
+- **Dasar-dasar Tutorial**: Panduan langkah-langkah pertama dan lokasi penggilingan monster.
+- **Mekanisme Pembuatan Ramuan**: Cara menggunakan kuali dan penyulingan untuk hasil yang lebih baik.
+- **Pengulangan Ras**: Mendemonstrasikan cara menggunakan kode untuk statistik awal yang lebih baik.
+- **Panduan Kenaikan**: Menjelaskan sistem batas level dan cara melewatinya.
+
+<YouTubeEmbed videoId="GYWXYT40GMc" title="Panduan Pemula Lengkap untuk Wizard Alchemy Roblox" />
+
+<Callout type="tip" title="Manajemen Inventaris">
+Material cepat penuh di awal permainan. Prioritaskan peningkatan **Penyimpanan Material** Anda di toko segera setelah Anda memiliki cukup emas, atau Anda akan menemukan diri Anda meninggalkan jarahan langka di tanah.
+</Callout>
+
+| Monster Dasar | Item Jatuhan | Level yang Direkomendasikan |
+| :--- | :--- | :--- |
+| **Kurcaci Kapak** | Jamur Layu | Level 1-5 |
+| **Perampok Hutan** | Perban / Emas | Level 3-8 |
+| **Goblin Pemanah** | Tulang Goblin / Pecahan | Level 8-12 |
+| **Kurcaci Palu Perang** | Gigi Emas / Emblem | Level 10-15 |
+
+</Section>
+
+<Section icon={Sparkles} title="Penguasaan Pembuatan Ramuan: Lulus Uji Kemurnian">
+
+Inti permainan terletak pada **Penyulingan**. Saat Anda membuat ramuan, Anda memasuki mini-game yang berfungsi sebagai **uji alkimia penyihir** pamungkas. Kinerja Anda di sini menentukan **Kemurnian** ramuan yang dihasilkan. Kemurnian bukan hanya statistik kosmetik; itu secara langsung menskalakan kerusakan, jangkauan, dan cooldown mantra yang Anda buka.
+
+Ramuan dikategorikan ke dalam tingkatan berdasarkan kemurniannya dan kelangkaan bahan yang digunakan. Mencampur beberapa ramuan jenis yang sama di Penyulingan dapat menghasilkan versi yang ditingkatkan dengan statistik yang jauh lebih tinggi.
+
+<CardGrid cols={3}>
+  <Card title="Penskalaan Kemurnian">
+    - **Tingkat-C**: Akurasi rendah, kerusakan dasar.
+    - **Tingkat-A**: Akurasi tinggi, peningkatan kerusakan 40%.
+    - **Tingkat-S**: Akurasi 100%, jangkauan besar.
+  </Card>
+  <Card title="Pencampuran Penyulingan">
+    - Gabungkan dua ramuan umum.
+    - Peluang untuk meningkatkan **Kelangkaan**.
+    - Mempertahankan tingkat kemurnian tertinggi.
+  </Card>
+  <Card title="Kelangkaan Bahan">
+    - **Umum**: Blueberry, Jamur.
+    - **Langka**: Gigi Emas, Pecahan.
+    - **Epik**: Inti Tungku, Jambul Api.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Peringatan Kemurnian">
+Meminum ramuan dengan kemurnian rendah akan menggantikan keterampilan Anda saat ini dengan versi yang lebih lemah. Selalu periksa **Persentase Kekuatan Kemurnian** sebelum mengklik "Gunakan" pada ramuan baru.
+</Callout>
+
+| Tingkat Kemurnian | Pengali Kerusakan | Jangkauan Keterampilan | Cooldown |
+| :--- | :--- | :--- | :--- |
+| **0% - 40%** | 1.0x | Standar | 100% |
+| **41% - 75%** | 1.4x | +15% | 90% |
+| **76% - 95%** | 1.8x | +30% | 80% |
+| **96% - 100% (S)** | **2.5x** | **+50%** | **70%** |
+
+</Section>
+
+<Section icon={Zap} title="Jalur Progresi: Naik Level dan Kenaikan">
+
+Progresi dalam **Alkimia Penyihir** dibatasi oleh sistem yang disebut **Kenaikan**. Anda tidak bisa begitu saja naik level hingga 100 dalam sekali duduk. Sebaliknya, Anda mencapai "batas" yang membutuhkan emas dan level tertentu untuk ditembus. Setiap kenaikan meningkatkan batas level Anda, memberikan peningkatan statistik permanen, dan mengubah gelar Anda—dari Magang Junior yang rendah hati menjadi Penyihir Master.
+
+<Steps>
+  <Step num="1" title="Batas Pertama">
+    Capai **Level 10** dengan bertani Perampok Hutan dan Kurcaci. Selesaikan misi berulang dari NPC di desa awal untuk mengumpulkan emas yang dibutuhkan untuk kenaikan pertama Anda.
+  </Step>
+  <Step num="2" title="Naik ke Magang">
+    Buka menu statistik dan pilih **Naik**. Level Anda akan diatur ulang menjadi 1, tetapi level maksimal Anda meningkat menjadi 20. Anda juga akan mendapatkan akses ke **Jubah Penyihir** yang lebih baik yang memberikan peningkatan HP.
+  </Step>
+  <Step num="3" title="Pembuatan Ramuan Tingkat Lanjut">
+    Pada Level 20, Anda harus pindah ke **Pantai Sumber Sihir**. Gunakan material langka seperti **Telur Camar** dan **Tulang Sihir** untuk membuat mantra ofensif seperti Panah Api atau Meteor.
+  </Step>
+  <Step num="4" title="Optimasi Perlengkapan">
+    Investasikan emas Anda ke **Tongkat Ember** atau **Trisula Demonic**. Senjata-senjata ini memberikan peningkatan serangan dasar yang lebih tinggi, membuatnya lebih mudah untuk membunuh monster dalam satu pukulan untuk XP yang lebih cepat.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strategi XP">
+Menggunakan kemampuan memberikan XP bahkan jika Anda tidak mengenai monster. Jika Anda hampir naik level, spam mantra cooldown rendah Anda saat berlari di antara tujuan misi untuk memaksimalkan efisiensi.
+</Callout>
+
+| Gelar Kenaikan | Persyaratan Level | Biaya Emas | Batas Level Maks |
+| :--- | :--- | :--- | :--- |
+| **Inisiat** | 1 | 0 | 10 |
+| **Magang Junior** | 10 | 500 | 20 |
+| **Magang** | 20 | 2.500 | 30 |
+| **Penyihir Senior** | 30 | 10.000 | 40 |
+
+</Section>
+
+<Section icon={Shield} title="Ras dan Alokasi Statistik">
+
+Ras Anda adalah bagian fundamental dari build Anda, memberikan buff pasif yang dapat menentukan gaya bermain Anda. Saat Anda memulai permainan, Anda diberikan ras acak, tetapi Anda dapat menggunakan **Pengulangan Ras** untuk mencoba sesuatu yang lebih baik. Ras seperti **Kristal Es** atau **Duta Bintang** sangat didambakan karena penguasaan elemental dan pengali kerusakan mereka.
+
+Saat mengalokasikan statistik, sebagian besar pemain sepenuhnya fokus pada **Kerusakan**. Meskipun ini memungkinkan build "meriam kaca" yang dapat membunuh bos dalam satu pukulan, Anda mungkin akan kesulitan dengan pemanah berkerusakan tinggi di kemudian hari.
+
+<Callout type="info" title="Kelangkaan Ras">
+Ras legendaris memiliki tingkat drop kurang dari 1%. Jika Anda mendapatkan ras dengan **peningkatan Kekuatan 10%** di awal, pertahankan sampai Anda mengumpulkan setidaknya 20+ pengulangan untuk memastikan Anda tidak berakhir dengan ras "Manusia" atau "Roh Pohon" yang lebih buruk.
+</Callout>
+
+| Nama Ras | Kelangkaan | Pasif Utama | Bonus Pertarungan |
+| :--- | :--- | :--- | :--- |
+| **Manusia** | Umum | Tidak Ada | 0% |
+| **Roh Pohon** | Tidak Umum | Regenerasi Kehidupan | +5% HP / Bunuh |
+| **Kristal Es** | Langka | Penguasaan Es | +20% Kerusakan Elemental |
+| **Duta Bintang** | Legendaris | Luapan Sihir | +35% Kekuatan Mantra |
+
+</Section>
+
+<Section icon={Target} title="Kode Aktif & Hadiah (Mei 2026)">
+
+Untuk membantu Anda melewati **uji alkimia penyihir** awal, pengembang sering merilis kode yang memberikan Pengulangan Ras dan Pecahan gratis. Ini penting bagi pemain baru yang ingin mengoptimalkan karakter mereka tanpa mengeluarkan Robux.
+
+**Cara Menukarkan Kode:**
+1. Klik **Ikon Roda Gigi** (Pengaturan) di kanan atas layar.
+2. Temukan kotak teks **Tukarkan Kode**.
+3. Masukkan salah satu kode aktif yang tercantum di bawah ini dan klik **Klaim**.
+
+| Kode | Hadiah | Status |
+| :--- | :--- | :--- |
+| **20kMembers** | 5 Pengulangan Ras | **Aktif** |
+| **BREW** | 2x Semua Pecahan | **Aktif** |
+| **17kCCU** | 5 Pengulangan Ras | **Aktif** |
+| **SPELL** | 2x Pecahan Gelap/Terang | **Aktif** |
+| **WIZARD** | 5 Pengulangan Ras | **Aktif** |
+| **RELEASE** | 5 Pengulangan Ras | **Aktif** |
+
+<Callout type="warning" title="Kedaluwarsa Kode">
+Kode dalam Alkimia Penyihir cepat kedaluwarsa setelah pembaruan baru. Pastikan Anda bergabung dengan server Discord resmi untuk tetap mendapatkan informasi terbaru dari pengembang.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tujuan Akhir Permainan dan Daftar Periksa">
+
+Setelah Anda menguasai **uji alkimia penyihir** dan mencapai batas level saat ini, fokus Anda beralih ke berburu bos dan mengumpulkan ramuan Tingkat-S. **Raja Kurcaci** adalah tantangan utama bagi pemain solo, membutuhkan kombinasi sempurna antara mantra kemurnian tinggi dan perlengkapan yang dioptimalkan.
+
+<Checklist
+  id="wizard-progression"
+  title="Tonggak Penyihir Master:"
+  items={[
+    "Mencapai Tingkat Kenaikan 3 (Level 30+)",
+    "Membuat setidaknya satu ramuan Meteor atau Nafas Naga Tingkat-S",
+    "Melengkapi Tongkat Ember atau tongkat sihir kelangkaan lebih tinggi",
+    "Membuka Ras Langka atau Legendaris melalui pengulangan",
+    "Mengalahkan bos Raja Kurcaci sendirian"
+  ]}
+/>
+
+<Callout type="tip" title="Strategi AFK">
+Jika Anda memiliki auto-clicker, Anda dapat menempatkan karakter Anda di zona munculnya monster dengan **Auto-Skills** diaktifkan. Ini adalah cara yang efektif untuk menggiling material dan XP saat jauh dari keyboard Anda, asalkan Anda memiliki cukup HP untuk bertahan dari serangan.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara mendapatkan kemurnian tertinggi dalam uji Alkimia Penyihir?",
+    answer: "Selama mini-game pembuatan ramuan, Anda harus mengklik ikon yang bergerak tepat saat mereka tumpang tindih dengan zona target. Mencapai akurasi 100% menghasilkan ramuan Tingkat-S dengan kekuatan maksimum."
+  },
+  {
+    question: "Apa cara terbaik untuk mendapatkan emas?",
+    answer: "Misi berulang dari NPC seperti Lombard adalah sumber emas yang paling konsisten. Selain itu, peti muncul setiap 7 jam dan memberikan peningkatan emas yang signifikan jika Anda dapat menemukannya."
+  },
+  {
+    question: "Bisakah saya mendapatkan kembali level saya setelah naik?",
+    answer: "Tidak, kenaikan mereset level Anda menjadi 1. Namun, tingkat perolehan XP Anda meningkat secara signifikan, memungkinkan Anda mencapai level sebelumnya jauh lebih cepat dari sebelumnya."
+  },
+  {
+    question: "Apa yang harus saya lakukan jika inventaris saya penuh?",
+    answer: "Anda dapat menjual material di toko untuk emas atau meningkatkan Penyimpanan Material Anda. Di akhir permainan, gamepass 'Jual Di Mana Saja' sangat direkomendasikan untuk penggilingan berkelanjutan."
+  }
+]} />
+
+</Section>

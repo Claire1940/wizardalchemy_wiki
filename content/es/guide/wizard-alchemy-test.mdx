@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Prueba de Alquimia de Mago: Mecánicas de Pureza y Guía de Elaboración",
+  description: "Domina la prueba de Alquimia de Mago con nuestra guía sobre la pureza de la elaboración, niveles de pociones, re-tiradas de raza y caminos de ascensión para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Wizard+Alchemy+Guide",
+  date: "2026-05-21",
+  author: "Equipo Wiki de Alquimia de Mago"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Prueba de Alquimia de Mago**: La pureza se determina por tu precisión durante el mini-juego de elaboración; una mayor pureza lleva a **pociones de Nivel S**.
+- **Ciclo Principal**: Mata monstruos para recolectar materiales, elabora pociones en el caldero y equipa hechizos para aumentar tu **ganancia de XP**.
+- **Ascensión**: Debes ascender en los niveles 10, 20 y 30 para aumentar tu **límite de nivel** y desbloquear túnicas más fuertes.
+- **Re-tiradas de Raza**: Usa códigos activos para conseguir **razas Legendarias** como Cristal de Hielo para enormes mejoras de daño elemental.
+- **Consejo de Progresión**: Las misiones son repetibles y proporcionan la forma más rápida de ganar **Oro y Materiales** en el juego temprano.
+</Callout>
+
+<Section icon={Map} title="Primeros Pasos: La Prueba de Habilidad de Alquimia de Mago">
+
+Entrar en el mundo de la **Alquimia de Mago** requiere más que solo una varita; requiere una profunda comprensión de cómo los materiales se traducen en poder. Cuando apareces por primera vez, eres esencialmente un "muggle" encargado de completar un tutorial básico que introduce las mecánicas centrales: combate y elaboración. A diferencia de los RPG estándar donde el botín simplemente se vende, aquí, cada caída es un ingrediente potencial para tu próximo hechizo de alto nivel.
+
+La **prueba inicial de alquimia de mago** para cualquier jugador nuevo es dominar la cadena de producción de monstruo a poción. Comenzarás en el área del bosque, cazando criaturas de bajo nivel para llenar tu inventario.
+
+**Puntos Destacados del Video:**
+- **Conceptos Básicos del Tutorial**: Un recorrido por los primeros pasos y las ubicaciones de farmeo de monstruos.
+- **Mecánicas de Elaboración**: Cómo usar el caldero y la refinería para obtener mejores resultados.
+- **Re-tiradas de Raza**: Demostración de cómo usar códigos para mejores estadísticas iniciales.
+- **Guía de Ascensión**: Explicación del sistema de límite de nivel y cómo superarlo.
+
+<YouTubeEmbed videoId="GYWXYT40GMc" title="Guía Completa para Principiantes de Wizard Alchemy Roblox" />
+
+<Callout type="tip" title="Gestión de Inventario">
+Los materiales se acumulan rápidamente en el juego temprano. Prioriza mejorar tu **Almacenamiento de Materiales** en la tienda tan pronto como tengas suficiente oro, o te encontrarás dejando caer objetos raros en el suelo.
+</Callout>
+
+| Monstruo Básico | Objeto de Caída | Nivel Recomendado |
+| :--- | :--- | :--- |
+| **Enano con Pico** | Seta Marchita | Nivel 1-5 |
+| **Bandido del Bosque** | Venda / Oro | Nivel 3-8 |
+| **Goblin Arquero** | Hueso de Goblin / Fragmento | Nivel 8-12 |
+| **Enano con Martillo de Guerra** | Diente de Oro / Emblema | Nivel 10-15 |
+
+</Section>
+
+<Section icon={Sparkles} title="Maestría en Elaboración: Superando la Prueba de Pureza">
+
+El corazón del juego reside en la **Refinería**. Cuando elaboras una poción, entras en un mini-juego que sirve como la **prueba definitiva de alquimia de mago**. Tu rendimiento aquí determina la **Pureza** de la poción resultante. La pureza no es solo una estadística cosmética; escala directamente el daño, el alcance y el tiempo de reutilización del hechizo que desbloqueas.
+
+Las pociones se clasifican en niveles según su pureza y la rareza de los ingredientes utilizados. Mezclar varias pociones del mismo tipo en la Refinería puede resultar en una versión mejorada con estadísticas significativamente más altas.
+
+<CardGrid cols={3}>
+  <Card title="Escalado de Pureza">
+    - **Nivel C**: Baja precisión, daño básico.
+    - **Nivel A**: Alta precisión, 40% de aumento de daño.
+    - **Nivel S**: 100% de precisión, alcance masivo.
+  </Card>
+  <Card title="Mezcla en Refinería">
+    - Combina dos pociones comunes.
+    - Posibilidad de mejorar la **Rareza**.
+    - Conserva el nivel de pureza más alto.
+  </Card>
+  <Card title="Rareza de Ingredientes">
+    - **Común**: Arándanos, Setas.
+    - **Raro**: Dientes de Oro, Fragmentos.
+    - **Épico**: Núcleos de Horno, Crestas de Llama.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Pureza">
+Beber una poción con baja pureza reemplazará tu habilidad actual con una versión más débil. Siempre verifica el **% de Poder de Pureza** antes de hacer clic en "Usar" en una nueva elaboración.
+</Callout>
+
+| Nivel de Pureza | Multiplicador de Daño | Alcance de Habilidad | Enfriamiento |
+| :--- | :--- | :--- | :--- |
+| **0% - 40%** | 1.0x | Estándar | 100% |
+| **41% - 75%** | 1.4x | +15% | 90% |
+| **76% - 95%** | 1.8x | +30% | 80% |
+| **96% - 100% (S)** | **2.5x** | **+50%** | **70%** |
+
+</Section>
+
+<Section icon={Zap} title="Camino de Progresión: Subida de Nivel y Ascensión">
+
+La progresión en **Alquimia de Mago** está limitada por un sistema llamado **Ascensión**. No puedes simplemente subir al nivel 100 de una sola vez. En cambio, alcanzas un "límite" que requiere oro y un nivel específico para romperlo. Cada ascensión aumenta tu límite de nivel, proporciona mejoras de estadísticas permanentes y cambia tu título, de un humilde Aprendiz Junior a un Mago Maestro.
+
+<Steps>
+  <Step num="1" title="El Primer Límite">
+    Alcanza el **Nivel 10** farmeando Bandidos del Bosque y Enanos. Completa las misiones repetibles de los PNJ en la aldea inicial para acumular el oro necesario para tu primera ascensión.
+  </Step>
+  <Step num="2" title="Ascendiendo a Aprendiz">
+    Abre el menú de estadísticas y selecciona **Ascender**. Tu nivel se restablecerá a 1, pero tu nivel máximo aumentará a 20. También tendrás acceso a mejores **Túnicas de Mago** que proporcionan mejoras de HP.
+  </Step>
+  <Step num="3" title="Elaboración Avanzada">
+    En el Nivel 20, debes moverte a la **Playa de la Fuente Mágica**. Usa materiales raros como **Huevos de Gaviota** y **Huesos Mágicos** para crear hechizos ofensivos como Flecha de Fuego o Meteorito.
+  </Step>
+  <Step num="4" title="Optimización de Equipo">
+    Invierte tu oro en el **Báculo de Braza** o el **Tridente Demoníaco**. Estas armas proporcionan un mayor aumento de ataque base, lo que facilita eliminar monstruos de un solo golpe para obtener XP más rápido.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia de XP">
+Usar habilidades otorga XP incluso si no golpeas a un monstruo. Si estás cerca de subir de nivel, usa tus hechizos de bajo enfriamiento mientras corres entre los objetivos de la misión para maximizar la eficiencia.
+</Callout>
+
+| Título de Ascensión | Nivel Requerido | Costo en Oro | Límite Máximo de Nivel |
+| :--- | :--- | :--- | :--- |
+| **Iniciado** | 1 | 0 | 10 |
+| **Aprendiz Junior** | 10 | 500 | 20 |
+| **Aprendiz** | 20 | 2,500 | 30 |
+| **Mago Senior** | 30 | 10,000 | 40 |
+
+</Section>
+
+<Section icon={Shield} title="Razas y Asignación de Estadísticas">
+
+Tu raza es una parte fundamental de tu construcción, proporcionando mejoras pasivas que pueden definir tu estilo de juego. Cuando comienzas el juego, se te asigna una raza aleatoria, pero puedes usar **Re-tiradas de Raza** para intentar conseguir algo mejor. Razas como el **Cristal de Hielo** o el **Embajador Estelar** son muy codiciadas por su maestría elemental y multiplicadores de daño.
+
+Al asignar estadísticas, la mayoría de los jugadores se centran completamente en el **Daño**. Si bien esto permite construcciones de "cañón de cristal" que pueden eliminar jefes de un solo golpe, es posible que te encuentres luchando con arqueros de alto daño más adelante.
+
+<Callout type="info" title="Rareza de Raza">
+Las razas legendarias tienen una tasa de caída inferior al 1%. Si obtienes una raza con un **10% de aumento de Poder** al principio, consérvala hasta que hayas acumulado al menos 20+ re-tiradas para asegurarte de no terminar con una raza "Humano" o "Espíritu del Árbol" peor.
+</Callout>
+
+| Nombre de la Raza | Rareza | Pasiva Principal | Bonificación de Combate |
+| :--- | :--- | :--- | :--- |
+| **Humano** | Común | Ninguna | 0% |
+| **Espíritu del Árbol** | Poco Común | Regeneración de Vida | +5% HP / Muerte |
+| **Cristal de Hielo** | Raro | Maestría de Hielo | +20% Daño Elemental |
+| **Embajador Estelar** | Legendario | Desbordamiento Mágico | +35% Poder de Hechizo |
+
+</Section>
+
+<Section icon={Target} title="Códigos Activos y Recompensas (Mayo de 2026)">
+
+Para ayudarte a superar la **prueba inicial de alquimia de mago**, los desarrolladores lanzan con frecuencia códigos que proporcionan Re-tiradas de Raza y Fragmentos gratuitos. Estos son esenciales para los nuevos jugadores que desean optimizar sus personajes sin gastar Robux.
+
+**Cómo Canjear Códigos:**
+1. Haz clic en el **Icono de Engranaje** (Configuración) en la parte superior derecha de la pantalla.
+2. Localiza el cuadro de texto **Canjear Código**.
+3. Introduce uno de los códigos activos que se enumeran a continuación y haz clic en **Reclamar**.
+
+| Código | Recompensa | Estado |
+| :--- | :--- | :--- |
+| **20kMembers** | 5 Re-tiradas de Raza | **Activo** |
+| **BREW** | 2x Todos los Fragmentos | **Activo** |
+| **17kCCU** | 5 Re-tiradas de Raza | **Activo** |
+| **SPELL** | 2x Fragmentos Oscuros/Luz | **Activo** |
+| **WIZARD** | 5 Re-tiradas de Raza | **Activo** |
+| **RELEASE** | 5 Re-tiradas de Raza | **Activo** |
+
+<Callout type="warning" title="Caducidad del Código">
+Los códigos en Wizard Alchemy caducan rápidamente después de una nueva actualización. Asegúrate de unirte al servidor oficial de Discord para mantenerte actualizado sobre los últimos lanzamientos de los desarrolladores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos y Lista de Verificación del Juego Final">
+
+Una vez que hayas dominado la **prueba de alquimia de mago** y alcanzado el límite de nivel actual, tu enfoque cambia a la caza de jefes y la recolección de pociones de Nivel S. El **Rey Enano** es el desafío definitivo para los jugadores en solitario, requiriendo una combinación perfecta de hechizos de alta pureza y equipo optimizado.
+
+<Checklist
+  id="wizard-progression"
+  title="Hitos del Mago Maestro:"
+  items={[
+    "Alcanzar el Nivel de Ascensión 3 (Nivel 30+)",
+    "Elaborar al menos una poción de Meteorito o Aliento de Dragón de Nivel S",
+    "Equipar el Báculo de Braza o una varita de mayor rareza",
+    "Desbloquear una Raza Rara o Legendaria mediante re-tiradas",
+    "Derrotar al Rey Enano jefe en solitario"
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia AFK">
+Si tienes un auto-clicker, puedes dejar a tu personaje en una zona de aparición de monstruos con las **Habilidades Automáticas** activadas. Esta es una forma efectiva de farmear materiales y XP mientras estás lejos del teclado, siempre que tengas suficiente HP para sobrevivir a los golpes.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo consigo la mayor pureza en la prueba de Alquimia de Mago?",
+    answer: "Durante el mini-juego de elaboración, debes hacer clic en los iconos en movimiento exactamente cuando se superponen con la zona objetivo. Lograr una precisión del 100% resulta en una poción de Nivel S con la máxima potencia."
+  },
+  {
+    question: "¿Cuál es la mejor manera de farmear oro?",
+    answer: "Las misiones repetibles de PNJ como Lombard son la fuente más consistente de oro. Además, los cofres aparecen cada 7 horas y proporcionan un impulso significativo de oro si puedes encontrarlos."
+  },
+  {
+    question: "¿Puedo recuperar mis niveles después de ascender?",
+    answer: "No, la ascensión restablece tu nivel a 1. Sin embargo, tu tasa de ganancia de XP aumenta significativamente, lo que te permite alcanzar tu nivel anterior mucho más rápido que antes."
+  },
+  {
+    question: "¿Qué debo hacer si mi inventario está lleno?",
+    answer: "Puedes vender materiales en la tienda por oro o mejorar tu Almacenamiento de Materiales. En el juego tardío, el pase de juego 'Vender en cualquier lugar' es muy recomendable para el farmeo continuo."
+  }
+]} />
+
+</Section>
