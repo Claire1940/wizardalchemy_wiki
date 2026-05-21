@@ -1,5 +1,14 @@
 import type { LucideIcon } from 'lucide-react'
-import { BookText, Compass, Sparkles, FlaskConical, Backpack, Pickaxe, Gamepad2, MessageSquare } from 'lucide-react'
+import {
+  BookText,
+  Compass,
+  Sparkles,
+  FlaskConical,
+  Backpack,
+  Pickaxe,
+  Gamepad2,
+  MessageSquare,
+} from 'lucide-react'
 
 export interface NavigationItem {
 	key: string
@@ -9,13 +18,14 @@ export interface NavigationItem {
 }
 
 export const NAVIGATION_CONFIG: NavigationItem[] = [
-	{ key: 'codes', path: '/codes', icon: BookText, isContentType: true },
-	{ key: 'guide', path: '/guide', icon: Compass, isContentType: true },
-	{ key: 'races', path: '/races', icon: Sparkles, isContentType: true },
-	{ key: 'potions', path: '/potions', icon: FlaskConical, isContentType: true },
-	{ key: 'items', path: '/items', icon: Backpack, isContentType: true },
-	{ key: 'farming', path: '/farming', icon: Pickaxe, isContentType: true },
-	{ key: 'roblox', path: '/roblox', icon: Gamepad2, isContentType: true },
+		{ key: 'codes', path: '/codes', icon: BookText, isContentType: true },
+		{ key: 'guide', path: '/guide', icon: Compass, isContentType: true },
+		{ key: 'community', path: '/community', icon: MessageSquare, isContentType: true },
+		{ key: 'races', path: '/races', icon: Sparkles, isContentType: true },
+		{ key: 'potions', path: '/potions', icon: FlaskConical, isContentType: true },
+		{ key: 'items', path: '/items', icon: Backpack, isContentType: true },
+		{ key: 'farming', path: '/farming', icon: Pickaxe, isContentType: true },
+		{ key: 'roblox', path: '/roblox', icon: Gamepad2, isContentType: true },
 ]
 
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map((item) =>
