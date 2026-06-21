@@ -113,7 +113,7 @@ async function renderDetailPage(
   locale: Language
 ) {
   const currentSlug = slugPath.join('/')
-  const frontmatter = getContentFrontmatter(contentType, locale, currentSlug)
+  const frontmatter = await getContentFrontmatter(contentType, locale, currentSlug)
 
   if (!frontmatter) {
     notFound()
@@ -290,7 +290,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   } else {
     const slugPath = slug.slice(1)
     const currentSlug = slugPath.join('/')
-    const metadata = getContentFrontmatter(contentType, locale as Language, currentSlug)
+    const metadata = await getContentFrontmatter(contentType, locale as Language, currentSlug)
 
     if (!metadata) {
       return { title: 'Not Found' }
