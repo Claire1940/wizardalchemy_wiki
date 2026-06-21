@@ -118,10 +118,14 @@ export async function getAllContent(
       const realFile = fileBySlug.get(slug)
       if (realFile === undefined) throw new Error('not in current locale')
       const mod = await import(`../../content/${language}/${contentType}/${realFile}.mdx`)
-      items.push({
-        slug,
-        frontmatter: mod.metadata as ContentFrontmatter,
-      })
+      if (!mod.metadata) {
+        console.warn(`[content] missing metadata, skipped: ${language}/${contentType}/${realFile}.mdx`)
+      } else {
+        items.push({
+          slug,
+          frontmatter: mod.metadata as ContentFrontmatter,
+        })
+      }
     } catch {
       // Fallback 到英文
       if (includeFallback && language !== 'en') {
@@ -129,10 +133,14 @@ export async function getAllContent(
           const enRealFile = enFileBySlug.get(slug)
           if (enRealFile === undefined) continue
           const mod = await import(`../../content/en/${contentType}/${enRealFile}.mdx`)
-          items.push({
-            slug,
-            frontmatter: mod.metadata as ContentFrontmatter,
-          })
+          if (!mod.metadata) {
+            console.warn(`[content] missing metadata, skipped: en/${contentType}/${enRealFile}.mdx`)
+          } else {
+            items.push({
+              slug,
+              frontmatter: mod.metadata as ContentFrontmatter,
+            })
+          }
         } catch {
           // 跳过无法加载的文件
         }
