@@ -1,0 +1,974 @@
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "wizard-alchemy-code",
+        "file": "wizard-alchemy-code"
+      }
+    ],
+    "community": [
+      {
+        "slug": "wizard-alchemy-discord",
+        "file": "wizard-alchemy-discord"
+      },
+      {
+        "slug": "wizard-alchemy-official-discord",
+        "file": "wizard-alchemy-official-discord"
+      },
+      {
+        "slug": "wizard-alchemy-reddit",
+        "file": "wizard-alchemy-reddit"
+      },
+      {
+        "slug": "wizard-alchemy-release",
+        "file": "wizard-alchemy-release"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-discord",
+        "file": "wizard-alchemy-roblox-discord"
+      },
+      {
+        "slug": "wizard-alchemy-trello",
+        "file": "wizard-alchemy-trello"
+      },
+      {
+        "slug": "wizard-alchemy-update",
+        "file": "wizard-alchemy-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "wizard-alchemy-afk-spot",
+        "file": "wizard-alchemy-afk-spot"
+      },
+      {
+        "slug": "wizard-alchemy-exp-farming",
+        "file": "wizard-alchemy-exp-farming"
+      },
+      {
+        "slug": "wizard-alchemy-farm-locations",
+        "file": "wizard-alchemy-farm-locations"
+      },
+      {
+        "slug": "wizard-alchemy-farming-guide",
+        "file": "wizard-alchemy-farming-guide"
+      },
+      {
+        "slug": "wizard-alchemy-gold-farming",
+        "file": "wizard-alchemy-gold-farming"
+      },
+      {
+        "slug": "wizard-alchemy-monster-farming",
+        "file": "wizard-alchemy-monster-farming"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "wizard-alchemy-beginner-guide",
+        "file": "wizard-alchemy-beginner-guide"
+      },
+      {
+        "slug": "wizard-alchemy-dwarf-king",
+        "file": "wizard-alchemy-dwarf-king"
+      },
+      {
+        "slug": "wizard-alchemy-full-guide",
+        "file": "wizard-alchemy-full-guide"
+      },
+      {
+        "slug": "wizard-alchemy-lab",
+        "file": "wizard-alchemy-lab"
+      },
+      {
+        "slug": "wizard-alchemy-level-1-100-guide",
+        "file": "wizard-alchemy-level-1-100-guide"
+      },
+      {
+        "slug": "wizard-alchemy-level-guide",
+        "file": "wizard-alchemy-level-guide"
+      },
+      {
+        "slug": "wizard-alchemy-magic-source",
+        "file": "wizard-alchemy-magic-source"
+      },
+      {
+        "slug": "wizard-alchemy-pc-guide",
+        "file": "wizard-alchemy-pc-guide"
+      },
+      {
+        "slug": "wizard-alchemy-release-guide",
+        "file": "wizard-alchemy-release-guide"
+      },
+      {
+        "slug": "wizard-alchemy-spells",
+        "file": "wizard-alchemy-spells"
+      },
+      {
+        "slug": "wizard-alchemy-test",
+        "file": "wizard-alchemy-test"
+      },
+      {
+        "slug": "wizard-alchemy-tier-list",
+        "file": "wizard-alchemy-tier-list"
+      },
+      {
+        "slug": "wizard-alchemy-tips-and-tricks",
+        "file": "wizard-alchemy-tips-and-tricks"
+      },
+      {
+        "slug": "wizard-alchemy-tips",
+        "file": "wizard-alchemy-tips"
+      }
+    ],
+    "items": [
+      {
+        "slug": "wizard-alchemy-best-items",
+        "file": "wizard-alchemy-best-items"
+      },
+      {
+        "slug": "wizard-alchemy-chest-locations",
+        "file": "wizard-alchemy-chest-locations"
+      },
+      {
+        "slug": "wizard-alchemy-copper-earring",
+        "file": "wizard-alchemy-copper-earring"
+      },
+      {
+        "slug": "wizard-alchemy-epic-items",
+        "file": "wizard-alchemy-epic-items"
+      },
+      {
+        "slug": "wizard-alchemy-equipment-guide",
+        "file": "wizard-alchemy-equipment-guide"
+      },
+      {
+        "slug": "wizard-alchemy-furnace-core",
+        "file": "wizard-alchemy-furnace-core"
+      },
+      {
+        "slug": "wizard-alchemy-gm-cloth",
+        "file": "wizard-alchemy-gm-cloth"
+      },
+      {
+        "slug": "wizard-alchemy-legendary-items",
+        "file": "wizard-alchemy-legendary-items"
+      },
+      {
+        "slug": "wizard-alchemy-wands",
+        "file": "wizard-alchemy-wands"
+      }
+    ],
+    "potions": [
+      {
+        "slug": "wizard-alchemy-all-materials",
+        "file": "wizard-alchemy-all-materials"
+      },
+      {
+        "slug": "wizard-alchemy-brewing-guide",
+        "file": "wizard-alchemy-brewing-guide"
+      },
+      {
+        "slug": "wizard-alchemy-ingredients",
+        "file": "wizard-alchemy-ingredients"
+      },
+      {
+        "slug": "wizard-alchemy-materials",
+        "file": "wizard-alchemy-materials"
+      },
+      {
+        "slug": "wizard-alchemy-potion",
+        "file": "wizard-alchemy-potion"
+      },
+      {
+        "slug": "wizard-alchemy-potions-guide",
+        "file": "wizard-alchemy-potions-guide"
+      },
+      {
+        "slug": "wizard-alchemy-recipe",
+        "file": "wizard-alchemy-recipe"
+      }
+    ],
+    "races": [
+      {
+        "slug": "wizard-alchemy-best-races",
+        "file": "wizard-alchemy-best-races"
+      },
+      {
+        "slug": "wizard-alchemy-race-guide",
+        "file": "wizard-alchemy-race-guide"
+      },
+      {
+        "slug": "wizard-alchemy-race-reroll",
+        "file": "wizard-alchemy-race-reroll"
+      },
+      {
+        "slug": "wizard-alchemy-race-tier-list",
+        "file": "wizard-alchemy-race-tier-list"
+      },
+      {
+        "slug": "wizard-alchemy-races",
+        "file": "wizard-alchemy-races"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "wizard-alchemy-roblox-chest-locations",
+        "file": "wizard-alchemy-roblox-chest-locations"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-codes",
+        "file": "wizard-alchemy-roblox-codes"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-guide",
+        "file": "wizard-alchemy-roblox-guide"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-materials",
+        "file": "wizard-alchemy-roblox-materials"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-races",
+        "file": "wizard-alchemy-roblox-races"
+      },
+      {
+        "slug": "wizard-alchemy-roblox",
+        "file": "wizard-alchemy-roblox"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "wizard-alchemy-code",
+        "file": "wizard-alchemy-code"
+      }
+    ],
+    "community": [
+      {
+        "slug": "wizard-alchemy-discord",
+        "file": "wizard-alchemy-discord"
+      },
+      {
+        "slug": "wizard-alchemy-official-discord",
+        "file": "wizard-alchemy-official-discord"
+      },
+      {
+        "slug": "wizard-alchemy-reddit",
+        "file": "wizard-alchemy-reddit"
+      },
+      {
+        "slug": "wizard-alchemy-release",
+        "file": "wizard-alchemy-release"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-discord",
+        "file": "wizard-alchemy-roblox-discord"
+      },
+      {
+        "slug": "wizard-alchemy-trello",
+        "file": "wizard-alchemy-trello"
+      },
+      {
+        "slug": "wizard-alchemy-update",
+        "file": "wizard-alchemy-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "wizard-alchemy-afk-spot",
+        "file": "wizard-alchemy-afk-spot"
+      },
+      {
+        "slug": "wizard-alchemy-exp-farming",
+        "file": "wizard-alchemy-exp-farming"
+      },
+      {
+        "slug": "wizard-alchemy-farm-locations",
+        "file": "wizard-alchemy-farm-locations"
+      },
+      {
+        "slug": "wizard-alchemy-farming-guide",
+        "file": "wizard-alchemy-farming-guide"
+      },
+      {
+        "slug": "wizard-alchemy-gold-farming",
+        "file": "wizard-alchemy-gold-farming"
+      },
+      {
+        "slug": "wizard-alchemy-monster-farming",
+        "file": "wizard-alchemy-monster-farming"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "wizard-alchemy-beginner-guide",
+        "file": "wizard-alchemy-beginner-guide"
+      },
+      {
+        "slug": "wizard-alchemy-dwarf-king",
+        "file": "wizard-alchemy-dwarf-king"
+      },
+      {
+        "slug": "wizard-alchemy-full-guide",
+        "file": "wizard-alchemy-full-guide"
+      },
+      {
+        "slug": "wizard-alchemy-lab",
+        "file": "wizard-alchemy-lab"
+      },
+      {
+        "slug": "wizard-alchemy-level-1-100-guide",
+        "file": "wizard-alchemy-level-1-100-guide"
+      },
+      {
+        "slug": "wizard-alchemy-level-guide",
+        "file": "wizard-alchemy-level-guide"
+      },
+      {
+        "slug": "wizard-alchemy-magic-source",
+        "file": "wizard-alchemy-magic-source"
+      },
+      {
+        "slug": "wizard-alchemy-pc-guide",
+        "file": "wizard-alchemy-pc-guide"
+      },
+      {
+        "slug": "wizard-alchemy-release-guide",
+        "file": "wizard-alchemy-release-guide"
+      },
+      {
+        "slug": "wizard-alchemy-spells",
+        "file": "wizard-alchemy-spells"
+      },
+      {
+        "slug": "wizard-alchemy-test",
+        "file": "wizard-alchemy-test"
+      },
+      {
+        "slug": "wizard-alchemy-tier-list",
+        "file": "wizard-alchemy-tier-list"
+      },
+      {
+        "slug": "wizard-alchemy-tips-and-tricks",
+        "file": "wizard-alchemy-tips-and-tricks"
+      },
+      {
+        "slug": "wizard-alchemy-tips",
+        "file": "wizard-alchemy-tips"
+      }
+    ],
+    "items": [
+      {
+        "slug": "wizard-alchemy-best-items",
+        "file": "wizard-alchemy-best-items"
+      },
+      {
+        "slug": "wizard-alchemy-chest-locations",
+        "file": "wizard-alchemy-chest-locations"
+      },
+      {
+        "slug": "wizard-alchemy-copper-earring",
+        "file": "wizard-alchemy-copper-earring"
+      },
+      {
+        "slug": "wizard-alchemy-epic-items",
+        "file": "wizard-alchemy-epic-items"
+      },
+      {
+        "slug": "wizard-alchemy-equipment-guide",
+        "file": "wizard-alchemy-equipment-guide"
+      },
+      {
+        "slug": "wizard-alchemy-furnace-core",
+        "file": "wizard-alchemy-furnace-core"
+      },
+      {
+        "slug": "wizard-alchemy-gm-cloth",
+        "file": "wizard-alchemy-gm-cloth"
+      },
+      {
+        "slug": "wizard-alchemy-legendary-items",
+        "file": "wizard-alchemy-legendary-items"
+      },
+      {
+        "slug": "wizard-alchemy-wands",
+        "file": "wizard-alchemy-wands"
+      }
+    ],
+    "potions": [
+      {
+        "slug": "wizard-alchemy-all-materials",
+        "file": "wizard-alchemy-all-materials"
+      },
+      {
+        "slug": "wizard-alchemy-brewing-guide",
+        "file": "wizard-alchemy-brewing-guide"
+      },
+      {
+        "slug": "wizard-alchemy-ingredients",
+        "file": "wizard-alchemy-ingredients"
+      },
+      {
+        "slug": "wizard-alchemy-materials",
+        "file": "wizard-alchemy-materials"
+      },
+      {
+        "slug": "wizard-alchemy-potion",
+        "file": "wizard-alchemy-potion"
+      },
+      {
+        "slug": "wizard-alchemy-potions-guide",
+        "file": "wizard-alchemy-potions-guide"
+      },
+      {
+        "slug": "wizard-alchemy-recipe",
+        "file": "wizard-alchemy-recipe"
+      }
+    ],
+    "races": [
+      {
+        "slug": "wizard-alchemy-best-races",
+        "file": "wizard-alchemy-best-races"
+      },
+      {
+        "slug": "wizard-alchemy-race-guide",
+        "file": "wizard-alchemy-race-guide"
+      },
+      {
+        "slug": "wizard-alchemy-race-reroll",
+        "file": "wizard-alchemy-race-reroll"
+      },
+      {
+        "slug": "wizard-alchemy-race-tier-list",
+        "file": "wizard-alchemy-race-tier-list"
+      },
+      {
+        "slug": "wizard-alchemy-races",
+        "file": "wizard-alchemy-races"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "wizard-alchemy-roblox-chest-locations",
+        "file": "wizard-alchemy-roblox-chest-locations"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-codes",
+        "file": "wizard-alchemy-roblox-codes"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-guide",
+        "file": "wizard-alchemy-roblox-guide"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-materials",
+        "file": "wizard-alchemy-roblox-materials"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-races",
+        "file": "wizard-alchemy-roblox-races"
+      },
+      {
+        "slug": "wizard-alchemy-roblox",
+        "file": "wizard-alchemy-roblox"
+      }
+    ]
+  },
+  "fr": {
+    "codes": [
+      {
+        "slug": "wizard-alchemy-code",
+        "file": "wizard-alchemy-code"
+      }
+    ],
+    "community": [
+      {
+        "slug": "wizard-alchemy-discord",
+        "file": "wizard-alchemy-discord"
+      },
+      {
+        "slug": "wizard-alchemy-official-discord",
+        "file": "wizard-alchemy-official-discord"
+      },
+      {
+        "slug": "wizard-alchemy-reddit",
+        "file": "wizard-alchemy-reddit"
+      },
+      {
+        "slug": "wizard-alchemy-release",
+        "file": "wizard-alchemy-release"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-discord",
+        "file": "wizard-alchemy-roblox-discord"
+      },
+      {
+        "slug": "wizard-alchemy-update",
+        "file": "wizard-alchemy-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "wizard-alchemy-afk-spot",
+        "file": "wizard-alchemy-afk-spot"
+      },
+      {
+        "slug": "wizard-alchemy-exp-farming",
+        "file": "wizard-alchemy-exp-farming"
+      },
+      {
+        "slug": "wizard-alchemy-farm-locations",
+        "file": "wizard-alchemy-farm-locations"
+      },
+      {
+        "slug": "wizard-alchemy-farming-guide",
+        "file": "wizard-alchemy-farming-guide"
+      },
+      {
+        "slug": "wizard-alchemy-gold-farming",
+        "file": "wizard-alchemy-gold-farming"
+      },
+      {
+        "slug": "wizard-alchemy-monster-farming",
+        "file": "wizard-alchemy-monster-farming"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "wizard-alchemy-beginner-guide",
+        "file": "wizard-alchemy-beginner-guide"
+      },
+      {
+        "slug": "wizard-alchemy-full-guide",
+        "file": "wizard-alchemy-full-guide"
+      },
+      {
+        "slug": "wizard-alchemy-level-1-100-guide",
+        "file": "wizard-alchemy-level-1-100-guide"
+      },
+      {
+        "slug": "wizard-alchemy-level-guide",
+        "file": "wizard-alchemy-level-guide"
+      },
+      {
+        "slug": "wizard-alchemy-pc-guide",
+        "file": "wizard-alchemy-pc-guide"
+      },
+      {
+        "slug": "wizard-alchemy-release-guide",
+        "file": "wizard-alchemy-release-guide"
+      },
+      {
+        "slug": "wizard-alchemy-tips-and-tricks",
+        "file": "wizard-alchemy-tips-and-tricks"
+      },
+      {
+        "slug": "wizard-alchemy-tips",
+        "file": "wizard-alchemy-tips"
+      }
+    ],
+    "items": [
+      {
+        "slug": "wizard-alchemy-best-items",
+        "file": "wizard-alchemy-best-items"
+      },
+      {
+        "slug": "wizard-alchemy-chest-locations",
+        "file": "wizard-alchemy-chest-locations"
+      },
+      {
+        "slug": "wizard-alchemy-epic-items",
+        "file": "wizard-alchemy-epic-items"
+      },
+      {
+        "slug": "wizard-alchemy-equipment-guide",
+        "file": "wizard-alchemy-equipment-guide"
+      },
+      {
+        "slug": "wizard-alchemy-gm-cloth",
+        "file": "wizard-alchemy-gm-cloth"
+      },
+      {
+        "slug": "wizard-alchemy-legendary-items",
+        "file": "wizard-alchemy-legendary-items"
+      }
+    ],
+    "potions": [
+      {
+        "slug": "wizard-alchemy-all-materials",
+        "file": "wizard-alchemy-all-materials"
+      },
+      {
+        "slug": "wizard-alchemy-brewing-guide",
+        "file": "wizard-alchemy-brewing-guide"
+      },
+      {
+        "slug": "wizard-alchemy-ingredients",
+        "file": "wizard-alchemy-ingredients"
+      },
+      {
+        "slug": "wizard-alchemy-materials",
+        "file": "wizard-alchemy-materials"
+      },
+      {
+        "slug": "wizard-alchemy-potion",
+        "file": "wizard-alchemy-potion"
+      },
+      {
+        "slug": "wizard-alchemy-potions-guide",
+        "file": "wizard-alchemy-potions-guide"
+      }
+    ],
+    "races": [
+      {
+        "slug": "wizard-alchemy-best-races",
+        "file": "wizard-alchemy-best-races"
+      },
+      {
+        "slug": "wizard-alchemy-race-guide",
+        "file": "wizard-alchemy-race-guide"
+      },
+      {
+        "slug": "wizard-alchemy-race-reroll",
+        "file": "wizard-alchemy-race-reroll"
+      },
+      {
+        "slug": "wizard-alchemy-race-tier-list",
+        "file": "wizard-alchemy-race-tier-list"
+      },
+      {
+        "slug": "wizard-alchemy-races",
+        "file": "wizard-alchemy-races"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "wizard-alchemy-roblox-chest-locations",
+        "file": "wizard-alchemy-roblox-chest-locations"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-codes",
+        "file": "wizard-alchemy-roblox-codes"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-guide",
+        "file": "wizard-alchemy-roblox-guide"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-materials",
+        "file": "wizard-alchemy-roblox-materials"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-races",
+        "file": "wizard-alchemy-roblox-races"
+      },
+      {
+        "slug": "wizard-alchemy-roblox",
+        "file": "wizard-alchemy-roblox"
+      }
+    ]
+  },
+  "id": {
+    "community": [
+      {
+        "slug": "wizard-alchemy-trello",
+        "file": "wizard-alchemy-trello"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "wizard-alchemy-dwarf-king",
+        "file": "wizard-alchemy-dwarf-king"
+      },
+      {
+        "slug": "wizard-alchemy-lab",
+        "file": "wizard-alchemy-lab"
+      },
+      {
+        "slug": "wizard-alchemy-magic-source",
+        "file": "wizard-alchemy-magic-source"
+      },
+      {
+        "slug": "wizard-alchemy-spells",
+        "file": "wizard-alchemy-spells"
+      },
+      {
+        "slug": "wizard-alchemy-test",
+        "file": "wizard-alchemy-test"
+      },
+      {
+        "slug": "wizard-alchemy-tier-list",
+        "file": "wizard-alchemy-tier-list"
+      }
+    ],
+    "items": [
+      {
+        "slug": "wizard-alchemy-copper-earring",
+        "file": "wizard-alchemy-copper-earring"
+      },
+      {
+        "slug": "wizard-alchemy-furnace-core",
+        "file": "wizard-alchemy-furnace-core"
+      },
+      {
+        "slug": "wizard-alchemy-wands",
+        "file": "wizard-alchemy-wands"
+      }
+    ],
+    "potions": [
+      {
+        "slug": "wizard-alchemy-recipe",
+        "file": "wizard-alchemy-recipe"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "wizard-alchemy-code",
+        "file": "wizard-alchemy-code"
+      }
+    ],
+    "community": [
+      {
+        "slug": "wizard-alchemy-discord",
+        "file": "wizard-alchemy-discord"
+      },
+      {
+        "slug": "wizard-alchemy-official-discord",
+        "file": "wizard-alchemy-official-discord"
+      },
+      {
+        "slug": "wizard-alchemy-reddit",
+        "file": "wizard-alchemy-reddit"
+      },
+      {
+        "slug": "wizard-alchemy-release",
+        "file": "wizard-alchemy-release"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-discord",
+        "file": "wizard-alchemy-roblox-discord"
+      },
+      {
+        "slug": "wizard-alchemy-update",
+        "file": "wizard-alchemy-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "wizard-alchemy-afk-spot",
+        "file": "wizard-alchemy-afk-spot"
+      },
+      {
+        "slug": "wizard-alchemy-exp-farming",
+        "file": "wizard-alchemy-exp-farming"
+      },
+      {
+        "slug": "wizard-alchemy-farm-locations",
+        "file": "wizard-alchemy-farm-locations"
+      },
+      {
+        "slug": "wizard-alchemy-farming-guide",
+        "file": "wizard-alchemy-farming-guide"
+      },
+      {
+        "slug": "wizard-alchemy-gold-farming",
+        "file": "wizard-alchemy-gold-farming"
+      },
+      {
+        "slug": "wizard-alchemy-monster-farming",
+        "file": "wizard-alchemy-monster-farming"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "wizard-alchemy-beginner-guide",
+        "file": "wizard-alchemy-beginner-guide"
+      },
+      {
+        "slug": "wizard-alchemy-full-guide",
+        "file": "wizard-alchemy-full-guide"
+      },
+      {
+        "slug": "wizard-alchemy-level-1-100-guide",
+        "file": "wizard-alchemy-level-1-100-guide"
+      },
+      {
+        "slug": "wizard-alchemy-level-guide",
+        "file": "wizard-alchemy-level-guide"
+      },
+      {
+        "slug": "wizard-alchemy-pc-guide",
+        "file": "wizard-alchemy-pc-guide"
+      },
+      {
+        "slug": "wizard-alchemy-release-guide",
+        "file": "wizard-alchemy-release-guide"
+      },
+      {
+        "slug": "wizard-alchemy-tips-and-tricks",
+        "file": "wizard-alchemy-tips-and-tricks"
+      },
+      {
+        "slug": "wizard-alchemy-tips",
+        "file": "wizard-alchemy-tips"
+      }
+    ],
+    "items": [
+      {
+        "slug": "wizard-alchemy-best-items",
+        "file": "wizard-alchemy-best-items"
+      },
+      {
+        "slug": "wizard-alchemy-chest-locations",
+        "file": "wizard-alchemy-chest-locations"
+      },
+      {
+        "slug": "wizard-alchemy-epic-items",
+        "file": "wizard-alchemy-epic-items"
+      },
+      {
+        "slug": "wizard-alchemy-equipment-guide",
+        "file": "wizard-alchemy-equipment-guide"
+      },
+      {
+        "slug": "wizard-alchemy-gm-cloth",
+        "file": "wizard-alchemy-gm-cloth"
+      },
+      {
+        "slug": "wizard-alchemy-legendary-items",
+        "file": "wizard-alchemy-legendary-items"
+      }
+    ],
+    "potions": [
+      {
+        "slug": "wizard-alchemy-all-materials",
+        "file": "wizard-alchemy-all-materials"
+      },
+      {
+        "slug": "wizard-alchemy-brewing-guide",
+        "file": "wizard-alchemy-brewing-guide"
+      },
+      {
+        "slug": "wizard-alchemy-ingredients",
+        "file": "wizard-alchemy-ingredients"
+      },
+      {
+        "slug": "wizard-alchemy-materials",
+        "file": "wizard-alchemy-materials"
+      },
+      {
+        "slug": "wizard-alchemy-potion",
+        "file": "wizard-alchemy-potion"
+      },
+      {
+        "slug": "wizard-alchemy-potions-guide",
+        "file": "wizard-alchemy-potions-guide"
+      }
+    ],
+    "races": [
+      {
+        "slug": "wizard-alchemy-best-races",
+        "file": "wizard-alchemy-best-races"
+      },
+      {
+        "slug": "wizard-alchemy-race-guide",
+        "file": "wizard-alchemy-race-guide"
+      },
+      {
+        "slug": "wizard-alchemy-race-reroll",
+        "file": "wizard-alchemy-race-reroll"
+      },
+      {
+        "slug": "wizard-alchemy-race-tier-list",
+        "file": "wizard-alchemy-race-tier-list"
+      },
+      {
+        "slug": "wizard-alchemy-races",
+        "file": "wizard-alchemy-races"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "wizard-alchemy-roblox-chest-locations",
+        "file": "wizard-alchemy-roblox-chest-locations"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-codes",
+        "file": "wizard-alchemy-roblox-codes"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-guide",
+        "file": "wizard-alchemy-roblox-guide"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-materials",
+        "file": "wizard-alchemy-roblox-materials"
+      },
+      {
+        "slug": "wizard-alchemy-roblox-races",
+        "file": "wizard-alchemy-roblox-races"
+      },
+      {
+        "slug": "wizard-alchemy-roblox",
+        "file": "wizard-alchemy-roblox"
+      }
+    ]
+  },
+  "th": {
+    "community": [
+      {
+        "slug": "wizard-alchemy-trello",
+        "file": "wizard-alchemy-trello"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "wizard-alchemy-dwarf-king",
+        "file": "wizard-alchemy-dwarf-king"
+      },
+      {
+        "slug": "wizard-alchemy-lab",
+        "file": "wizard-alchemy-lab"
+      },
+      {
+        "slug": "wizard-alchemy-magic-source",
+        "file": "wizard-alchemy-magic-source"
+      },
+      {
+        "slug": "wizard-alchemy-spells",
+        "file": "wizard-alchemy-spells"
+      },
+      {
+        "slug": "wizard-alchemy-test",
+        "file": "wizard-alchemy-test"
+      },
+      {
+        "slug": "wizard-alchemy-tier-list",
+        "file": "wizard-alchemy-tier-list"
+      }
+    ],
+    "items": [
+      {
+        "slug": "wizard-alchemy-copper-earring",
+        "file": "wizard-alchemy-copper-earring"
+      },
+      {
+        "slug": "wizard-alchemy-furnace-core",
+        "file": "wizard-alchemy-furnace-core"
+      },
+      {
+        "slug": "wizard-alchemy-wands",
+        "file": "wizard-alchemy-wands"
+      }
+    ],
+    "potions": [
+      {
+        "slug": "wizard-alchemy-recipe",
+        "file": "wizard-alchemy-recipe"
+      }
+    ]
+  }
+}
