@@ -1,8 +1,6 @@
 import createMDX from '@next/mdx'
 import createNextIntlPlugin from 'next-intl/plugin'
 import remarkGfm from 'remark-gfm'
-import remarkFrontmatter from 'remark-frontmatter'
-import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
 
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
 
@@ -65,7 +63,7 @@ const nextConfig = {
 const withMDX = createMDX({
   // 添加 markdown 插件
   options: {
-    remarkPlugins: [remarkFrontmatter, [remarkMdxFrontmatter, { name: 'metadata' }], remarkGfm],
+    remarkPlugins: [remarkGfm],
     rehypePlugins: [],
   },
 })
