@@ -118,14 +118,10 @@ export async function getAllContent(
       const realFile = fileBySlug.get(slug)
       if (realFile === undefined) throw new Error('not in current locale')
       const mod = await import(`../../content/${language}/${contentType}/${realFile}.mdx`)
-      if (!mod.metadata) {
-        console.warn(`[content] missing metadata, skipped: ${language}/${contentType}/${realFile}.mdx`)
-      } else {
-        items.push({
-          slug,
-          frontmatter: mod.metadata as ContentFrontmatter,
-        })
-      }
+      items.push({
+        slug,
+        frontmatter: mod.metadata as ContentFrontmatter,
+      })
     } catch {
       // Fallback 到英文
       if (includeFallback && language !== 'en') {
@@ -133,14 +129,10 @@ export async function getAllContent(
           const enRealFile = enFileBySlug.get(slug)
           if (enRealFile === undefined) continue
           const mod = await import(`../../content/en/${contentType}/${enRealFile}.mdx`)
-          if (!mod.metadata) {
-            console.warn(`[content] missing metadata, skipped: en/${contentType}/${enRealFile}.mdx`)
-          } else {
-            items.push({
-              slug,
-              frontmatter: mod.metadata as ContentFrontmatter,
-            })
-          }
+          items.push({
+            slug,
+            frontmatter: mod.metadata as ContentFrontmatter,
+          })
         } catch {
           // 跳过无法加载的文件
         }
@@ -212,37 +204,4 @@ export function isValidLanguage(lang: string): lang is Language {
  */
 export function getDefaultLanguage(): Language {
   return routing.defaultLocale as Language
-}
-
-/**
- * 取单篇文章的 frontmatter（wizardalchemy 独有：page.tsx 详情页/元数据用）
- * 基于构建期清单 + 动态 import（边缘运行时无 fs），与 getAllContent 同源。
- * 英文 fallback：当前语言缺失时回退到 en。
- */
-export async function getContentFrontmatter(
-  contentType: ContentType,
-  language: Language,
-  slug: string
-): Promise<ContentFrontmatter | null> {
-  const curFile = entriesFor(language, contentType).find((e) => e.slug === slug)?.file
-  if (curFile) {
-    try {
-      const mod = await import(`../../content/${language}/${contentType}/${curFile}.mdx`)
-      return mod.metadata as ContentFrontmatter
-    } catch {
-      /* fall through to en */
-    }
-  }
-  if (language !== 'en') {
-    const enFile = entriesFor('en', contentType).find((e) => e.slug === slug)?.file
-    if (enFile) {
-      try {
-        const mod = await import(`../../content/en/${contentType}/${enFile}.mdx`)
-        return mod.metadata as ContentFrontmatter
-      } catch {
-        /* ignore */
-      }
-    }
-  }
-  return null
 }
